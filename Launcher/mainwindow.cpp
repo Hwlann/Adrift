@@ -31,6 +31,7 @@ void MainWindow::setupUi()
     this->setWindowTitle(WINDOW_TITLE);
     ui->btn_startGame->setEnabled(false);
     ui->pushButton->setEnabled(false);
+    this->setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
     this->show();
 }
 
@@ -79,4 +80,20 @@ void MainWindow::on_le_password_textEdited()
 void MainWindow::on_btn_startGame_clicked()
 {
     emit startGame();
+}
+
+void MainWindow::mousePressEvent(QMouseEvent *evt)
+{
+    oldPos = evt->globalPos();
+}
+
+void MainWindow::mouseMoveEvent(QMouseEvent *evt)
+{
+    const QPoint delta = evt->globalPos() - oldPos;
+    if (locked)
+        // if locked, ignore delta on y axis, stay at the top
+        move(x()+delta.x(), y());
+    else
+        move(x()+delta.x(), y()+delta.y());
+    oldPos = evt->globalPos();
 }

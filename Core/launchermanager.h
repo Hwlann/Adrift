@@ -13,6 +13,7 @@
 #include "Command/logcommand.h"
 
 #define  CMD_SHOW_LOGS "show logs"
+#define  ADMIN_TOKEN   "46e9e734-915e-11eb-8c90-0242ac110007"
 
 class LauncherManager : public QObject
 {

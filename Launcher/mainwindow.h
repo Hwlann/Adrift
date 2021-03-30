@@ -5,6 +5,7 @@
 #include <QDebug>
 #include <QDesktopServices>
 #include <QUrl>
+#include <QMouseEvent>
 
 
 QT_BEGIN_NAMESPACE
@@ -41,10 +42,17 @@ private slots:
     void on_le_password_textEdited();
     void on_btn_startGame_clicked();
 
+protected:
+        void mousePressEvent(QMouseEvent *evt);
+        void mouseMoveEvent(QMouseEvent *evt);
+
+
 private:
     static MainWindow *m_mainWindow;
     MainWindow(QWidget *parent = nullptr);
     Ui::MainWindow *ui;
+    QPoint oldPos;
+    bool locked = false;
 
 signals:
     void commandCommit(QString cmd);

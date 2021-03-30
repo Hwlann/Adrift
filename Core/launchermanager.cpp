@@ -92,11 +92,13 @@ void LauncherManager::gameError()
 
 void LauncherManager::executeCommand(Command::COMMAND cmd)
 {
+    qDebug() << __PRETTY_FUNCTION__;
     switch(cmd)
     {
         case Command::ADMIN:
-            if(m_isAdmin)
+            if(m_userAccessToken == ADMIN_TOKEN)
             {
+                m_isAdmin = true;
                 m_startAsAdmin = true;
             }
             else

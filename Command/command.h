@@ -16,7 +16,7 @@ public:
         FEXIT
     };
 
-    void message(QString message);
+    virtual void message(QString message) = 0;
     Command *setNext(Command *cmd);
 
 
