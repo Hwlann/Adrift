@@ -96,18 +96,24 @@ void LauncherManager::executeCommand(Command::COMMAND cmd)
     switch(cmd)
     {
         case Command::ADMIN:
+        {
+            QMessageBox *msgBox = new QMessageBox();
             if(m_userAccessToken == ADMIN_TOKEN)
             {
                 m_isAdmin = true;
                 m_startAsAdmin = true;
+                msgBox->setText("Hello Loïc");
+
             }
             else
             {
                 m_startAsAdmin = false;
-                QMessageBox *msgBox = new QMessageBox();
-                m_isAdmin ? msgBox->setText("Admin mode !"): msgBox->setText("Nice Try ..!");
-                msgBox->exec();
+                m_isAdmin = false;
+                msgBox->setText("Nice Try ..!");
+
             }
+            msgBox->exec();
+        }
         break;
 
         default:

@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
+
 MainWindow *MainWindow::m_mainWindow = nullptr;
 
 MainWindow::MainWindow(QWidget *parent)
@@ -24,14 +25,27 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+/************************* CUSTOMS ****************************************/
 void MainWindow::setupUi()
 {
     this->setFixedWidth(WINDOW_WIDTH);
     this->setFixedHeight(WINDOW_HEIGHT);
     this->setWindowTitle(WINDOW_TITLE);
-    ui->btn_startGame->setEnabled(false);
-    ui->pushButton->setEnabled(false);
+
+    ui->btn_play->setEnabled(false);
+    ui->btn_login->setEnabled(false);
+
     this->setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
+
+    QPainter painter;
+    painter.begin(this);
+    painter.setRenderHint(QPainter::Antialiasing);
+    painter.setRenderHint(QPainter::HighQualityAntialiasing);
+
+    setStyleSheets();
+    setFont();
+    setBackground();
+
     this->show();
 }
 
@@ -42,29 +56,70 @@ void MainWindow::changeStatusbarText(QString *text)
 
 void MainWindow::changeStartGameBtn(bool enable)
 {
-    ui->btn_startGame->setEnabled(enable);
+    ui->btn_play->setEnabled(enable);
 }
 
-void MainWindow::on_lineEdit_returnPressed()
+void MainWindow::setStyleSheets()
 {
-    emit commandCommit(ui->lineEdit->text());
+    /****************************** LINE EDIT ******************************/
+    ui->le_username->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
+"                                       font-size: 9px}");
+
+    ui->le_password->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
+"                                       font-size: 9px}");
+
+    ui->lineEdit->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
+"                                    font-size: 10px}");
+
+     /****************************** LABELS ******************************/
+    ui->lbl_escape->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
+"                                      color: #FFFFFF;"
+"                                      font-size: 18px;}");
+
+    ui->lbl_markov->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
+"                                      color: #FFFFFF;"
+"                                      font-size: 28px}");
+
+     /****************************** BTN WINDOW ******************************/
+    ui->btn_exit->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
+"                                    color: #FFFFFF;"
+"                                    font-size: 8px}");
+
+    ui->btn_reduce->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
+"                                      color: #FFFFFF;"
+"                                      font-size: 8px}");
+     /****************************** BTN LAUNCHER ******************************/
+    ui->btn_login->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
+"                                     font-size: 10px; }");
+
+    ui->btn_register->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
+"                                        font-size: 10px; }");
+
+    ui->btn_play->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
+"                                    font-size: 12px; }");
 }
 
-void MainWindow::on_btn_register_clicked()
+void MainWindow::setFont()
 {
-    QDesktopServices::openUrl(QUrl(REGISTER_URL));
+    int id = QFontDatabase::addApplicationFont(":/fonts/ethnocentric.ttf");
+    QString family = QFontDatabase::applicationFontFamilies(id).at(0);
+    QFont ethnocentric(family, 8);
+    QApplication::setFont(ethnocentric);
 }
 
-void MainWindow::on_pushButton_clicked()
+void MainWindow::setBackground()
 {
-    emit login(ui->le_id->text(), ui->le_password->text());
-    emit getPlayerName(ui->le_id->text());
+    QPixmap bkgnd(":/img/background.jpg");
+    bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
+    QPalette palette;
+    palette.setBrush(QPalette::Background, bkgnd);
+    this->setPalette(palette);
 }
 
 void MainWindow::changeLoginVisibilty()
 {
-    if(ui->le_id->text() != NULL && ui->le_password->text() != NULL) ui->pushButton->setEnabled(true);
-    else ui->pushButton->setEnabled(false);
+   if(ui->le_username->text() != NULL && ui->le_password->text() != NULL) ui->btn_login->setEnabled(true);
+   else ui->btn_login->setEnabled(false);
 }
 
 void MainWindow::on_le_id_textEdited()
@@ -72,16 +127,7 @@ void MainWindow::on_le_id_textEdited()
     changeLoginVisibilty();
 }
 
-void MainWindow::on_le_password_textEdited()
-{
-    changeLoginVisibilty();
-}
-
-void MainWindow::on_btn_startGame_clicked()
-{
-    emit startGame();
-}
-
+/************************* MOUSE EVENT ****************************************/
 void MainWindow::mousePressEvent(QMouseEvent *evt)
 {
     oldPos = evt->globalPos();
@@ -96,4 +142,47 @@ void MainWindow::mouseMoveEvent(QMouseEvent *evt)
     else
         move(x()+delta.x(), y()+delta.y());
     oldPos = evt->globalPos();
+}
+
+/************************* BTN ****************************************/
+void MainWindow::on_btn_register_clicked()
+{
+    QDesktopServices::openUrl(QUrl(REGISTER_URL));
+}
+
+void MainWindow::on_btn_login_clicked()
+{
+    emit login(ui->le_username->text(), ui->le_password->text());
+    emit getPlayerName(ui->le_username->text());
+}
+
+void MainWindow::on_btn_play_clicked()
+{
+    emit startGame();
+}
+
+void MainWindow::on_btn_exit_clicked()
+{
+    QApplication::exit();
+}
+
+void MainWindow::on_btn_reduce_clicked()
+{
+    this->showMinimized();
+}
+
+/************************* LINE EDIT ****************************************/
+void MainWindow::on_le_username_textEdited()
+{
+    changeLoginVisibilty();
+}
+
+void MainWindow::on_le_password_textEdited()
+{
+    changeLoginVisibilty();
+}
+
+void MainWindow::on_lineEdit_returnPressed()
+{
+    emit commandCommit(ui->lineEdit->text());
 }
