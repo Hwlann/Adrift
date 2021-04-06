@@ -15,7 +15,7 @@ class LogCommand : public Command
 public:
     LogCommand();
     void message(QString message);
-    void execCommmand(bool loggerVisibility);
+    void execCommmand(QString cmd);
 
 signals:
 

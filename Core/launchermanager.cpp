@@ -34,7 +34,6 @@ void LauncherManager::startGame()
     qDebug() << m_programArgs;
 
     m_gameProcess->start(m_programPath, m_programArgs);
-    m_mainWindow->manageSound(true, true);
 
     changeWindowsVisibility(false);
 }
@@ -56,7 +55,10 @@ LauncherManager::LauncherManager(QObject *parent) : QObject(parent)
     connect(m_mainWindow, &MainWindow::getPlayerName, this, &LauncherManager::setupPlayer);
     connect(m_mainWindow, &MainWindow::commandCommit, this, &LauncherManager::parseCommand);
     connect(m_mainWindow, &MainWindow::startGame, this, &LauncherManager::startGame);
+    connect(m_mainWindow, &MainWindow::changeSound, this, &LauncherManager::musicManager);
     connect(m_networkManager, &NetworkManager::loginQueryAnswer, this, &LauncherManager::loginCheck);
+
+    setSounds();
 }
 
 void LauncherManager::changeWindowsVisibility(bool visibility)
@@ -120,12 +122,19 @@ void LauncherManager::executeCommand(Command::COMMAND cmd, QString command)
         }
         break;
 
-    case Command::PATH:
-    {
-        m_programPath = command;
-    }
-        default:
-        break;
+        case Command::PATH:
+        {
+            m_programPath = command;
+        }
+
+        case Command::SHOW_LOGS:
+        {
+            if(command == CMD_SHOW_LOGS) Logger::getInstance()->show();
+            else Logger::getInstance()->hide();
+        }
+
+            default:
+            break;
 
     }
     m_mainWindow->clearLineEditCommand();
@@ -148,4 +157,23 @@ void LauncherManager::loginCheck(QString token)
 void LauncherManager::setupPlayer(QString id)
 {
     m_playerName = id;
+}
+
+void LauncherManager::musicManager()
+{
+    m_mute = !m_mute;
+    m_music->setMuted(!m_mute);
+    m_mainWindow->manageSound(m_mute);
+}
+
+void LauncherManager::setSounds()
+{
+    m_music = new QSoundEffect();
+    m_music->setSource(QUrl::fromLocalFile(m_musicPath));
+    m_music->setLoopCount(QSoundEffect::Infinite);
+    m_music->setVolume(DEF_VOLUME);
+    m_music->setMuted(m_mute);
+    m_music->play();
+
+    musicManager();
 }

@@ -8,8 +8,6 @@
 #include <QMouseEvent>
 #include <QPainter>
 #include <QFontDatabase>
-#include <QSoundEffect>
-#include <QSound>
 
 
 QT_BEGIN_NAMESPACE
@@ -20,7 +18,7 @@ QT_END_NAMESPACE
 #define     WINDOW_HEIGHT   550
 #define     WINDOW_TITLE    "EFM Launcher"
 
-#define     REGISTER_URL    "http://lortetcesar.fr/"
+#define     REGISTER_URL    "http://lortetcesar.fr/register"
 #define     DEF_VOLUME      0.25f
 
 // Click sound : https://freesound.org/s/399934/
@@ -44,7 +42,7 @@ public:
     void setBackground();
     void setSounds();
     void playClickSound();
-    void manageSound(bool force = false, bool mute = false);    
+    void manageSound(bool mute = false);
     void clearLineEditCommand();
 
 private slots:
@@ -71,9 +69,6 @@ private:
     Ui::MainWindow *ui;
     QPoint oldPos;
     bool locked = false;
-    QString m_musicPath = ":/sounds/Portal-SelfEsteemFund.wav";
-    QSoundEffect *m_music;
-    bool m_volume = true;
 
     QPixmap *m_soundOnPixmap;
     QPixmap *m_mutePixmap;
@@ -86,6 +81,7 @@ signals:
     void login(QString id, QString password);
     void getPlayerName(QString id);
     void startGame();
+    void changeSound();
 
 };
 #endif // MAINWINDOW_H

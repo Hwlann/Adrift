@@ -15,6 +15,7 @@ SOURCES += \
     Command/logcommand.cpp \
     Core/launchermanager.cpp \
     Core/main.cpp \
+    Launcher/music.cpp \
     Logger/logger.cpp \
     Launcher/mainwindow.cpp \
     Network/networkmanager.cpp \
@@ -27,6 +28,7 @@ HEADERS += \
     Command/forcepath.h \
     Command/logcommand.h \
     Core/launchermanager.h \
+    Launcher/music.h \
     Logger/logger.h \
     Launcher/mainwindow.h \
     Network/networkmanager.h \

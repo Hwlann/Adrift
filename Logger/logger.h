@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QDateTime>
+#include <QThread>
 
 namespace Ui {
 class Logger;

@@ -52,7 +52,7 @@ void MainWindow::setupUi()
     setStyleSheets();
     setFont();
     setBackground();
-    setSounds();
+    this->show();
 }
 
 void MainWindow::changeStatusbarText(QString *text)
@@ -79,8 +79,9 @@ void MainWindow::setStyleSheets()
     ui->le_password->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
 "                                       font-size: 9px}");
 
-    ui->lineEdit->setStyleSheet("* { background-color: rgba(255, 255, 255, 0);"
-"                                    font-size: 10px}");
+    ui->lineEdit->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
+"                                    font-size: 10px;}"
+"                                    color: #000000;");
 
      /****************************** LABELS ******************************/
     ui->lbl_escape->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
@@ -131,47 +132,20 @@ void MainWindow::setBackground()
     this->setPalette(palette);
 }
 
-void MainWindow::setSounds()
-{
-    m_music = new QSoundEffect();
-    m_music->setSource(QUrl::fromLocalFile(m_musicPath));
-    m_music->setLoopCount(QSoundEffect::Infinite);
-    m_music->setVolume(DEF_VOLUME);
-    m_music->setMuted(false);
-    m_volume = false;
-    m_music->play();
-    manageSound(true, false);
-
-    this->show();
-}
-
 void MainWindow::playClickSound()
 {
     //QSound::play(":/sounds/click.wav");
 }
 
-void MainWindow::manageSound(bool force, bool mute)
+void MainWindow::manageSound(bool mute)
 {
-    m_volume = !m_volume;
-    if(force){
+    if(mute)
+    {
         ui->btn_sound->setIcon(*muteIcon);
-        m_music->setMuted(mute);
-        m_volume = !mute;
     }
     else
     {
-        if(m_volume)
-        {
-            ui->btn_sound->setIcon(*muteIcon);
-            m_music->setMuted(!mute);
-            m_music->setMuted(false);
-        }
-        else
-        {
-            ui->btn_sound->setIcon(*soundIcon);
-            m_music->setMuted(mute);
-            m_music->setMuted(true);
-        }
+        ui->btn_sound->setIcon(*soundIcon);
     }
 }
 
@@ -254,5 +228,5 @@ void MainWindow::on_lineEdit_returnPressed()
 
 void MainWindow::on_btn_sound_clicked()
 {
-    manageSound();
+    emit changeSound();
 }

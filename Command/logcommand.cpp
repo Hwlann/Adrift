@@ -8,13 +8,9 @@ LogCommand::LogCommand()
 void LogCommand::message(QString message)
 {
     qDebug() << __PRETTY_FUNCTION__;
-    if(message == CMD_SHOW_LOGS)
+    if(message == CMD_SHOW_LOGS || message == CMD_HIDE_LOGS)
     {
-        execCommmand(true);
-    }
-    else if(message == CMD_HIDE_LOGS)
-    {
-        execCommmand(false);
+      execCommmand(message);
     }
     else
     {
@@ -24,10 +20,7 @@ void LogCommand::message(QString message)
     }
 }
 
-void LogCommand::execCommmand(bool loggerVisibility)
+void LogCommand::execCommmand(QString cmd)
 {
-    Logger::getInstance()->setVisible(loggerVisibility);
-    Logger::getInstance()->addLog(Logger::LogLevel::NONE, "EFM LOGGER");
-    Logger::getInstance()->addLog(Logger::LogLevel::WARNING, "EFM LOGGER");
-    Logger::getInstance()->addLog(Logger::LogLevel::ERROR, "EFM LOGGER");
+    emit executeCommand(COMMAND::SHOW_LOGS, cmd);
 }

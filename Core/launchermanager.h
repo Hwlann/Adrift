@@ -4,6 +4,8 @@
 #include <QObject>
 #include <QProcess>
 #include <QDebug>
+#include <QSoundEffect>
+#include <QSound>
 
 #include "Launcher/mainwindow.h"
 #include "Network/networkmanager.h"
@@ -24,7 +26,11 @@ public:
     ~LauncherManager();
 
     void startGame();
-    void defineGamesOptions();
+    void defineGamesOptions();    
+    void setSounds();
+
+public slots:
+    void musicManager();
 
 private:
     explicit LauncherManager(QObject *parent = nullptr);
@@ -44,6 +50,10 @@ private:
 
     QString m_playerName = NULL;
     QString m_userAccessToken = NULL;
+
+    QString m_musicPath = ":/sounds/Portal-SelfEsteemFund.wav";
+    QSoundEffect *m_music;
+    bool m_mute = false;
 
 signals:
 

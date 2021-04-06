@@ -18,7 +18,7 @@ Logger::Logger(QWidget *parent) :
     ui->setupUi(this);
     this->setWindowTitle("Logger");
     this->setStyleSheet("background-color: #606060;");
-    setWindowFlag(Qt::WindowType::Dialog);
+    this->activateWindow();
 }
 
 Logger::~Logger()
