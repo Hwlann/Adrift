@@ -6,9 +6,11 @@
         <file>background.jpg</file>
         <file>soundOn.png</file>
         <file>mute.png</file>
+        <file>logo.ico</file>
     </qresource>
     <qresource prefix="/sounds">
         <file>Portal-SelfEsteemFund.wav</file>
         <file>click.wav</file>
     </qresource>
+    <qresource prefix="/"/>
 </RCC>

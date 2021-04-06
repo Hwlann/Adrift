@@ -14,8 +14,8 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
-#define     WINDOW_WIDTH    350
-#define     WINDOW_HEIGHT   550
+#define     WINDOW_WIDTH    395 // 350
+#define     WINDOW_HEIGHT   580 // 550
 #define     WINDOW_TITLE    "EFM Launcher"
 
 #define     REGISTER_URL    "http://lortetcesar.fr/register"

@@ -41,6 +41,7 @@ FORMS += \
 RESOURCES += \
     res.qrc
 
+RC_ICONS = logo.ico
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
