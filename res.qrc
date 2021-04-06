@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/fonts">
+        <file>ethnocentric.ttf</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file>background.jpg</file>
+        <file>soundOn.png</file>
+        <file>mute.png</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>Portal-SelfEsteemFund.wav</file>
+        <file>click.wav</file>
+    </qresource>
+</RCC>
