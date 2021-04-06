@@ -1,4 +1,4 @@
-﻿Log file open, 04/06/21 14:18:48
+﻿Log file open, 04/06/21 14:05:36
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,10 +9,10 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: YDays_SurvivalEscape
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 71 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.058974
+LogStats: Stats thread started at 0.889042
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
-LogPluginManager: Error: Unable to load plugin 'VaRest'. Aborting.
+LogPluginManager: Display: Downloading 'VaRest' plugin from marketplace (com.epicgames.launcher://ue/marketplace/content/e47be161e7a24e928560290abd5dcc4f).
 LogCore: Engine exit requested (reason: EngineExit() was called)
 LogExit: Preparing to exit.
 LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
@@ -35,4 +35,4 @@ LogModuleManager: Shutting down and abandoning module SandboxFile (6)
 LogModuleManager: Shutting down and abandoning module PakFile (4)
 LogModuleManager: Shutting down and abandoning module RSA (3)
 LogExit: Exiting.
-Log file closed, 04/06/21 14:18:48
+Log file closed, 04/06/21 14:05:36
