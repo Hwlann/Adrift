@@ -1,0 +1,1643 @@
+﻿Log file open, 03/10/21 08:21:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: YDays_SurvivalEscape
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.177200
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: U:/Installs/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.03.10-07.21.07:741][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.03.10-07.21.07:741][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Engine.ini]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2021.03.10-07.21.07:742][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2021.03.10-07.21.07:743][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2021.03.10-07.21.07:746][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2021.03.10-07.21.07:746][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2021.03.10-07.21.07:746][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2021.03.10-07.21.07:746][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2021.03.10-07.21.07:746][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2021.03.10-07.21.07:746][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2021.03.10-07.21.07:746][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2021.03.10-07.21.07:746][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2021.03.10-07.21.07:746][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2021.03.10-07.21.07:746][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2021.03.10-07.21.07:746][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2021.03.10-07.21.07:746][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2021.03.10-07.21.07:746][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2021.03.10-07.21.07:746][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2021.03.10-07.21.07:746][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2021.03.10-07.21.07:746][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Engine.ini]
+[2021.03.10-07.21.07:747][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Engine.ini]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.03.10-07.21.07:747][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Engine.ini]
+[2021.03.10-07.21.07:748][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.03.10-07.21.07:748][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.03.10-07.21.07:748][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.03.10-07.21.07:748][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.03.10-07.21.07:748][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.03.10-07.21.07:748][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.03.10-07.21.07:748][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.03.10-07.21.07:748][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.03.10-07.21.07:748][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.03.10-07.21.07:748][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.03.10-07.21.07:748][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.03.10-07.21.07:748][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.03.10-07.21.07:748][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.03.10-07.21.07:748][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Engine.ini]
+[2021.03.10-07.21.07:748][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Engine.ini]
+[2021.03.10-07.21.07:762][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Scalability.ini]
+[2021.03.10-07.21.07:762][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.10-07.21.07:762][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.10-07.21.07:762][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Scalability.ini]
+[2021.03.10-07.21.07:762][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.10-07.21.07:762][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Scalability.ini]
+[2021.03.10-07.21.07:762][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.10-07.21.07:762][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.10-07.21.07:762][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.10-07.21.07:762][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.10-07.21.07:762][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.10-07.21.07:762][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.10-07.21.07:762][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.10-07.21.07:762][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.10-07.21.07:762][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.10-07.21.07:762][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Scalability.ini]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Scalability.ini]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Scalability.ini]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.10-07.21.07:763][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Scalability.ini]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Scalability.ini]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.10-07.21.07:764][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.10-07.21.07:765][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.10-07.21.07:765][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.03.10-07.21.07:791][  0]LogHAL: Display: Platform has ~ 20 GB [21309476864 / 34359738368 / 20], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.03.10-07.21.07:791][  0]LogInit: Going up to parent DeviceProfile []
+[2021.03.10-07.21.07:791][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Scalability.ini]
+[2021.03.10-07.21.07:791][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.10-07.21.07:791][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2021.03.10-07.21.07:791][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Scalability.ini]
+[2021.03.10-07.21.07:791][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2021.03.10-07.21.07:791][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Scalability.ini]
+[2021.03.10-07.21.07:791][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.10-07.21.07:791][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.10-07.21.07:791][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.10-07.21.07:791][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2021.03.10-07.21.07:791][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2021.03.10-07.21.07:791][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2021.03.10-07.21.07:791][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.10-07.21.07:792][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.10-07.21.07:792][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.10-07.21.07:792][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.10-07.21.07:792][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.10-07.21.07:792][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.10-07.21.07:792][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.10-07.21.07:792][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2021.03.10-07.21.07:792][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.10-07.21.07:792][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2021.03.10-07.21.07:792][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.10-07.21.07:792][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.10-07.21.07:792][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Scalability.ini]
+[2021.03.10-07.21.07:792][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.10-07.21.07:792][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.10-07.21.07:792][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.10-07.21.07:793][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.10-07.21.07:793][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.10-07.21.07:793][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2021.03.10-07.21.07:793][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2021.03.10-07.21.07:793][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2021.03.10-07.21.07:793][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.10-07.21.07:793][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.10-07.21.07:794][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Scalability.ini]
+[2021.03.10-07.21.07:794][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Scalability.ini]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
+[2021.03.10-07.21.07:795][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Scalability.ini]
+[2021.03.10-07.21.07:795][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.10-07.21.07:796][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.10-07.21.07:796][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Scalability.ini]
+[2021.03.10-07.21.07:796][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
+[2021.03.10-07.21.07:796][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
+[2021.03.10-07.21.07:796][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
+[2021.03.10-07.21.07:796][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.03.10-07.21.07:814][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.03.10-07.21.07:814][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.03.10-07.21.07:814][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [U:/Projects/YDays_SurvivalEscape/Saved/Config/Windows/Engine.ini]
+[2021.03.10-07.21.07:816][  0]LogInit: Computer: DESKTOP-R0BPHNF
+[2021.03.10-07.21.07:816][  0]LogInit: User: Lortet
+[2021.03.10-07.21.07:816][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.03.10-07.21.07:816][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.03.10-07.21.07:816][  0]LogMemory: Memory total: Physical=19.8GB (20GB approx)
+[2021.03.10-07.21.07:816][  0]LogMemory: Platform Memory Stats for Windows
+[2021.03.10-07.21.07:816][  0]LogMemory: Process Physical Memory: 107.20 MB used, 107.21 MB peak
+[2021.03.10-07.21.07:816][  0]LogMemory: Process Virtual Memory: 101.55 MB used, 101.55 MB peak
+[2021.03.10-07.21.07:816][  0]LogMemory: Physical Memory: 7359.68 MB used,  12962.63 MB free, 20322.30 MB total
+[2021.03.10-07.21.07:816][  0]LogMemory: Virtual Memory: 5161.13 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2021.03.10-07.21.07:825][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.03.10-07.21.08:552][  0]LogInit: Overriding language with editor language configuration option (en).
+[2021.03.10-07.21.08:552][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2021.03.10-07.21.09:199][  0]LogInit: Setting process to per monitor DPI aware
+[2021.03.10-07.21.09:451][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.03.10-07.21.09:451][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.03.10-07.21.16:918][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.10-07.21.16:919][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.03.10-07.21.16:919][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.03.10-07.21.16:919][  0]LogD3D11RHI: D3D11 adapters:
+[2021.03.10-07.21.17:095][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2021.03.10-07.21.17:095][  0]LogD3D11RHI:       4019/0/10161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.03.10-07.21.17:135][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.03.10-07.21.17:135][  0]LogD3D11RHI:       128/0/10161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.03.10-07.21.17:142][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.03.10-07.21.17:142][  0]LogD3D11RHI:       0/0/10161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.03.10-07.21.17:142][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.03.10-07.21.17:159][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.03.10-07.21.17:160][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2021.03.10-07.21.17:160][  0]LogWindows: EnumDisplayDevices:
+[2021.03.10-07.21.17:160][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2021.03.10-07.21.17:160][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.03.10-07.21.17:161][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.03.10-07.21.17:161][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
+[2021.03.10-07.21.17:162][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2021.03.10-07.21.17:162][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2021.03.10-07.21.17:162][  0]LogD3D11RHI:   Driver Version: 461.40 (internal:27.21.14.6140, unified:461.40)
+[2021.03.10-07.21.17:162][  0]LogD3D11RHI:      Driver Date: 1-22-2021
+[2021.03.10-07.21.17:162][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
+[2021.03.10-07.21.17:303][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.03.10-07.21.17:304][  0]LogD3D11RHI: Async texture creation enabled
+[2021.03.10-07.21.17:381][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.03.10-07.21.18:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.03.10-07.21.18:948][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.03.10-07.21.18:948][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.03.10-07.21.18:948][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2021.03.10-07.21.18:948][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.03.10-07.21.18:948][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2021.03.10-07.21.18:948][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2021.03.10-07.21.18:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.03.10-07.21.18:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2021.03.10-07.21.18:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.03.10-07.21.18:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.03.10-07.21.18:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2021.03.10-07.21.18:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.03.10-07.21.18:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2021.03.10-07.21.18:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2021.03.10-07.21.18:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.03.10-07.21.18:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2021.03.10-07.21.18:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.03.10-07.21.18:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.03.10-07.21.19:087][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.03.10-07.21.19:087][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.03.10-07.21.19:130][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.03.10-07.21.19:172][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.03.10-07.21.19:217][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.03.10-07.21.19:254][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.03.10-07.21.19:304][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.03.10-07.21.19:349][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.03.10-07.21.19:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.03.10-07.21.19:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.03.10-07.21.19:502][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.03.10-07.21.19:502][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.03.10-07.21.19:545][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.03.10-07.21.19:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.03.10-07.21.19:638][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.03.10-07.21.19:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.03.10-07.21.19:693][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.03.10-07.21.19:855][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.03.10-07.21.20:550][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../Projects/YDays_SurvivalEscape/Intermediate/Shaders/WorkingDirectory/12520/).
+[2021.03.10-07.21.20:550][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Lortet/AppData/Local/Temp/UnrealShaderWorkingDir/F80D658C48DC692F381F7396FB871722/'.
+[2021.03.10-07.21.20:551][  0]LogXGEController: Cleaning working directory: C:/Users/Lortet/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.03.10-07.21.20:552][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.03.10-07.21.20:552][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.03.10-07.21.20:552][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.03.10-07.21.26:919][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.10-07.21.27:507][  0]LogDerivedDataCache: Loaded boot cache 0.58s 78MB C:/Users/Lortet/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2021.03.10-07.21.27:507][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Lortet/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2021.03.10-07.21.27:507][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/YDays_SurvivalEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.10-07.21.27:507][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.10-07.21.27:507][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Projects/YDays_SurvivalEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.10-07.21.27:507][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.03.10-07.21.27:548][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.03.10-07.21.27:548][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.10-07.21.27:548][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.03.10-07.21.27:552][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lortet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.03.10-07.21.27:552][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.10-07.21.27:552][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.10-07.21.27:608][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.03.10-07.21.27:619][  0]LogSlate: Using FreeType 2.10.0
+[2021.03.10-07.21.27:666][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.10-07.21.30:238][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2021.03.10-07.21.31:061][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.10-07.21.31:947][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.10-07.21.31:947][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.10-07.21.31:947][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.03.10-07.21.31:947][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.10-07.21.31:947][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.10-07.21.32:030][  0]LogNetVersion: YDays_SurvivalEscape 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2270354819)
+[2021.03.10-07.21.48:624][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.109285 seconds
+[2021.03.10-07.21.48:637][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2021.03.10-07.21.48:637][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2021.03.10-07.21.48:637][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.10-07.21.51:805][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.03.10-07.21.51:846][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.03.10-07.21.52:347][  0]SourceControl: Source control is disabled
+[2021.03.10-07.21.52:348][  0]SourceControl: Source control is disabled
+[2021.03.10-07.21.52:384][  0]SourceControl: Source control is disabled
+[2021.03.10-07.21.52:413][  0]SourceControl: Source control is disabled
+[2021.03.10-07.21.52:437][  0]SourceControl: Source control is disabled
+[2021.03.10-07.21.53:308][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.03.10-07.21.53:440][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.10-07.21.53:440][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.10-07.21.53:761][  0]LogOcInput: OculusInput pre-init called
+[2021.03.10-07.21.53:810][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.03.10-07.21.53:810][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.03.10-07.21.54:060][  0]LogEngine: Initializing Engine...
+[2021.03.10-07.21.54:062][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.10-07.21.54:066][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2021.03.10-07.21.54:664][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.03.10-07.21.54:723][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.03.10-07.21.54:753][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.10-07.21.54:753][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.10-07.21.54:753][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.10-07.21.54:753][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.10-07.21.54:753][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.10-07.21.54:753][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.10-07.21.54:753][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.10-07.21.54:753][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.10-07.21.54:754][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.10-07.21.54:754][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.10-07.21.54:791][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.10-07.21.54:791][  0]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-07.21.54:791][  0]LogAudioMixer: Display: Is Default: Yes
+[2021.03.10-07.21.54:791][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.10-07.21.54:791][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.10-07.21.54:791][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.10-07.21.54:791][  0]LogAudioMixer: Display: Channel Order:
+[2021.03.10-07.21.54:791][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.10-07.21.54:791][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.03.10-07.21.54:813][  0]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-07.21.54:818][  0]LogInit: FAudioDevice initialized.
+[2021.03.10-07.21.54:818][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.03.10-07.21.54:972][  0]LogDerivedDataCache: Saved boot cache 0.15s 78MB C:/Users/Lortet/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2021.03.10-07.21.54:976][  0]LogInit: Texture streaming: Enabled
+[2021.03.10-07.21.55:055][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.03.10-07.21.55:055][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.03.10-07.21.55:057][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.03.10-07.21.55:167][  0]LogInit: Transaction tracking system initialized
+[2021.03.10-07.21.55:309][  0]BlueprintLog: New page: Editor Load
+[2021.03.10-07.21.55:720][  0]LocalizationService: Localization service is disabled
+[2021.03.10-07.21.56:675][  0]LogFileCache: Scanning file cache for directory 'U:/Projects/YDays_SurvivalEscape/Content/' took 0.01s
+[2021.03.10-07.21.56:675][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.03.10-07.21.56:675][  0]LogCook: Display: Mobile HDR setting 1
+[2021.03.10-07.21.58:430][  0]SourceControl: Source control is disabled
+[2021.03.10-07.21.58:432][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.10-07.21.58:440][  0]LightingResults: New page: Lighting Build
+[2021.03.10-07.21.58:446][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-07.21.58:447][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-07.21.58:448][  0]MapCheck: New page: Map Check
+[2021.03.10-07.21.58:448][  0]LightingResults: New page: Lighting Build
+[2021.03.10-07.21.58:482][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2021.03.10-07.21.58:685][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2021.03.10-07.21.58:715][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.10-07.21.58:748][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.03.10-07.21.58:748][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.10-07.21.58:749][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.518ms to complete.
+[2021.03.10-07.21.58:749][  0]LogFileHelpers: Loading map 'Template_Default' took 0.318
+[2021.03.10-07.21.58:986][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-07.21.58:993][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-07.21.59:000][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-07.21.59:006][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-07.21.59:039][  0]LogCollectionManager: Loaded 0 collections in 0.001027 seconds
+[2021.03.10-07.21.59:080][  0]LogFileCache: Scanning file cache for directory 'U:/Projects/YDays_SurvivalEscape/Saved/Collections/' took 0.00s
+[2021.03.10-07.21.59:080][  0]LogFileCache: Scanning file cache for directory 'U:/Projects/YDays_SurvivalEscape/Content/Developers/Lortet/Collections/' took 0.00s
+[2021.03.10-07.21.59:080][  0]LogFileCache: Scanning file cache for directory 'U:/Projects/YDays_SurvivalEscape/Content/Collections/' took 0.00s
+[2021.03.10-07.21.59:080][  0]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 3015 classes and 717 folders.
+[2021.03.10-07.21.59:089][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.10-07.21.59:805][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.10-07.21.59:834][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2021.03.10-07.22.00:081][  0]LogSlate: Took 0.011797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.03.10-07.22.00:093][  0]LogSlate: Took 0.009565 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.03.10-07.22.00:106][  0]LogSlate: Took 0.008324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.03.10-07.22.00:301][  0]LogRenderer: Reallocating scene render targets to support 1228x620 Format 10 NumSamples 1 (Frame:1).
+[2021.03.10-07.22.00:464][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.10-07.22.00:464][  0]LogLoad: (Engine Initialization) Total time: 65.33 seconds
+[2021.03.10-07.22.00:464][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.03.10-07.22.00:549][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2021.03.10-07.22.00:621][  1]LogRenderer: Reallocating scene render targets to support 1228x640 Format 10 NumSamples 1 (Frame:2).
+[2021.03.10-07.22.01:800][ 20]LogAssetRegistry: Asset discovery search completed in 31.5639 seconds
+[2021.03.10-07.22.01:804][ 20]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2021.03.10-07.22.04:805][ 29]LogSlate: Took 0.008602 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.10-07.26.17:230][853]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.10-07.26.17:740][853]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.03.10-07.26.17:777][853]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MAP_Lvl1.MAP_Lvl1
+[2021.03.10-07.26.17:811][853]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2021.03.10-07.26.17:815][853]Cmd: MAP LOAD FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Maps/MAP_Lvl1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.10-07.26.17:816][853]LightingResults: New page: Lighting Build
+[2021.03.10-07.26.17:816][853]LoadErrors: New page: Loading map: MAP_Lvl1.umap
+[2021.03.10-07.26.17:818][853]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-07.26.17:818][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-07.26.17:818][853]MapCheck: New page: Map Check
+[2021.03.10-07.26.17:818][853]LightingResults: New page: Lighting Build
+[2021.03.10-07.26.17:847][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2021.03.10-07.26.17:972][853]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.10-07.26.18:004][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.03.10-07.26.18:031][853]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.10-07.26.18:032][853]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.099ms to complete.
+[2021.03.10-07.26.18:032][853]LogFileHelpers: Loading map 'MAP_Lvl1' took 0.218
+[2021.03.10-07.32.24:353][867]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.03.10-07.32.24:353][867]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.03.10-07.32.25:353][885]LogRenderer: Reallocating scene render targets to support 1228x668 Format 10 NumSamples 1 (Frame:992).
+[2021.03.10-08.03.02:478][816]LogEditorViewport: Clicking on Actor (LMB): BP_TSpawner_C (BP_TSpawner)
+[2021.03.10-08.03.05:035][965]LogEditorViewport: Clicking on Actor (LMB): BP_TSpawner_C (BP_TSpawner)
+[2021.03.10-08.03.13:371][430]LogRenderer: Reallocating scene render targets to support 1228x1024 Format 10 NumSamples 1 (Frame:1).
+[2021.03.10-08.05.03:588][584]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
+[2021.03.10-08.05.03:594][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Lvl1" FILE="../../../../../Projects/YDays_SurvivalEscape/Saved/Autosaves/Game/Maps/MAP_Lvl1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.03.10-08.05.03:754][584]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/MAP_Lvl1_Auto10188F4234A67CB636B6F34A6CC6838EC.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Saved/Autosaves/Game/Maps/MAP_Lvl1_Auto1.umap'
+[2021.03.10-08.05.03:757][584]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MAP_Lvl1' took 0.204
+[2021.03.10-08.05.03:757][584]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.204
+[2021.03.10-08.09.08:506][588]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.03.10-08.09.08:963][609]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/CH_Zombie.CH_Zombie
+[2021.03.10-08.09.09:204][609]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2021.03.10-08.09.10:248][609]LogSlate: Took 0.006668 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.03.10-08.09.11:543][670]LogSlate: Took 0.011064 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.03.10-08.09.11:695][679]LogSlate: Window 'CH_Zombie' being destroyed
+[2021.03.10-08.10.14:867][190]LogEditorTransaction: Undo Modify Component(s)
+[2021.03.10-08.10.26:578][871]BlueprintLog: New page: Compile CH_Zombie
+[2021.03.10-08.10.26:891][871]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2021.03.10-08.10.27:430][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Player/CH_Zombie.uasset" SILENT=true
+[2021.03.10-08.10.27:457][898]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_Zombie8D09289440F62B24E98A1BB6C9800CBF.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Player/CH_Zombie.uasset'
+[2021.03.10-08.10.27:475][898]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.03.10-08.10.27:476][898]LogContentValidation: Display: Validating Blueprint /Game/Player/CH_Zombie.CH_Zombie
+[2021.03.10-08.16.09:418][982]BlueprintLog: New page: Compile CH_Zombie
+[2021.03.10-08.16.09:627][982]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2021.03.10-08.16.51:423][972]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.03.10-08.16.51:424][972]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MAP_Lvl1' took 0.047
+[2021.03.10-08.16.51:425][972]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/CH_Zombie] ([1] browsable assets)...
+[2021.03.10-08.16.51:470][972]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/CH_Zombie.CH_Zombie]
+[2021.03.10-08.16.51:470][972]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/CH_Zombie]
+[2021.03.10-08.16.51:470][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Saved/Autosaves/Game/Player/CH_Zombie_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2021.03.10-08.16.51:510][972]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_Zombie_Auto2E42E47684F137DB26DE98D94B952F318.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Saved/Autosaves/Game/Player/CH_Zombie_Auto2.uasset'
+[2021.03.10-08.16.51:511][972]LogFileHelpers: Auto-saving content packages took 0.087
+[2021.03.10-08.25.36:478][901]BlueprintLog: New page: Compile CH_Zombie
+[2021.03.10-08.25.36:717][901]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.03.10-08.25.37:073][917]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Player/CH_Zombie.uasset" SILENT=true
+[2021.03.10-08.25.37:113][917]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_ZombieDC3CC26A42E759D19FD635B0F658A0DE.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Player/CH_Zombie.uasset'
+[2021.03.10-08.25.37:128][917]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.03.10-08.25.37:128][917]LogContentValidation: Display: Validating Blueprint /Game/Player/CH_Zombie.CH_Zombie
+[2021.03.10-08.26.36:999][ 40]BlueprintLog: New page: Compile CH_Zombie
+[2021.03.10-08.26.37:200][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2021.03.10-08.26.37:667][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Player/CH_Zombie.uasset" SILENT=true
+[2021.03.10-08.26.37:698][ 64]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_Zombie282A3594464026A95175EB894DCB02A1.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Player/CH_Zombie.uasset'
+[2021.03.10-08.26.37:714][ 64]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.03.10-08.26.37:714][ 64]LogContentValidation: Display: Validating Blueprint /Game/Player/CH_Zombie.CH_Zombie
+[2021.03.10-08.28.54:439][566]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2021.03.10-08.28.54:440][566]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MAP_Lvl1' took 0.048
+[2021.03.10-08.28.54:440][566]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/CH_Zombie] ([1] browsable assets)...
+[2021.03.10-08.28.54:454][566]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/CH_Zombie.CH_Zombie]
+[2021.03.10-08.28.54:454][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/CH_Zombie]
+[2021.03.10-08.28.54:454][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Saved/Autosaves/Game/Player/CH_Zombie_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2021.03.10-08.28.54:503][566]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_Zombie_Auto3730650E94DC7639F3E0AD4B382ED47FD.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Saved/Autosaves/Game/Player/CH_Zombie_Auto3.uasset'
+[2021.03.10-08.28.54:503][566]LogFileHelpers: Auto-saving content packages took 0.063
+[2021.03.10-08.29.06:298][875]BlueprintLog: New page: Compile CH_Zombie
+[2021.03.10-08.29.06:514][875]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2021.03.10-08.29.06:883][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Player/CH_Zombie.uasset" SILENT=true
+[2021.03.10-08.29.06:920][893]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_ZombieB42F84CF4F41F0F2E5B483A62F425E31.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Player/CH_Zombie.uasset'
+[2021.03.10-08.29.06:947][893]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.03.10-08.29.06:947][893]LogContentValidation: Display: Validating Blueprint /Game/Player/CH_Zombie.CH_Zombie
+[2021.03.10-08.29.13:625][284]LogEditorViewport: Clicking on Actor (LMB): BP_TSpawner_C (BP_TSpawner)
+[2021.03.10-08.29.26:600][ 53]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/WorldObjects/Triggerables/Triggers/BP_TSpawner.BP_TSpawner
+[2021.03.10-08.29.59:779][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:779][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:779][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:UserConstructionScript' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:779][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:PawnSensing' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:779][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:Cube' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:779][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:Cube2' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:Cube7' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:Cube6' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:Cube3' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:idle_chest' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:right_arm' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:left_arm' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:baseRate' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:dashVelocity' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:dashDuration' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:availablesDashes' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:timeBetweenTwoDashes' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:isWeaponEquiped' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:wCrosshair' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:canDash' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.SKEL_CH_Zombie_C:BndEvt__PawnSensing_K2Node_ComponentBoundEvent_0_SeePawnDelegate__DelegateSignature' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:OnFail_FA17ED51413B9E6D469F6F92610803BB' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:OnSuccess_FA17ED51413B9E6D469F6F92610803BB' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:PawnSensing' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:Cube' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:Cube2' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:Cube7' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:Cube6' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:Cube3' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:idle_chest' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:right_arm' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:left_arm' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:baseRate' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:dashVelocity' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:dashDuration' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:availablesDashes' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:timeBetweenTwoDashes' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:isWeaponEquiped' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:wCrosshair' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:780][970]LogMetaData: Removing '/Game/Enemies/CH_Zombie.CH_Zombie_C:canDash' ref from Metadata '/Game/Player/CH_Zombie.PackageMetaData'
+[2021.03.10-08.29.59:825][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset" SILENT=true
+[2021.03.10-08.29.59:853][970]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_Zombie4115A04447635A65AC067EB6187F8DF8.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset'
+[2021.03.10-08.30.00:189][970]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2021.03.10-08.30.00:237][970]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2021.03.10-08.30.00:276][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.03.10-08.30.00:316][970]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.03.10-08.30.00:316][970]LogContentValidation: Display: Validating Blueprint /Game/Enemies/CH_Zombie.CH_Zombie
+[2021.03.10-08.30.16:389][892]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.10-08.30.16:419][892]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.03.10-08.30.16:425][892]LogPlayLevel: [PlayLevel] Compiling BP_TSpawner before play...
+[2021.03.10-08.30.16:646][892]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2021.03.10-08.30.16:647][892]LogPlayLevel: PlayLevel: Blueprint regeneration took 227 ms (1 blueprints)
+[2021.03.10-08.30.16:649][892]PIE: New page: PIE session: MAP_Lvl1 (Mar 10, 2021, 10:30:16 AM)
+[2021.03.10-08.30.16:653][892]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.03.10-08.30.16:654][892]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.03.10-08.30.16:654][892]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.30.16:665][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010236s)
+[2021.03.10-08.30.16:666][892]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.03.10-08.30.16:666][892]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2021.03.10-08.30.16:667][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.012068s)
+[2021.03.10-08.30.16:710][892]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2021.03.10-08.30.16:711][892]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.10-08.30.16:711][892]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.10-08.30.16:711][892]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.10-08.30.16:711][892]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.10-08.30.16:711][892]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.10-08.30.16:711][892]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.10-08.30.16:711][892]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.10-08.30.16:711][892]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.10-08.30.16:711][892]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.10-08.30.16:711][892]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.10-08.30.16:730][892]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.10-08.30.16:730][892]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.30.16:730][892]LogAudioMixer: Display: Is Default: Yes
+[2021.03.10-08.30.16:730][892]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.10-08.30.16:730][892]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.10-08.30.16:730][892]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.10-08.30.16:730][892]LogAudioMixer: Display: Channel Order:
+[2021.03.10-08.30.16:730][892]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.10-08.30.16:730][892]LogAudioMixer: Display: 1: FrontRight
+[2021.03.10-08.30.16:747][892]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.30.16:749][892]LogInit: FAudioDevice initialized.
+[2021.03.10-08.30.16:789][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.30.16:791][892]LogLoad: Game class is 'BP_GameMode_C'
+[2021.03.10-08.30.16:796][892]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.03.10-09.30.16
+[2021.03.10-08.30.16:800][892]LogWorld: Bringing up level for play took: 0.007733
+[2021.03.10-08.30.16:800][892]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.03.10-08.30.16:812][892]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.03.10-08.30.16:824][892]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 1.371
+[2021.03.10-08.30.16:866][893]LogRenderer: Reallocating scene render targets to support 1280x1024 Format 10 NumSamples 1 (Frame:1).
+[2021.03.10-08.30.26:694][458]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.30.26:695][458]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.30.26:695][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.30.26:695][458]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.30.26:712][458]LogSlate: Window 'YDays_SurvivalEscape Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.03.10-08.30.26:721][458]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.30.26:722][458]LogWorld: UWorld::CleanupWorld for MAP_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-08.30.26:724][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.30.26:739][458]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.10-08.30.26:745][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.30.26:793][458]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.30.26:826][458]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2021.03.10-08.30.26:847][459]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.03.10-08.31.27:961][993]LogEditorViewport: Clicking on Actor (LMB): CH_Zombie_C (CH_Zombie)
+[2021.03.10-08.31.28:704][ 33]Cmd: DELETE
+[2021.03.10-08.31.28:704][ 33]Cmd: ACTOR DELETE
+[2021.03.10-08.31.28:714][ 33]LogEditorActor: Deleted Actor: CH_Zombie_C
+[2021.03.10-08.31.28:764][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.03.10-08.31.28:765][ 33]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2021.03.10-08.31.31:218][173]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/BP_TSpawnerB8EC4883404CCE10E07B6295610398F8.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/WorldObjects/Triggerables/Triggers/BP_TSpawner.uasset'
+[2021.03.10-08.31.31:238][173]AssetCheck: New page: Asset Save: BP_TSpawner
+[2021.03.10-08.31.31:238][173]LogContentValidation: Display: Validating Blueprint /Game/WorldObjects/Triggerables/Triggers/BP_TSpawner.BP_TSpawner
+[2021.03.10-08.31.34:234][336]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemies/BP_Zombie.BP_Zombie
+[2021.03.10-08.32.22:157][138]BlueprintLog: New page: Compile CH_Zombie
+[2021.03.10-08.32.22:436][138]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2021.03.10-08.32.22:923][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset" SILENT=true
+[2021.03.10-08.32.22:961][162]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_Zombie285A114F4F357DC1B372D9BE07B99F65.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset'
+[2021.03.10-08.32.22:983][162]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.03.10-08.32.22:983][162]LogContentValidation: Display: Validating Blueprint /Game/Enemies/CH_Zombie.CH_Zombie
+[2021.03.10-08.32.34:306][831]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/BP_TSpawner36E6A68F4C69AAB6E476D4BBAA422B8E.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/WorldObjects/Triggerables/Triggers/BP_TSpawner.uasset'
+[2021.03.10-08.32.34:320][831]AssetCheck: New page: Asset Save: BP_TSpawner
+[2021.03.10-08.32.34:320][831]LogContentValidation: Display: Validating Blueprint /Game/WorldObjects/Triggerables/Triggers/BP_TSpawner.BP_TSpawner
+[2021.03.10-08.32.43:140][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset" SILENT=true
+[2021.03.10-08.32.43:164][349]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_ZombieD9F9172E485CF5E591D68A87ADEC1117.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset'
+[2021.03.10-08.32.43:177][349]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.03.10-08.32.43:177][349]LogContentValidation: Display: Validating Blueprint /Game/Enemies/CH_Zombie.CH_Zombie
+[2021.03.10-08.34.15:559][890]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.10-08.34.15:593][890]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.10-08.34.15:593][890]PIE: New page: PIE session: MAP_Lvl1 (Mar 10, 2021, 10:34:15 AM)
+[2021.03.10-08.34.15:593][890]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.34.15:603][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009330s)
+[2021.03.10-08.34.15:604][890]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.03.10-08.34.15:604][890]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2021.03.10-08.34.15:604][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.010498s)
+[2021.03.10-08.34.15:656][890]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2021.03.10-08.34.15:660][890]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.10-08.34.15:660][890]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.10-08.34.15:660][890]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.10-08.34.15:660][890]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.10-08.34.15:660][890]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.10-08.34.15:660][890]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.10-08.34.15:660][890]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.10-08.34.15:660][890]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.10-08.34.15:661][890]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.10-08.34.15:661][890]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.10-08.34.15:680][890]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.10-08.34.15:680][890]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.34.15:680][890]LogAudioMixer: Display: Is Default: Yes
+[2021.03.10-08.34.15:680][890]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.10-08.34.15:680][890]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.10-08.34.15:680][890]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.10-08.34.15:680][890]LogAudioMixer: Display: Channel Order:
+[2021.03.10-08.34.15:680][890]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.10-08.34.15:680][890]LogAudioMixer: Display: 1: FrontRight
+[2021.03.10-08.34.15:696][890]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.34.15:697][890]LogInit: FAudioDevice initialized.
+[2021.03.10-08.34.15:742][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.34.15:742][890]LogLoad: Game class is 'BP_GameMode_C'
+[2021.03.10-08.34.15:747][890]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.03.10-09.34.15
+[2021.03.10-08.34.15:748][890]LogWorld: Bringing up level for play took: 0.004258
+[2021.03.10-08.34.15:748][890]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.03.10-08.34.15:760][890]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 0.307
+[2021.03.10-08.34.17:567][993]LogSlate: Window 'YDays_SurvivalEscape Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.03.10-08.34.17:577][993]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.34.17:577][993]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.34.17:577][993]LogWorld: UWorld::CleanupWorld for MAP_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-08.34.17:577][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.34.17:594][993]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.10-08.34.17:599][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.34.17:651][993]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.34.17:660][993]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.03.10-08.34.17:686][994]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.03.10-08.34.21:258][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/BP_Zombie.uasset" SILENT=true
+[2021.03.10-08.34.21:298][203]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/BP_Zombie3765CCA54F1EF060DB7743A64A9CC675.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/BP_Zombie.uasset'
+[2021.03.10-08.34.21:313][203]AssetCheck: New page: Asset Save: BP_Zombie
+[2021.03.10-08.34.21:313][203]LogContentValidation: Display: Validating Blueprint /Game/Enemies/BP_Zombie.BP_Zombie
+[2021.03.10-08.34.26:534][514]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.10-08.34.28:957][653]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/BP_TSpawner118F043D43A228400F952B8341C26A66.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/WorldObjects/Triggerables/Triggers/BP_TSpawner.uasset'
+[2021.03.10-08.34.28:972][653]AssetCheck: New page: Asset Save: BP_TSpawner
+[2021.03.10-08.34.28:972][653]LogContentValidation: Display: Validating Blueprint /Game/WorldObjects/Triggerables/Triggers/BP_TSpawner.BP_TSpawner
+[2021.03.10-08.34.45:887][631]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.10-08.34.45:913][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.10-08.34.45:913][631]PIE: New page: PIE session: MAP_Lvl1 (Mar 10, 2021, 10:34:45 AM)
+[2021.03.10-08.34.45:913][631]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.34.45:924][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010815s)
+[2021.03.10-08.34.45:925][631]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.03.10-08.34.45:925][631]LogPlayLevel: PIE: World Init took: (0.000985s)
+[2021.03.10-08.34.45:925][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.011947s)
+[2021.03.10-08.34.45:971][631]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.03.10-08.34.45:972][631]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.10-08.34.45:972][631]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.10-08.34.45:972][631]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.10-08.34.45:972][631]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.10-08.34.45:972][631]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.10-08.34.45:972][631]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.10-08.34.45:972][631]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.10-08.34.45:972][631]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.10-08.34.45:973][631]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.10-08.34.45:973][631]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.10-08.34.45:992][631]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.10-08.34.45:992][631]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.34.45:992][631]LogAudioMixer: Display: Is Default: Yes
+[2021.03.10-08.34.45:992][631]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.10-08.34.45:992][631]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.10-08.34.45:992][631]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.10-08.34.45:992][631]LogAudioMixer: Display: Channel Order:
+[2021.03.10-08.34.45:992][631]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.10-08.34.45:992][631]LogAudioMixer: Display: 1: FrontRight
+[2021.03.10-08.34.46:012][631]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.34.46:014][631]LogInit: FAudioDevice initialized.
+[2021.03.10-08.34.46:073][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.34.46:074][631]LogLoad: Game class is 'BP_GameMode_C'
+[2021.03.10-08.34.46:078][631]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.03.10-09.34.46
+[2021.03.10-08.34.46:078][631]LogWorld: Bringing up level for play took: 0.003746
+[2021.03.10-08.34.46:078][631]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.03.10-08.34.46:086][631]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 0.633
+[2021.03.10-08.34.59:067][400]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.34.59:067][400]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.34.59:068][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.34.59:068][400]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.34.59:087][400]LogSlate: Window 'YDays_SurvivalEscape Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.03.10-08.34.59:094][400]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.34.59:094][400]LogWorld: UWorld::CleanupWorld for MAP_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-08.34.59:094][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.34.59:111][400]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.10-08.34.59:117][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.34.59:169][400]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.34.59:176][400]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2021.03.10-08.34.59:197][401]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.03.10-08.35.02:394][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2021.03.10-08.35.18:054][446]LogEditorViewport: Clicking on Actor (LMB): BP_MovablePlatform_C (BP_MovablePlatform7)
+[2021.03.10-08.35.22:522][679]LogEditorViewport: Clicking on Actor (LMB): BP_MovablePlatform_C (BP_MovablePlatform6)
+[2021.03.10-08.35.24:823][812]LogEditorViewport: Clicking on Actor (LMB): BP_MovablePlatform_C (BP_MovablePlatform9)
+[2021.03.10-08.35.26:738][923]LogEditorViewport: Clicking on Actor (LMB): BP_MovablePlatform_C (BP_MovablePlatform8)
+[2021.03.10-08.35.29:134][ 62]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.10-08.35.29:162][ 62]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.10-08.35.29:162][ 62]PIE: New page: PIE session: MAP_Lvl1 (Mar 10, 2021, 10:35:29 AM)
+[2021.03.10-08.35.29:162][ 62]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.35.29:172][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010584s)
+[2021.03.10-08.35.29:173][ 62]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.03.10-08.35.29:173][ 62]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2021.03.10-08.35.29:174][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.011661s)
+[2021.03.10-08.35.29:217][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.03.10-08.35.29:218][ 62]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.10-08.35.29:218][ 62]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.10-08.35.29:218][ 62]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.10-08.35.29:218][ 62]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.10-08.35.29:218][ 62]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.10-08.35.29:218][ 62]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.10-08.35.29:218][ 62]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.10-08.35.29:218][ 62]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.10-08.35.29:219][ 62]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.10-08.35.29:219][ 62]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.10-08.35.29:238][ 62]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.10-08.35.29:239][ 62]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.35.29:239][ 62]LogAudioMixer: Display: Is Default: Yes
+[2021.03.10-08.35.29:239][ 62]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.10-08.35.29:239][ 62]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.10-08.35.29:239][ 62]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.10-08.35.29:239][ 62]LogAudioMixer: Display: Channel Order:
+[2021.03.10-08.35.29:239][ 62]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.10-08.35.29:239][ 62]LogAudioMixer: Display: 1: FrontRight
+[2021.03.10-08.35.29:256][ 62]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.35.29:258][ 62]LogInit: FAudioDevice initialized.
+[2021.03.10-08.35.29:316][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.35.29:316][ 62]LogLoad: Game class is 'BP_GameMode_C'
+[2021.03.10-08.35.29:321][ 62]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.03.10-09.35.29
+[2021.03.10-08.35.29:321][ 62]LogWorld: Bringing up level for play took: 0.004191
+[2021.03.10-08.35.29:321][ 62]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.03.10-08.35.29:329][ 62]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 -0.126
+[2021.03.10-08.35.42:722][785]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.35.42:722][785]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.35.42:722][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.35.42:722][785]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.35.42:740][785]LogSlate: Window 'YDays_SurvivalEscape Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.03.10-08.35.42:760][785]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.35.42:761][785]LogWorld: UWorld::CleanupWorld for MAP_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-08.35.42:764][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.35.42:781][785]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.10-08.35.42:787][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.35.42:836][785]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.35.42:847][785]LogUObjectHash: Compacting FUObjectHashTables data took   5.95ms
+[2021.03.10-08.35.42:870][786]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.03.10-08.35.46:283][974]LogEditorViewport: Clicking on Actor (LMB): BP_TSpawner_C (BP_TSpawner)
+[2021.03.10-08.35.57:454][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Lvl1" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Maps/MAP_Lvl1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.10-08.35.57:505][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.03.10-08.35.57:569][623]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/MAP_Lvl16D3837C04542E21F4CA31295668815C3.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Maps/MAP_Lvl1.umap'
+[2021.03.10-08.35.57:605][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Lvl1_BuiltData" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Maps/MAP_Lvl1_BuiltData.uasset" SILENT=true
+[2021.03.10-08.35.57:633][623]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/MAP_Lvl1_BuiltDataB4940884407737B3179CEF87AE5B35A5.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Maps/MAP_Lvl1_BuiltData.uasset'
+[2021.03.10-08.35.57:663][623]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.10-08.35.57:663][623]LogContentValidation: Display: Validating World /Game/Maps/MAP_Lvl1.MAP_Lvl1
+[2021.03.10-08.35.57:663][623]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/MAP_Lvl1_BuiltData.MAP_Lvl1_BuiltData
+[2021.03.10-08.36.13:962][587]BlueprintLog: New page: Compile BP_TSpawner
+[2021.03.10-08.36.14:234][587]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2021.03.10-08.36.14:673][605]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/BP_TSpawnerD48FB0D648C30457E474B49191F1AE19.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/WorldObjects/Triggerables/Triggers/BP_TSpawner.uasset'
+[2021.03.10-08.36.14:693][605]AssetCheck: New page: Asset Save: BP_TSpawner
+[2021.03.10-08.36.14:693][605]LogContentValidation: Display: Validating Blueprint /Game/WorldObjects/Triggerables/Triggers/BP_TSpawner.BP_TSpawner
+[2021.03.10-08.36.41:171][123]BlueprintLog: New page: Compile CH_Zombie
+[2021.03.10-08.36.41:473][123]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2021.03.10-08.36.41:886][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset" SILENT=true
+[2021.03.10-08.36.41:920][142]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_ZombieAC1579EF4B6D0A526E88A889B54EE6C5.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset'
+[2021.03.10-08.36.41:935][142]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.03.10-08.36.41:935][142]LogContentValidation: Display: Validating Blueprint /Game/Enemies/CH_Zombie.CH_Zombie
+[2021.03.10-08.36.49:702][597]BlueprintLog: New page: Compile CH_Zombie
+[2021.03.10-08.36.49:997][597]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2021.03.10-08.36.50:837][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset" SILENT=true
+[2021.03.10-08.36.50:870][643]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_ZombieC957990845554AFE5A02C9BA80C34324.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset'
+[2021.03.10-08.36.50:884][643]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.03.10-08.36.50:884][643]LogContentValidation: Display: Validating Blueprint /Game/Enemies/CH_Zombie.CH_Zombie
+[2021.03.10-08.36.52:402][728]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.10-08.36.52:431][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.10-08.36.52:431][728]PIE: New page: PIE session: MAP_Lvl1 (Mar 10, 2021, 10:36:52 AM)
+[2021.03.10-08.36.52:431][728]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.36.52:441][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010434s)
+[2021.03.10-08.36.52:442][728]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.03.10-08.36.52:442][728]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2021.03.10-08.36.52:443][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.011638s)
+[2021.03.10-08.36.52:489][728]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2021.03.10-08.36.52:490][728]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.10-08.36.52:490][728]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.10-08.36.52:490][728]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.10-08.36.52:490][728]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.10-08.36.52:490][728]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.10-08.36.52:490][728]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.10-08.36.52:490][728]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.10-08.36.52:490][728]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.10-08.36.52:490][728]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.10-08.36.52:490][728]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.10-08.36.52:510][728]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.10-08.36.52:510][728]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.36.52:510][728]LogAudioMixer: Display: Is Default: Yes
+[2021.03.10-08.36.52:510][728]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.10-08.36.52:510][728]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.10-08.36.52:510][728]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.10-08.36.52:510][728]LogAudioMixer: Display: Channel Order:
+[2021.03.10-08.36.52:510][728]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.10-08.36.52:510][728]LogAudioMixer: Display: 1: FrontRight
+[2021.03.10-08.36.52:528][728]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.36.52:530][728]LogInit: FAudioDevice initialized.
+[2021.03.10-08.36.52:592][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.36.52:592][728]LogLoad: Game class is 'BP_GameMode_C'
+[2021.03.10-08.36.52:597][728]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.03.10-09.36.52
+[2021.03.10-08.36.52:597][728]LogWorld: Bringing up level for play took: 0.003869
+[2021.03.10-08.36.52:597][728]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.03.10-08.36.52:605][728]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 1.151
+[2021.03.10-08.37.12:490][856]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.37.12:490][856]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.37.12:491][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.37.12:491][856]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.37.12:519][856]LogSlate: Window 'YDays_SurvivalEscape Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.03.10-08.37.12:531][856]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.37.12:532][856]LogWorld: UWorld::CleanupWorld for MAP_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-08.37.12:535][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.37.12:548][856]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.10-08.37.12:554][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.37.12:604][856]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.37.12:617][856]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2021.03.10-08.37.12:636][857]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.03.10-08.37.27:435][724]BlueprintLog: New page: Compile BP_TSpawner
+[2021.03.10-08.37.27:712][724]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2021.03.10-08.37.28:116][739]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/BP_TSpawnerDCEBF517458E400BCE7A8390B667F0F8.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/WorldObjects/Triggerables/Triggers/BP_TSpawner.uasset'
+[2021.03.10-08.37.28:137][739]AssetCheck: New page: Asset Save: BP_TSpawner
+[2021.03.10-08.37.28:137][739]LogContentValidation: Display: Validating Blueprint /Game/WorldObjects/Triggerables/Triggers/BP_TSpawner.BP_TSpawner
+[2021.03.10-08.37.57:969][379]LogSlate: Window 'Delete Variable' being destroyed
+[2021.03.10-08.38.08:614][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset" SILENT=true
+[2021.03.10-08.38.08:650][999]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_Zombie9E4FA86143AF566BDC678EAE357F635E.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset'
+[2021.03.10-08.38.08:669][999]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.03.10-08.38.08:669][999]LogContentValidation: Display: Validating Blueprint /Game/Enemies/CH_Zombie.CH_Zombie
+[2021.03.10-08.38.09:109][ 25]BlueprintLog: New page: Compile CH_Zombie
+[2021.03.10-08.38.09:386][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2021.03.10-08.38.10:694][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset" SILENT=true
+[2021.03.10-08.38.10:724][ 99]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_ZombieDF656EAC47ADD443801322863824D770.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset'
+[2021.03.10-08.38.10:740][ 99]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.03.10-08.38.10:740][ 99]LogContentValidation: Display: Validating Blueprint /Game/Enemies/CH_Zombie.CH_Zombie
+[2021.03.10-08.38.14:641][326]BlueprintLog: New page: Compile CH_Zombie
+[2021.03.10-08.38.14:911][326]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2021.03.10-08.38.15:280][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset" SILENT=true
+[2021.03.10-08.38.15:313][343]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_Zombie0C61DE5641DCC6A3429721B18A4A7C76.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset'
+[2021.03.10-08.38.15:331][343]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.03.10-08.38.15:331][343]LogContentValidation: Display: Validating Blueprint /Game/Enemies/CH_Zombie.CH_Zombie
+[2021.03.10-08.38.27:860][ 72]BlueprintLog: New page: Compile BP_TSpawner
+[2021.03.10-08.38.28:130][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2021.03.10-08.38.28:459][ 84]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/BP_TSpawner5FE3A71E487A7443B8D44999893C87FC.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/WorldObjects/Triggerables/Triggers/BP_TSpawner.uasset'
+[2021.03.10-08.38.28:478][ 84]AssetCheck: New page: Asset Save: BP_TSpawner
+[2021.03.10-08.38.28:478][ 84]LogContentValidation: Display: Validating Blueprint /Game/WorldObjects/Triggerables/Triggers/BP_TSpawner.BP_TSpawner
+[2021.03.10-08.38.30:715][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Lvl1" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Maps/MAP_Lvl1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.10-08.38.30:768][210]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2021.03.10-08.38.30:822][210]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/MAP_Lvl150A06FF2411F8DE8060D3B91FF305F0D.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Maps/MAP_Lvl1.umap'
+[2021.03.10-08.38.30:858][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Lvl1_BuiltData" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Maps/MAP_Lvl1_BuiltData.uasset" SILENT=true
+[2021.03.10-08.38.30:878][210]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/MAP_Lvl1_BuiltDataABCDD2974885B48FFBD66AB552C3B05A.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Maps/MAP_Lvl1_BuiltData.uasset'
+[2021.03.10-08.38.30:901][210]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.10-08.38.30:901][210]LogContentValidation: Display: Validating World /Game/Maps/MAP_Lvl1.MAP_Lvl1
+[2021.03.10-08.38.30:901][210]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/MAP_Lvl1_BuiltData.MAP_Lvl1_BuiltData
+[2021.03.10-08.38.31:722][258]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.10-08.38.31:750][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.10-08.38.31:750][258]PIE: New page: PIE session: MAP_Lvl1 (Mar 10, 2021, 10:38:31 AM)
+[2021.03.10-08.38.31:750][258]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.38.31:760][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009442s)
+[2021.03.10-08.38.31:761][258]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.03.10-08.38.31:761][258]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2021.03.10-08.38.31:761][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.010618s)
+[2021.03.10-08.38.31:806][258]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2021.03.10-08.38.31:806][258]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.10-08.38.31:806][258]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.10-08.38.31:806][258]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.10-08.38.31:806][258]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.10-08.38.31:806][258]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.10-08.38.31:806][258]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.10-08.38.31:806][258]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.10-08.38.31:806][258]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.10-08.38.31:807][258]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.10-08.38.31:807][258]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.10-08.38.31:825][258]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.10-08.38.31:825][258]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.38.31:825][258]LogAudioMixer: Display: Is Default: Yes
+[2021.03.10-08.38.31:825][258]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.10-08.38.31:825][258]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.10-08.38.31:825][258]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.10-08.38.31:825][258]LogAudioMixer: Display: Channel Order:
+[2021.03.10-08.38.31:825][258]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.10-08.38.31:825][258]LogAudioMixer: Display: 1: FrontRight
+[2021.03.10-08.38.31:843][258]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.38.31:844][258]LogInit: FAudioDevice initialized.
+[2021.03.10-08.38.31:892][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.38.31:892][258]LogLoad: Game class is 'BP_GameMode_C'
+[2021.03.10-08.38.31:897][258]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.03.10-09.38.31
+[2021.03.10-08.38.31:898][258]LogWorld: Bringing up level for play took: 0.004709
+[2021.03.10-08.38.31:898][258]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.03.10-08.38.31:907][258]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 0.454
+[2021.03.10-08.38.48:043][178]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.38.48:043][178]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.38.48:043][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.38.48:043][178]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.38.48:066][178]LogSlate: Window 'YDays_SurvivalEscape Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.03.10-08.38.48:081][178]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.38.48:081][178]LogWorld: UWorld::CleanupWorld for MAP_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-08.38.48:082][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.38.48:102][178]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.10-08.38.48:107][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.38.48:157][178]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.38.48:169][178]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2021.03.10-08.38.48:191][179]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.03.10-08.40.24:880][888]LogEditorViewport: Clicking on Actor (LMB): BP_TSpawner_C (BP_TSpawner)
+[2021.03.10-08.40.56:505][694]BlueprintLog: New page: Compile CH_Zombie
+[2021.03.10-08.40.56:840][694]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2021.03.10-08.40.57:236][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset" SILENT=true
+[2021.03.10-08.40.57:265][711]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_Zombie06FE1C304DBF7BACE22C7ABCA74E2326.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset'
+[2021.03.10-08.40.57:281][711]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.03.10-08.40.57:281][711]LogContentValidation: Display: Validating Blueprint /Game/Enemies/CH_Zombie.CH_Zombie
+[2021.03.10-08.40.58:140][761]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.10-08.40.58:164][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.10-08.40.58:164][761]PIE: New page: PIE session: MAP_Lvl1 (Mar 10, 2021, 10:40:58 AM)
+[2021.03.10-08.40.58:164][761]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.40.58:174][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009985s)
+[2021.03.10-08.40.58:175][761]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.03.10-08.40.58:175][761]LogPlayLevel: PIE: World Init took: (0.001083s)
+[2021.03.10-08.40.58:175][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.011196s)
+[2021.03.10-08.40.58:228][761]LogUObjectHash: Compacting FUObjectHashTables data took   6.31ms
+[2021.03.10-08.40.58:229][761]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.10-08.40.58:229][761]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.10-08.40.58:229][761]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.10-08.40.58:229][761]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.10-08.40.58:229][761]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.10-08.40.58:229][761]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.10-08.40.58:229][761]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.10-08.40.58:229][761]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.10-08.40.58:230][761]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.10-08.40.58:230][761]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.10-08.40.58:248][761]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.10-08.40.58:248][761]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.40.58:248][761]LogAudioMixer: Display: Is Default: Yes
+[2021.03.10-08.40.58:248][761]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.10-08.40.58:248][761]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.10-08.40.58:248][761]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.10-08.40.58:248][761]LogAudioMixer: Display: Channel Order:
+[2021.03.10-08.40.58:248][761]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.10-08.40.58:248][761]LogAudioMixer: Display: 1: FrontRight
+[2021.03.10-08.40.58:265][761]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.40.58:267][761]LogInit: FAudioDevice initialized.
+[2021.03.10-08.40.58:323][761]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.40.58:323][761]LogLoad: Game class is 'BP_GameMode_C'
+[2021.03.10-08.40.58:328][761]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.03.10-09.40.58
+[2021.03.10-08.40.58:328][761]LogWorld: Bringing up level for play took: 0.004505
+[2021.03.10-08.40.58:328][761]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.03.10-08.40.58:336][761]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 0.883
+[2021.03.10-08.41.11:025][517]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.41.11:025][517]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.41.11:025][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.41.11:025][517]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.41.11:041][517]LogSlate: Window 'YDays_SurvivalEscape Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.03.10-08.41.11:046][517]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.41.11:047][517]LogWorld: UWorld::CleanupWorld for MAP_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-08.41.11:048][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.41.11:062][517]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.10-08.41.11:068][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.41.11:116][517]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.41.11:125][517]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2021.03.10-08.41.11:150][518]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.03.10-08.41.15:745][788]LogEditorViewport: Clicking on Actor (LMB): CH_Zombie_C (CH_Zombie2)
+[2021.03.10-08.41.21:128][ 44]LogEditorViewport: Clicking on Actor (LMB): CH_Zombie_C (CH_Zombie)
+[2021.03.10-08.41.23:901][182]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.10-08.41.23:924][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.10-08.41.23:924][182]PIE: New page: PIE session: MAP_Lvl1 (Mar 10, 2021, 10:41:23 AM)
+[2021.03.10-08.41.23:924][182]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.41.23:939][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015139s)
+[2021.03.10-08.41.23:940][182]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.03.10-08.41.23:940][182]LogPlayLevel: PIE: World Init took: (0.001002s)
+[2021.03.10-08.41.23:940][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.016321s)
+[2021.03.10-08.41.23:985][182]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2021.03.10-08.41.23:986][182]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.10-08.41.23:986][182]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.10-08.41.23:986][182]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.10-08.41.23:986][182]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.10-08.41.23:986][182]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.10-08.41.23:986][182]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.10-08.41.23:986][182]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.10-08.41.23:986][182]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.10-08.41.23:986][182]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.10-08.41.23:986][182]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.10-08.41.24:008][182]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.10-08.41.24:008][182]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.41.24:008][182]LogAudioMixer: Display: Is Default: Yes
+[2021.03.10-08.41.24:008][182]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.10-08.41.24:008][182]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.10-08.41.24:008][182]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.10-08.41.24:008][182]LogAudioMixer: Display: Channel Order:
+[2021.03.10-08.41.24:008][182]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.10-08.41.24:008][182]LogAudioMixer: Display: 1: FrontRight
+[2021.03.10-08.41.24:024][182]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.41.24:026][182]LogInit: FAudioDevice initialized.
+[2021.03.10-08.41.24:084][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.41.24:085][182]LogLoad: Game class is 'BP_GameMode_C'
+[2021.03.10-08.41.24:089][182]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.03.10-09.41.24
+[2021.03.10-08.41.24:090][182]LogWorld: Bringing up level for play took: 0.004485
+[2021.03.10-08.41.24:090][182]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.03.10-08.41.24:097][182]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 0.644
+[2021.03.10-08.41.25:908][269]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.41.25:908][269]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.41.25:909][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.41.25:909][269]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.41.25:923][269]LogSlate: Window 'YDays_SurvivalEscape Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.03.10-08.41.25:929][269]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.41.25:929][269]LogWorld: UWorld::CleanupWorld for MAP_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-08.41.25:930][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.41.25:945][269]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.10-08.41.25:953][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.41.26:003][269]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.41.26:010][269]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2021.03.10-08.41.26:037][270]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.03.10-08.41.30:340][519]LogEditorViewport: Clicking on Actor (LMB): CH_Zombie_C (CH_Zombie)
+[2021.03.10-08.41.59:666][159]BlueprintLog: New page: Compile CH_Zombie
+[2021.03.10-08.42.00:023][159]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2021.03.10-08.42.00:181][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset" SILENT=true
+[2021.03.10-08.42.00:211][163]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_ZombieCF33F00C42FDE265B33DD1AB3B7E2999.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset'
+[2021.03.10-08.42.00:228][163]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.03.10-08.42.00:229][163]LogContentValidation: Display: Validating Blueprint /Game/Enemies/CH_Zombie.CH_Zombie
+[2021.03.10-08.42.00:913][202]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.10-08.42.00:933][202]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.10-08.42.00:934][202]PIE: New page: PIE session: MAP_Lvl1 (Mar 10, 2021, 10:42:00 AM)
+[2021.03.10-08.42.00:934][202]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.42.00:945][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011021s)
+[2021.03.10-08.42.00:946][202]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.03.10-08.42.00:946][202]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2021.03.10-08.42.00:946][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.012202s)
+[2021.03.10-08.42.00:998][202]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2021.03.10-08.42.00:999][202]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.10-08.42.00:999][202]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.10-08.42.00:999][202]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.10-08.42.00:999][202]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.10-08.42.00:999][202]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.10-08.42.00:999][202]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.10-08.42.00:999][202]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.10-08.42.00:999][202]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.10-08.42.01:000][202]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.10-08.42.01:000][202]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.10-08.42.01:018][202]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.10-08.42.01:019][202]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.42.01:019][202]LogAudioMixer: Display: Is Default: Yes
+[2021.03.10-08.42.01:019][202]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.10-08.42.01:019][202]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.10-08.42.01:019][202]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.10-08.42.01:019][202]LogAudioMixer: Display: Channel Order:
+[2021.03.10-08.42.01:019][202]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.10-08.42.01:019][202]LogAudioMixer: Display: 1: FrontRight
+[2021.03.10-08.42.01:036][202]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.42.01:038][202]LogInit: FAudioDevice initialized.
+[2021.03.10-08.42.01:080][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.42.01:080][202]LogLoad: Game class is 'BP_GameMode_C'
+[2021.03.10-08.42.01:086][202]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.03.10-09.42.01
+[2021.03.10-08.42.01:086][202]LogWorld: Bringing up level for play took: 0.004718
+[2021.03.10-08.42.01:086][202]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.03.10-08.42.01:094][202]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 -0.36
+[2021.03.10-08.42.02:855][302]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.42.02:855][302]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.42.02:855][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.42.02:855][302]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.42.02:870][302]LogSlate: Window 'YDays_SurvivalEscape Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.03.10-08.42.02:878][302]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.42.02:880][302]LogWorld: UWorld::CleanupWorld for MAP_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-08.42.02:882][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.42.02:901][302]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.10-08.42.02:906][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.42.02:956][302]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.42.02:969][302]LogUObjectHash: Compacting FUObjectHashTables data took   5.50ms
+[2021.03.10-08.42.02:999][303]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.03.10-08.42.05:351][440]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2021.03.10-08.42.08:063][585]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.03.10-08.42.09:405][664]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.03.10-08.42.12:069][822]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.03.10-08.42.12:710][859]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.10-08.42.12:733][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.10-08.42.12:733][859]PIE: New page: PIE session: MAP_Lvl1 (Mar 10, 2021, 10:42:12 AM)
+[2021.03.10-08.42.12:733][859]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.42.12:746][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013395s)
+[2021.03.10-08.42.12:748][859]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.03.10-08.42.12:748][859]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2021.03.10-08.42.12:748][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.014873s)
+[2021.03.10-08.42.12:799][859]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2021.03.10-08.42.12:800][859]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.10-08.42.12:800][859]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.10-08.42.12:800][859]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.10-08.42.12:800][859]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.10-08.42.12:800][859]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.10-08.42.12:801][859]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.10-08.42.12:801][859]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.10-08.42.12:801][859]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.10-08.42.12:801][859]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.10-08.42.12:801][859]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.10-08.42.12:820][859]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.10-08.42.12:820][859]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.42.12:820][859]LogAudioMixer: Display: Is Default: Yes
+[2021.03.10-08.42.12:820][859]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.10-08.42.12:820][859]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.10-08.42.12:820][859]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.10-08.42.12:820][859]LogAudioMixer: Display: Channel Order:
+[2021.03.10-08.42.12:820][859]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.10-08.42.12:820][859]LogAudioMixer: Display: 1: FrontRight
+[2021.03.10-08.42.12:836][859]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.42.12:837][859]LogInit: FAudioDevice initialized.
+[2021.03.10-08.42.12:898][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.42.12:898][859]LogLoad: Game class is 'BP_GameMode_C'
+[2021.03.10-08.42.12:903][859]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.03.10-09.42.12
+[2021.03.10-08.42.12:904][859]LogWorld: Bringing up level for play took: 0.005177
+[2021.03.10-08.42.12:904][859]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.03.10-08.42.12:914][859]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 -0.54
+[2021.03.10-08.42.14:036][922]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.42.14:036][922]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.42.14:036][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.42.14:036][922]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.42.14:051][922]LogSlate: Window 'YDays_SurvivalEscape Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.03.10-08.42.14:057][922]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.42.14:058][922]LogWorld: UWorld::CleanupWorld for MAP_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-08.42.14:061][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.42.14:072][922]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.10-08.42.14:077][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.42.14:130][922]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.42.14:140][922]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2021.03.10-08.42.14:170][923]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.03.10-08.42.15:338][991]LogEditorViewport: Clicking on Actor (LMB): CH_Zombie_C (CH_Zombie3)
+[2021.03.10-08.42.15:932][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2021.03.10-08.42.16:850][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2021.03.10-08.42.42:297][542]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/CH_player.CH_player
+[2021.03.10-08.42.47:050][773]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2021.03.10-08.42.56:239][773]LogSlate: Window 'Replace References?' being destroyed
+[2021.03.10-08.42.56:246][773]LogSlate: Window 'Delete Assets' being destroyed
+[2021.03.10-08.42.56:275][773]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-08.42.56:276][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.42.56:351][773]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.03.10-08.42.56:351][773]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-08.42.56:351][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.42.56:427][773]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.03.10-08.42.56:427][773]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-08.42.56:427][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.42.56:495][773]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.03.10-08.42.56:495][773]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-08.42.56:496][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.42.57:793][773]LogUObjectHash: Compacting FUObjectHashTables data took   6.49ms
+[2021.03.10-08.42.58:267][773]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2021.03.10-08.42.59:430][773]LogSlate: Window 'Critical Failure to Consolidate Assets' being destroyed
+[2021.03.10-08.43.05:876][138]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemies/CH_Zombie.CH_Zombie
+[2021.03.10-08.43.07:544][206]LogSlate: Window 'CH_Zombie' being destroyed
+[2021.03.10-08.43.11:494][434]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/CH_player.CH_player
+[2021.03.10-08.45.34:087][959]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.10-08.45.34:112][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.10-08.45.34:112][959]PIE: New page: PIE session: MAP_Lvl1 (Mar 10, 2021, 10:45:34 AM)
+[2021.03.10-08.45.34:112][959]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.45.34:124][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012333s)
+[2021.03.10-08.45.34:125][959]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.03.10-08.45.34:125][959]LogPlayLevel: PIE: World Init took: (0.001193s)
+[2021.03.10-08.45.34:125][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.013662s)
+[2021.03.10-08.45.34:165][959]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2021.03.10-08.45.34:167][959]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.10-08.45.34:167][959]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.10-08.45.34:167][959]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.10-08.45.34:167][959]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.10-08.45.34:167][959]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.10-08.45.34:167][959]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.10-08.45.34:167][959]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.10-08.45.34:167][959]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.10-08.45.34:168][959]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.10-08.45.34:168][959]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.10-08.45.34:187][959]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.10-08.45.34:187][959]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.45.34:187][959]LogAudioMixer: Display: Is Default: Yes
+[2021.03.10-08.45.34:187][959]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.10-08.45.34:187][959]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.10-08.45.34:187][959]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.10-08.45.34:187][959]LogAudioMixer: Display: Channel Order:
+[2021.03.10-08.45.34:187][959]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.10-08.45.34:188][959]LogAudioMixer: Display: 1: FrontRight
+[2021.03.10-08.45.34:206][959]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.45.34:207][959]LogInit: FAudioDevice initialized.
+[2021.03.10-08.45.34:253][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.45.34:254][959]LogLoad: Game class is 'BP_GameMode_C'
+[2021.03.10-08.45.34:260][959]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.03.10-09.45.34
+[2021.03.10-08.45.34:261][959]LogWorld: Bringing up level for play took: 0.006287
+[2021.03.10-08.45.34:261][959]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2021.03.10-08.45.34:270][959]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 0.816
+[2021.03.10-08.45.35:396][ 20]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.45.35:401][ 20]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2021.03.10-08.45.35:421][ 20]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2021.03.10-08.45.35:421][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.45.35:421][ 20]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.45.35:437][ 20]LogSlate: Window 'YDays_SurvivalEscape Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.03.10-08.45.35:442][ 20]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.45.35:442][ 20]LogWorld: UWorld::CleanupWorld for MAP_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-08.45.35:443][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.45.35:459][ 20]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.10-08.45.35:465][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.45.35:508][ 20]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.45.35:524][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.03.10-08.45.35:543][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2021.03.10-08.46.02:232][560]BlueprintLog: New page: Compile CH_Zombie
+[2021.03.10-08.46.02:510][560]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2021.03.10-08.46.02:849][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset" SILENT=true
+[2021.03.10-08.46.02:885][575]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_Zombie5AF02B0F4432F9F9E272CCBCCFC8DFF3.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset'
+[2021.03.10-08.46.02:898][575]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.03.10-08.46.02:899][575]LogContentValidation: Display: Validating Blueprint /Game/Enemies/CH_Zombie.CH_Zombie
+[2021.03.10-08.48.02:899][752]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.10-08.49.06:843][544]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2021.03.10-08.49.06:844][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Lvl1" FILE="../../../../../Projects/YDays_SurvivalEscape/Saved/Autosaves/Game/Maps/MAP_Lvl1_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.03.10-08.49.06:912][544]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/MAP_Lvl1_Auto4B9BF1A004C5B0AAF40ACC3B331522892.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Saved/Autosaves/Game/Maps/MAP_Lvl1_Auto4.umap'
+[2021.03.10-08.49.06:914][544]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MAP_Lvl1' took 0.112
+[2021.03.10-08.49.06:914][544]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.112
+[2021.03.10-08.49.06:914][544]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/ammos/BP_Ammo] ([1] browsable assets)...
+[2021.03.10-08.49.06:925][544]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/ammos/BP_Ammo.BP_Ammo]
+[2021.03.10-08.49.06:925][544]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/ammos/BP_Ammo]
+[2021.03.10-08.49.06:925][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/ammos/BP_Ammo" FILE="../../../../../Projects/YDays_SurvivalEscape/Saved/Autosaves/Game/Player/ammos/BP_Ammo_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2021.03.10-08.49.06:965][544]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/BP_Ammo_Auto4CADA5F7847C479480505459C224CD23A.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Saved/Autosaves/Game/Player/ammos/BP_Ammo_Auto4.uasset'
+[2021.03.10-08.49.06:966][544]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemies/BP_Zombie] ([3] browsable assets)...
+[2021.03.10-08.49.06:966][544]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/BP_Zombie]
+[2021.03.10-08.49.06:966][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Saved/Autosaves/Game/Enemies/BP_Zombie_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2021.03.10-08.49.06:992][544]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/BP_Zombie_Auto42EA980D24EB193B413F9A9A9E6B9D0C6.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Saved/Autosaves/Game/Enemies/BP_Zombie_Auto4.uasset'
+[2021.03.10-08.49.06:993][544]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemies/CH_Zombie] ([1] browsable assets)...
+[2021.03.10-08.49.07:004][544]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemies/CH_Zombie.CH_Zombie]
+[2021.03.10-08.49.07:004][544]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/CH_Zombie]
+[2021.03.10-08.49.07:004][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Saved/Autosaves/Game/Enemies/CH_Zombie_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2021.03.10-08.49.07:034][544]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_Zombie_Auto43C13C1A244270D734F49789925F649AF.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Saved/Autosaves/Game/Enemies/CH_Zombie_Auto4.uasset'
+[2021.03.10-08.49.07:035][544]LogFileHelpers: Auto-saving content packages took 0.120
+[2021.03.10-08.51.10:524][951]BlueprintLog: New page: Compile CH_Zombie
+[2021.03.10-08.51.10:752][951]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.03.10-08.51.11:143][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/CH_Zombie" FILE="../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset" SILENT=true
+[2021.03.10-08.51.11:181][969]LogSavePackage: Moving '../../../../../Projects/YDays_SurvivalEscape/Saved/CH_Zombie527793064618EF8AD8D20F8E9524D47D.tmp' to '../../../../../Projects/YDays_SurvivalEscape/Content/Enemies/CH_Zombie.uasset'
+[2021.03.10-08.51.11:202][969]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.03.10-08.51.11:202][969]LogContentValidation: Display: Validating Blueprint /Game/Enemies/CH_Zombie.CH_Zombie
+[2021.03.10-08.51.12:156][ 23]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.10-08.51.12:179][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.10-08.51.12:179][ 23]PIE: New page: PIE session: MAP_Lvl1 (Mar 10, 2021, 10:51:12 AM)
+[2021.03.10-08.51.12:179][ 23]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.51.12:190][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010509s)
+[2021.03.10-08.51.12:191][ 23]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.03.10-08.51.12:191][ 23]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2021.03.10-08.51.12:191][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.011728s)
+[2021.03.10-08.51.12:232][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2021.03.10-08.51.12:233][ 23]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.10-08.51.12:233][ 23]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.10-08.51.12:233][ 23]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.10-08.51.12:233][ 23]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.10-08.51.12:233][ 23]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.10-08.51.12:233][ 23]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.10-08.51.12:233][ 23]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.10-08.51.12:233][ 23]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.10-08.51.12:233][ 23]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.10-08.51.12:233][ 23]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.10-08.51.12:253][ 23]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.10-08.51.12:253][ 23]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.51.12:253][ 23]LogAudioMixer: Display: Is Default: Yes
+[2021.03.10-08.51.12:253][ 23]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.10-08.51.12:253][ 23]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.10-08.51.12:253][ 23]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.10-08.51.12:253][ 23]LogAudioMixer: Display: Channel Order:
+[2021.03.10-08.51.12:253][ 23]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.10-08.51.12:253][ 23]LogAudioMixer: Display: 1: FrontRight
+[2021.03.10-08.51.12:271][ 23]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.51.12:272][ 23]LogInit: FAudioDevice initialized.
+[2021.03.10-08.51.12:326][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.51.12:326][ 23]LogLoad: Game class is 'BP_GameMode_C'
+[2021.03.10-08.51.12:332][ 23]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.03.10-09.51.12
+[2021.03.10-08.51.12:332][ 23]LogWorld: Bringing up level for play took: 0.005046
+[2021.03.10-08.51.12:332][ 23]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2021.03.10-08.51.12:340][ 23]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 0.887
+[2021.03.10-08.51.20:877][527]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.51.20:878][527]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.51.20:878][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.51.20:878][527]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.51.20:896][527]LogSlate: Window 'YDays_SurvivalEscape Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.03.10-08.51.20:900][527]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.51.20:901][527]LogWorld: UWorld::CleanupWorld for MAP_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2021.03.10-08.51.20:903][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.51.20:918][527]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.10-08.51.20:925][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.10-08.51.20:968][527]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.03.10-08.51.20:979][527]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.03.10-08.51.21:009][528]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2021.03.10-08.51.23:039][645]LogEditorViewport: Clicking on Actor (LMB): CH_Zombie_C (CH_Zombie3)
+[2021.03.10-08.51.27:042][878]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.10-08.51.27:065][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.10-08.51.27:065][878]PIE: New page: PIE session: MAP_Lvl1 (Mar 10, 2021, 10:51:27 AM)
+[2021.03.10-08.51.27:065][878]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.03.10-08.51.27:077][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012126s)
+[2021.03.10-08.51.27:078][878]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.03.10-08.51.27:079][878]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2021.03.10-08.51.27:079][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.013305s)
+[2021.03.10-08.51.27:118][878]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.03.10-08.51.27:122][878]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.10-08.51.27:122][878]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.10-08.51.27:122][878]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.10-08.51.27:122][878]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.10-08.51.27:122][878]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.10-08.51.27:122][878]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.10-08.51.27:122][878]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.10-08.51.27:122][878]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.10-08.51.27:123][878]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.10-08.51.27:123][878]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.10-08.51.27:143][878]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.03.10-08.51.27:143][878]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.51.27:143][878]LogAudioMixer: Display: Is Default: Yes
+[2021.03.10-08.51.27:143][878]LogAudioMixer: Display: Sample Rate: 48000
+[2021.03.10-08.51.27:143][878]LogAudioMixer: Display: Channel Count Used: 2
+[2021.03.10-08.51.27:143][878]LogAudioMixer: Display: Device Channel Count: 2
+[2021.03.10-08.51.27:143][878]LogAudioMixer: Display: Channel Order:
+[2021.03.10-08.51.27:143][878]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.10-08.51.27:143][878]LogAudioMixer: Display: 1: FrontRight
+[2021.03.10-08.51.27:159][878]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.03.10-08.51.27:160][878]LogInit: FAudioDevice initialized.
+[2021.03.10-08.51.27:209][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.10-08.51.27:210][878]LogLoad: Game class is 'BP_GameMode_C'
+[2021.03.10-08.51.27:215][878]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.03.10-09.51.27
+[2021.03.10-08.51.27:215][878]LogWorld: Bringing up level for play took: 0.004764
+[2021.03.10-08.51.27:215][878]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.03.10-08.51.27:223][878]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 -0.23
+[2021.03.10-08.51.36:889][438]LogOutputDevice: Warning: 
+
+Script Stack (2 frames):
+BP_Ammo_C.ExecuteUbergraph_BP_Ammo
+BP_Ammo_C.ReceiveHit
+
+[2021.03.10-08.51.36:890][438]LogWindows: Windows GetLastError: The operation completed successfully. (0)
