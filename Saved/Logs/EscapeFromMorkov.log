@@ -620,3 +620,56 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.04.07-17.18.41:959][605]LogSlate: Window 'Char_AI' being destroyed
 [2021.04.07-17.18.41:973][605]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
 [2021.04.07-17.18.41:973][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-17.21.26:901][829]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.04.07-17.21.30:826][ 56]LogAssetEditorSubsystem: Opening Asset editor for World /Game/_old/Maps/MAP_Lvl1.MAP_Lvl1
+[2021.04.07-17.21.30:872][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2021.04.07-17.21.30:875][ 56]Cmd: MAP LOAD FILE="D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/_old/Maps/MAP_Lvl1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.07-17.21.30:875][ 56]LightingResults: New page: Lighting Build
+[2021.04.07-17.21.30:876][ 56]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
+[2021.04.07-17.21.30:877][ 56]LoadErrors: New page: Loading map: MAP_Lvl1.umap
+[2021.04.07-17.21.30:877][ 56]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-17.21.30:877][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-17.21.30:877][ 56]MapCheck: New page: Map Check
+[2021.04.07-17.21.30:877][ 56]LightingResults: New page: Lighting Build
+[2021.04.07-17.21.30:907][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.04.07-17.21.31:027][ 56]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.07-17.21.31:060][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.04.07-17.21.31:073][ 56]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.07-17.21.31:074][ 56]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.139ms to complete.
+[2021.04.07-17.21.31:074][ 56]LogFileHelpers: Loading map 'MAP_Lvl1' took 0.199
+[2021.04.07-17.21.34:379][214]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.04.07-17.21.34:381][214]LogMetaData: Removing '/Game/Maps/Speedrun/MAP_Lvl1.MAP_Lvl1_C' ref from Metadata '/Game/_old/Maps/MAP_Lvl1.PackageMetaData'
+[2021.04.07-17.21.34:382][214]LogMetaData: Removing '/Game/Maps/Speedrun/MAP_Lvl1.SKEL_MAP_Lvl1_C' ref from Metadata '/Game/_old/Maps/MAP_Lvl1.PackageMetaData'
+[2021.04.07-17.21.34:461][214]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/MAP_Lvl1_BuiltData2ED15E404ACBD6177C38DAA1C06274B6.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Maps/Speedrun/MAP_Lvl1_BuiltData.uasset'
+[2021.04.07-17.21.34:511][214]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.04.07-17.21.34:688][214]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/MAP_Lvl171080C5E4CD41A19D07B10BAEA6BA748.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Maps/Speedrun/MAP_Lvl1.umap'
+[2021.04.07-17.21.34:701][214]LogFileHelpers: Saving map 'MAP_Lvl1' took 0.239
+[2021.04.07-17.21.34:931][214]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.04.07-17.21.34:956][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2021.04.07-17.21.34:988][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.04.07-17.21.35:014][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.04.07-17.21.35:057][214]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.07-17.21.35:057][214]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Speedrun/MAP_Lvl1_BuiltData.MAP_Lvl1_BuiltData
+[2021.04.07-17.21.35:057][214]LogContentValidation: Display: Validating World /Game/Maps/Speedrun/MAP_Lvl1.MAP_Lvl1
+[2021.04.07-17.21.54:748][354]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2021.04.07-17.21.54:750][354]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/TST_Loic4201BA28442E5BB9D955B49143C1234E.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Maps/Debug/TST_Loic.umap'
+[2021.04.07-17.21.54:751][354]LogFileHelpers: Saving map 'TST_Loic' took 0.065
+[2021.04.07-17.21.54:766][354]AssetCheck: New page: Asset Save: TST_Loic
+[2021.04.07-17.21.54:766][354]LogContentValidation: Display: Validating World /Game/Maps/Debug/TST_Loic.TST_Loic
+[2021.04.07-17.22.00:670][696]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.04.07-17.22.00:674][696]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/TST_Cesar6D4FA64043E427665F0908B1DD7A3810.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Maps/Debug/TST_Cesar.umap'
+[2021.04.07-17.22.00:674][696]LogFileHelpers: Saving map 'TST_Cesar' took 0.037
+[2021.04.07-17.22.00:688][696]AssetCheck: New page: Asset Save: TST_Cesar
+[2021.04.07-17.22.00:688][696]LogContentValidation: Display: Validating World /Game/Maps/Debug/TST_Cesar.TST_Cesar
+[2021.04.07-17.22.17:778][700]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.04.07-17.22.17:781][700]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Map_GameMenuFD3D4B4742C155998FBBD191FC78B3CD.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Maps/GameMenu/Map_GameMenu.umap'
+[2021.04.07-17.22.17:782][700]LogFileHelpers: Saving map 'Map_GameMenu' took 0.032
+[2021.04.07-17.22.17:796][700]AssetCheck: New page: Asset Save: Map_GameMenu
+[2021.04.07-17.22.17:796][700]LogContentValidation: Display: Validating World /Game/Maps/GameMenu/Map_GameMenu.Map_GameMenu
+[2021.04.07-17.22.31:507][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/toto" FILE="D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Resources/toto.uasset" SILENT=true
+[2021.04.07-17.22.31:515][499]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/totoDDAAA73E4E4D682E70ECC9BDEE5EEDE1.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Resources/toto.uasset'
+[2021.04.07-17.22.31:690][499]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.04.07-17.22.31:730][499]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.04.07-17.22.31:759][499]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.04.07-17.22.31:800][499]AssetCheck: New page: Asset Save: toto
+[2021.04.07-17.22.31:800][499]LogContentValidation: Display: Validating Material /Game/Resources/toto.toto
