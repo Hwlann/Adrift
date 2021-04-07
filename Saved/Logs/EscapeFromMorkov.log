@@ -971,3 +971,263 @@ v 1.0.1
 [2021.04.07-08.49.32:028][176]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/CH_playerBEB338A24D37D95C199642834B4E3215.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Content/Player/CH_player.uasset'
 [2021.04.07-08.49.32:048][176]AssetCheck: New page: Asset Save: CH_player
 [2021.04.07-08.49.32:049][176]LogContentValidation: Display: Validating Blueprint /Game/Player/CH_player.CH_player
+[2021.04.07-08.50.06:879][135]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.04.07-08.50.06:900][135]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1' with GeneratedClass '/Game/Maps/MAP_Lvl1.MAP_Lvl1_C' with ClassGeneratedBy '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1'
+[2021.04.07-08.50.06:900][135]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.04.07-08.50.06:912][135]LogPlayLevel: [PlayLevel] Compiling CH_player before play...
+[2021.04.07-08.50.07:308][135]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2021.04.07-08.50.07:309][135]LogPlayLevel: PlayLevel: Blueprint regeneration took 408 ms (1 blueprints)
+[2021.04.07-08.50.07:309][135]PIE: New page: PIE session: MAP_Lvl1 (Apr 7, 2021, 12:50:07 PM)
+[2021.04.07-08.50.07:309][135]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.04.07-08.50.07:319][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011124s)
+[2021.04.07-08.50.07:321][135]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.04.07-08.50.07:321][135]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2021.04.07-08.50.07:321][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.012282s)
+[2021.04.07-08.50.07:363][135]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.04.07-08.50.07:363][135]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.07-08.50.07:363][135]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.07-08.50.07:363][135]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.07-08.50.07:363][135]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.07-08.50.07:363][135]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.07-08.50.07:363][135]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.07-08.50.07:363][135]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.07-08.50.07:363][135]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.07-08.50.07:364][135]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.07-08.50.07:364][135]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.07-08.50.07:376][135]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.04.07-08.50.07:377][135]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.04.07-08.50.07:377][135]LogAudioMixer: Display: Is Default: Yes
+[2021.04.07-08.50.07:377][135]LogAudioMixer: Display: Sample Rate: 48000
+[2021.04.07-08.50.07:377][135]LogAudioMixer: Display: Channel Count Used: 2
+[2021.04.07-08.50.07:377][135]LogAudioMixer: Display: Device Channel Count: 2
+[2021.04.07-08.50.07:377][135]LogAudioMixer: Display: Channel Order:
+[2021.04.07-08.50.07:377][135]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.07-08.50.07:377][135]LogAudioMixer: Display: 1: FrontRight
+[2021.04.07-08.50.07:392][135]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.04.07-08.50.07:393][135]LogInit: FAudioDevice initialized.
+[2021.04.07-08.50.07:446][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-08.50.07:446][135]LogLoad: Game class is 'BP_GameMode_C'
+[2021.04.07-08.50.07:450][135]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.04.07-10.50.07
+[2021.04.07-08.50.07:450][135]LogWorld: Bringing up level for play took: 0.004268
+[2021.04.07-08.50.07:451][135]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.04.07-08.50.07:456][135]LogVaRest: UVaRestRequestJSON::ProcessRequest(346): Request (urlencoded): GET http://lortetcesar.fr/api/version (check bExtendedLog for additional data)
+[2021.04.07-08.50.07:456][135]LogBlueprintUserMessages: [CH_player_C_0] UNVALID TOKEN : 
+[2021.04.07-08.50.07:458][135]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 1.194
+[2021.04.07-08.50.07:458][135]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1' with GeneratedClass '/Game/Maps/MAP_Lvl1.MAP_Lvl1_C' with ClassGeneratedBy '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1'
+[2021.04.07-08.50.07:578][137]LogVaRest: Response (200): 
+JSON(
+v 1.0.1
+)JSON
+[2021.04.07-08.50.17:216][715]LogBlueprintUserMessages: [BP_Checkpoint_2] Checkpoint Activate
+[2021.04.07-08.50.26:719][283]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.04.07-08.50.26:740][283]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2021.04.07-08.50.26:769][283]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2021.04.07-08.50.26:769][283]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1' with GeneratedClass '/Game/Maps/MAP_Lvl1.MAP_Lvl1_C' with ClassGeneratedBy '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1'
+[2021.04.07-08.50.26:769][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-08.50.26:769][283]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.04.07-08.50.26:776][283]LogSlate: Window '{GameName} Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.04.07-08.50.26:785][283]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.04.07-08.50.26:785][283]LogWorld: UWorld::CleanupWorld for MAP_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-08.50.26:786][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-08.50.26:793][283]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.07-08.50.26:793][283]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1' with GeneratedClass '/Game/Maps/MAP_Lvl1.MAP_Lvl1_C' with ClassGeneratedBy '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1'
+[2021.04.07-08.50.26:800][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-08.50.26:845][283]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.04.07-08.50.26:854][283]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2021.04.07-08.50.26:878][284]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.04.07-08.50.35:729][801]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.04.07-08.50.35:750][801]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1' with GeneratedClass '/Game/Maps/MAP_Lvl1.MAP_Lvl1_C' with ClassGeneratedBy '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1'
+[2021.04.07-08.50.35:750][801]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.04.07-08.50.35:763][801]LogPlayLevel: [PlayLevel] Compiling CH_player before play...
+[2021.04.07-08.50.36:151][801]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2021.04.07-08.50.36:151][801]LogPlayLevel: PlayLevel: Blueprint regeneration took 401 ms (1 blueprints)
+[2021.04.07-08.50.36:151][801]PIE: New page: PIE session: MAP_Lvl1 (Apr 7, 2021, 12:50:36 PM)
+[2021.04.07-08.50.36:152][801]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.04.07-08.50.36:162][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011052s)
+[2021.04.07-08.50.36:163][801]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.04.07-08.50.36:163][801]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2021.04.07-08.50.36:163][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.012260s)
+[2021.04.07-08.50.36:209][801]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.04.07-08.50.36:210][801]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.07-08.50.36:210][801]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.07-08.50.36:210][801]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.07-08.50.36:210][801]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.07-08.50.36:210][801]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.07-08.50.36:210][801]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.07-08.50.36:210][801]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.07-08.50.36:210][801]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.07-08.50.36:211][801]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.07-08.50.36:211][801]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.07-08.50.36:224][801]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.04.07-08.50.36:224][801]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.04.07-08.50.36:224][801]LogAudioMixer: Display: Is Default: Yes
+[2021.04.07-08.50.36:224][801]LogAudioMixer: Display: Sample Rate: 48000
+[2021.04.07-08.50.36:224][801]LogAudioMixer: Display: Channel Count Used: 2
+[2021.04.07-08.50.36:224][801]LogAudioMixer: Display: Device Channel Count: 2
+[2021.04.07-08.50.36:224][801]LogAudioMixer: Display: Channel Order:
+[2021.04.07-08.50.36:224][801]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.07-08.50.36:224][801]LogAudioMixer: Display: 1: FrontRight
+[2021.04.07-08.50.36:239][801]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.04.07-08.50.36:240][801]LogInit: FAudioDevice initialized.
+[2021.04.07-08.50.36:293][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-08.50.36:293][801]LogLoad: Game class is 'BP_GameMode_C'
+[2021.04.07-08.50.36:298][801]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.04.07-10.50.36
+[2021.04.07-08.50.36:298][801]LogWorld: Bringing up level for play took: 0.004526
+[2021.04.07-08.50.36:299][801]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.04.07-08.50.36:305][801]LogVaRest: UVaRestRequestJSON::ProcessRequest(346): Request (urlencoded): GET http://lortetcesar.fr/api/version (check bExtendedLog for additional data)
+[2021.04.07-08.50.36:305][801]LogBlueprintUserMessages: [CH_player_C_0] UNVALID TOKEN : 
+[2021.04.07-08.50.36:307][801]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 0.043
+[2021.04.07-08.50.36:307][801]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1' with GeneratedClass '/Game/Maps/MAP_Lvl1.MAP_Lvl1_C' with ClassGeneratedBy '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1'
+[2021.04.07-08.50.36:400][802]LogVaRest: Response (200): 
+JSON(
+v 1.0.1
+)JSON
+[2021.04.07-08.50.39:835][  2]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.04.07-08.50.39:849][  2]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2021.04.07-08.50.39:869][  2]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2021.04.07-08.50.39:869][  2]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1' with GeneratedClass '/Game/Maps/MAP_Lvl1.MAP_Lvl1_C' with ClassGeneratedBy '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1'
+[2021.04.07-08.50.39:869][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-08.50.39:869][  2]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.04.07-08.50.39:876][  2]LogSlate: Window '{GameName} Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.04.07-08.50.39:884][  2]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.04.07-08.50.39:884][  2]LogWorld: UWorld::CleanupWorld for MAP_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-08.50.39:885][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-08.50.39:893][  2]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.07-08.50.39:893][  2]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1' with GeneratedClass '/Game/Maps/MAP_Lvl1.MAP_Lvl1_C' with ClassGeneratedBy '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1'
+[2021.04.07-08.50.39:899][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-08.50.39:946][  2]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.04.07-08.50.39:961][  2]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2021.04.07-08.50.39:982][  3]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.04.07-08.50.44:740][277]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.04.07-08.50.44:760][277]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1' with GeneratedClass '/Game/Maps/MAP_Lvl1.MAP_Lvl1_C' with ClassGeneratedBy '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1'
+[2021.04.07-08.50.44:760][277]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.04.07-08.50.44:773][277]LogPlayLevel: [PlayLevel] Compiling CH_player before play...
+[2021.04.07-08.50.45:160][277]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2021.04.07-08.50.45:161][277]LogPlayLevel: PlayLevel: Blueprint regeneration took 400 ms (1 blueprints)
+[2021.04.07-08.50.45:161][277]PIE: New page: PIE session: MAP_Lvl1 (Apr 7, 2021, 12:50:45 PM)
+[2021.04.07-08.50.45:161][277]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.04.07-08.50.45:172][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010906s)
+[2021.04.07-08.50.45:173][277]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.04.07-08.50.45:173][277]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2021.04.07-08.50.45:173][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.012009s)
+[2021.04.07-08.50.45:216][277]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.04.07-08.50.45:218][277]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.07-08.50.45:218][277]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.07-08.50.45:218][277]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.07-08.50.45:218][277]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.07-08.50.45:218][277]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.07-08.50.45:218][277]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.07-08.50.45:218][277]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.07-08.50.45:218][277]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.07-08.50.45:218][277]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.07-08.50.45:218][277]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.07-08.50.45:231][277]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.04.07-08.50.45:231][277]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.04.07-08.50.45:231][277]LogAudioMixer: Display: Is Default: Yes
+[2021.04.07-08.50.45:231][277]LogAudioMixer: Display: Sample Rate: 48000
+[2021.04.07-08.50.45:231][277]LogAudioMixer: Display: Channel Count Used: 2
+[2021.04.07-08.50.45:231][277]LogAudioMixer: Display: Device Channel Count: 2
+[2021.04.07-08.50.45:231][277]LogAudioMixer: Display: Channel Order:
+[2021.04.07-08.50.45:231][277]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.07-08.50.45:231][277]LogAudioMixer: Display: 1: FrontRight
+[2021.04.07-08.50.45:246][277]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.04.07-08.50.45:248][277]LogInit: FAudioDevice initialized.
+[2021.04.07-08.50.45:308][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-08.50.45:308][277]LogLoad: Game class is 'BP_GameMode_C'
+[2021.04.07-08.50.45:313][277]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.04.07-10.50.45
+[2021.04.07-08.50.45:313][277]LogWorld: Bringing up level for play took: 0.005116
+[2021.04.07-08.50.45:313][277]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.04.07-08.50.45:319][277]LogVaRest: UVaRestRequestJSON::ProcessRequest(346): Request (urlencoded): GET http://lortetcesar.fr/api/version (check bExtendedLog for additional data)
+[2021.04.07-08.50.45:321][277]LogBlueprintUserMessages: [CH_player_C_0] UNVALID TOKEN : 
+[2021.04.07-08.50.45:321][277]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 1.058
+[2021.04.07-08.50.45:322][277]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1' with GeneratedClass '/Game/Maps/MAP_Lvl1.MAP_Lvl1_C' with ClassGeneratedBy '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1'
+[2021.04.07-08.50.45:412][278]LogVaRest: Response (200): 
+JSON(
+v 1.0.1
+)JSON
+[2021.04.07-08.50.53:393][756]LogBlueprintUserMessages: [BP_Checkpoint_2] Checkpoint Activate
+[2021.04.07-08.51.05:727][496]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.04.07-08.51.05:749][496]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2021.04.07-08.51.05:769][496]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2021.04.07-08.51.05:769][496]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1' with GeneratedClass '/Game/Maps/MAP_Lvl1.MAP_Lvl1_C' with ClassGeneratedBy '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1'
+[2021.04.07-08.51.05:769][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-08.51.05:769][496]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.04.07-08.51.05:775][496]LogSlate: Window '{GameName} Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.04.07-08.51.05:783][496]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.04.07-08.51.05:784][496]LogWorld: UWorld::CleanupWorld for MAP_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-08.51.05:787][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-08.51.05:794][496]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.07-08.51.05:795][496]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1' with GeneratedClass '/Game/Maps/MAP_Lvl1.MAP_Lvl1_C' with ClassGeneratedBy '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1'
+[2021.04.07-08.51.05:801][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-08.51.05:847][496]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.04.07-08.51.05:856][496]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2021.04.07-08.51.05:880][497]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.04.07-08.51.13:957][884]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.04.07-08.51.13:977][884]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1' with GeneratedClass '/Game/Maps/MAP_Lvl1.MAP_Lvl1_C' with ClassGeneratedBy '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1'
+[2021.04.07-08.51.13:978][884]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.04.07-08.51.13:990][884]LogPlayLevel: [PlayLevel] Compiling CH_player before play...
+[2021.04.07-08.51.14:492][884]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2021.04.07-08.51.14:494][884]LogPlayLevel: PlayLevel: Blueprint regeneration took 516 ms (1 blueprints)
+[2021.04.07-08.51.14:494][884]PIE: New page: PIE session: MAP_Lvl1 (Apr 7, 2021, 12:51:14 PM)
+[2021.04.07-08.51.14:494][884]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.04.07-08.51.14:505][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011060s)
+[2021.04.07-08.51.14:506][884]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.04.07-08.51.14:506][884]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2021.04.07-08.51.14:506][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Lvl1.MAP_Lvl1 to /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 (0.012137s)
+[2021.04.07-08.51.14:550][884]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.04.07-08.51.14:551][884]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.07-08.51.14:551][884]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.07-08.51.14:551][884]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.07-08.51.14:552][884]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.07-08.51.14:552][884]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.07-08.51.14:552][884]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.07-08.51.14:552][884]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.07-08.51.14:552][884]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.07-08.51.14:552][884]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.07-08.51.14:552][884]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.07-08.51.14:565][884]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.04.07-08.51.14:565][884]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.04.07-08.51.14:565][884]LogAudioMixer: Display: Is Default: Yes
+[2021.04.07-08.51.14:565][884]LogAudioMixer: Display: Sample Rate: 48000
+[2021.04.07-08.51.14:565][884]LogAudioMixer: Display: Channel Count Used: 2
+[2021.04.07-08.51.14:565][884]LogAudioMixer: Display: Device Channel Count: 2
+[2021.04.07-08.51.14:565][884]LogAudioMixer: Display: Channel Order:
+[2021.04.07-08.51.14:565][884]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.07-08.51.14:565][884]LogAudioMixer: Display: 1: FrontRight
+[2021.04.07-08.51.14:580][884]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.04.07-08.51.14:582][884]LogInit: FAudioDevice initialized.
+[2021.04.07-08.51.14:637][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-08.51.14:637][884]LogLoad: Game class is 'BP_GameMode_C'
+[2021.04.07-08.51.14:642][884]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Lvl1.MAP_Lvl1 up for play (max tick rate 60) at 2021.04.07-10.51.14
+[2021.04.07-08.51.14:642][884]LogWorld: Bringing up level for play took: 0.004273
+[2021.04.07-08.51.14:642][884]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.04.07-08.51.14:649][884]LogVaRest: UVaRestRequestJSON::ProcessRequest(346): Request (urlencoded): GET http://lortetcesar.fr/api/version (check bExtendedLog for additional data)
+[2021.04.07-08.51.14:649][884]LogBlueprintUserMessages: [CH_player_C_0] UNVALID TOKEN : 
+[2021.04.07-08.51.14:650][884]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MAP_Lvl1 0.386
+[2021.04.07-08.51.14:651][884]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1' with GeneratedClass '/Game/Maps/MAP_Lvl1.MAP_Lvl1_C' with ClassGeneratedBy '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1'
+[2021.04.07-08.51.14:742][885]LogVaRest: Response (200): 
+JSON(
+v 1.0.1
+)JSON
+[2021.04.07-08.51.23:269][396]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.04.07-08.51.23:289][396]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2021.04.07-08.51.23:309][396]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2021.04.07-08.51.23:309][396]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1' with GeneratedClass '/Game/Maps/MAP_Lvl1.MAP_Lvl1_C' with ClassGeneratedBy '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1'
+[2021.04.07-08.51.23:309][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-08.51.23:309][396]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Lvl1
+[2021.04.07-08.51.23:316][396]LogSlate: Window '{GameName} Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.04.07-08.51.23:325][396]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.04.07-08.51.23:325][396]LogWorld: UWorld::CleanupWorld for MAP_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-08.51.23:326][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-08.51.23:334][396]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.07-08.51.23:334][396]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1' with GeneratedClass '/Game/Maps/MAP_Lvl1.MAP_Lvl1_C' with ClassGeneratedBy '/Game/Maps/MAP_Lvl1.MAP_Lvl1:PersistentLevel.MAP_Lvl1'
+[2021.04.07-08.51.23:342][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-08.51.23:390][396]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.04.07-08.51.23:401][396]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2021.04.07-08.51.23:424][397]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.04.07-08.51.26:684][579]BlueprintLog: New page: Compile CH_player
+[2021.04.07-08.51.27:027][579]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2021.04.07-08.51.27:451][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/CH_player" FILE="D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Content/Player/CH_player.uasset" SILENT=true
+[2021.04.07-08.51.27:519][595]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/CH_playerD399AAE6400D7780CE666AAA6055A4C2.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Content/Player/CH_player.uasset'
+[2021.04.07-08.51.27:537][595]AssetCheck: New page: Asset Save: CH_player
+[2021.04.07-08.51.27:537][595]LogContentValidation: Display: Validating Blueprint /Game/Player/CH_player.CH_player
