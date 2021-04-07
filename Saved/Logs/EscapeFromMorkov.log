@@ -1046,3 +1046,149 @@ Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
 [2021.04.07-15.47.10:000][740]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/PC_SpeedrunEC0404C14CD8723C0B72639EBBD9F0D7.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/PC_Speedrun.uasset'
 [2021.04.07-15.47.10:014][740]AssetCheck: New page: Asset Save: PC_Speedrun
 [2021.04.07-15.47.10:014][740]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
+[2021.04.07-15.49.27:295][769]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{59ed3b84-e054-4223-8670-f526e8f47d5d}.
+[2021.04.07-15.49.27:296][769]LogTemp: Resetting audio stream to device id 
+[2021.04.07-15.49.27:535][769]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.04.07-15.49.27:535][769]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.04.07-15.49.27:535][769]LogAudioMixer: Display: Is Default: Yes
+[2021.04.07-15.49.27:535][769]LogAudioMixer: Display: Sample Rate: 48000
+[2021.04.07-15.49.27:535][769]LogAudioMixer: Display: Channel Count Used: 2
+[2021.04.07-15.49.27:535][769]LogAudioMixer: Display: Device Channel Count: 2
+[2021.04.07-15.49.27:536][769]LogAudioMixer: Display: Channel Order:
+[2021.04.07-15.49.27:536][769]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.07-15.49.27:536][769]LogAudioMixer: Display: 1: FrontRight
+[2021.04.07-15.49.27:646][770]LogTemp: Resetting audio stream to device id 
+[2021.04.07-15.49.27:679][770]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.04.07-15.49.27:679][770]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.04.07-15.49.27:679][770]LogAudioMixer: Display: Is Default: Yes
+[2021.04.07-15.49.27:679][770]LogAudioMixer: Display: Sample Rate: 48000
+[2021.04.07-15.49.27:679][770]LogAudioMixer: Display: Channel Count Used: 2
+[2021.04.07-15.49.27:679][770]LogAudioMixer: Display: Device Channel Count: 2
+[2021.04.07-15.49.27:680][770]LogAudioMixer: Display: Channel Order:
+[2021.04.07-15.49.27:680][770]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.07-15.49.27:680][770]LogAudioMixer: Display: 1: FrontRight
+[2021.04.07-16.58.10:306][797]LogTemp: Resetting audio stream to device id 
+[2021.04.07-16.58.10:353][797]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.04.07-16.58.10:353][797]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.04.07-16.58.10:353][797]LogAudioMixer: Display: Is Default: Yes
+[2021.04.07-16.58.10:353][797]LogAudioMixer: Display: Sample Rate: 48000
+[2021.04.07-16.58.10:353][797]LogAudioMixer: Display: Channel Count Used: 2
+[2021.04.07-16.58.10:353][797]LogAudioMixer: Display: Device Channel Count: 2
+[2021.04.07-16.58.10:353][797]LogAudioMixer: Display: Channel Order:
+[2021.04.07-16.58.10:353][797]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.07-16.58.10:353][797]LogAudioMixer: Display: 1: FrontRight
+[2021.04.07-16.58.11:107][798]LogRenderer: Reallocating scene render targets to support 1228x556 Format 10 NumSamples 1 (Frame:6040).
+[2021.04.07-16.58.16:031][811]LogHttp: Warning: 0000015E93519800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5ADC4624-4579-3D38-E127-38B1B36CDF4B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=891e7331491eea847e9e20a3fb164a51%7Cbc972c15b757437989f644c7f0df265f%7C65ca657e-fe40-4480-9315-56358c636e30&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.07-16.58.16:031][811]LogHttp: Warning: 0000015E93519800: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.04.07-16.58.16:031][811]LogHttp: Warning: 0000015E93519800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x15e4ef6ff70 [can pipeline])
+[2021.04.07-16.58.16:031][811]LogHttp: Warning: 0000015E93519800: libcurl info message cache 1 (Re-using existing connection! (#9) with host datarouter.ol.epicgames.com)
+[2021.04.07-16.58.16:031][811]LogHttp: Warning: 0000015E93519800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.217.241.229) port 443 (#9))
+[2021.04.07-16.58.16:031][811]LogHttp: Warning: 0000015E93519800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.04.07-16.58.16:032][811]LogHttp: Warning: 0000015E93519800: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.04.07-16.58.16:032][811]LogHttp: Warning: 0000015E93519800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.04.07-16.58.16:032][811]LogHttp: Warning: 0000015E93519800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.04.07-16.58.16:032][811]LogHttp: Warning: 0000015E93519800: libcurl info message cache 7 (Closing connection 9)
+[2021.04.07-16.58.16:366][812]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5ADC4624-4579-3D38-E127-38B1B36CDF4B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=891e7331491eea847e9e20a3fb164a51%7Cbc972c15b757437989f644c7f0df265f%7C65ca657e-fe40-4480-9315-56358c636e30&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.04.07-17.00.18:908][ 17]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Core/Server/GM_Speedrun.GM_Speedrun
+[2021.04.07-17.00.33:566][856]BlueprintLog: New page: Compile GM_Speedrun
+[2021.04.07-17.00.33:783][856]LogUObjectHash: Compacting FUObjectHashTables data took   6.08ms
+[2021.04.07-17.00.34:188][876]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/GM_SpeedrunEED3EE7747A3BBF836622786C0BEFD2F.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Server/GM_Speedrun.uasset'
+[2021.04.07-17.00.34:210][876]AssetCheck: New page: Asset Save: GM_Speedrun
+[2021.04.07-17.00.34:210][876]LogContentValidation: Display: Validating Blueprint /Game/Core/Server/GM_Speedrun.GM_Speedrun
+[2021.04.07-17.01.10:676][ 43]BlueprintLog: New page: Compile GM_Speedrun
+[2021.04.07-17.01.10:882][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2021.04.07-17.01.11:266][ 62]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/GM_Speedrun6580881646BB780EE3160A8C3B38F693.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Server/GM_Speedrun.uasset'
+[2021.04.07-17.01.11:284][ 62]AssetCheck: New page: Asset Save: GM_Speedrun
+[2021.04.07-17.01.11:284][ 62]LogContentValidation: Display: Validating Blueprint /Game/Core/Server/GM_Speedrun.GM_Speedrun
+[2021.04.07-17.01.22:184][682]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameActors/Characters/CH_Character.CH_Character
+[2021.04.07-17.01.23:951][761]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-17.01.23:951][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-17.01.24:015][761]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameActors/Characters/CH_Character.CH_Character
+[2021.04.07-17.01.34:232][321]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_old/Player/CH_player.CH_player
+[2021.04.07-17.01.45:716][953]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_old/Enemies/CH_Zombie.CH_Zombie
+[2021.04.07-17.02.31:651][663]BlueprintLog: New page: Compile CH_Zombie
+[2021.04.07-17.02.31:907][663]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.04.07-17.02.32:318][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_old/Enemies/CH_Zombie" FILE="D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/_old/Enemies/CH_Zombie.uasset" SILENT=true
+[2021.04.07-17.02.32:342][681]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/CH_Zombie595E84BC4C00D0D5326355A4936537A8.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/_old/Enemies/CH_Zombie.uasset'
+[2021.04.07-17.02.32:366][681]AssetCheck: New page: Asset Save: CH_Zombie
+[2021.04.07-17.02.32:366][681]LogContentValidation: Display: Validating Blueprint /Game/_old/Enemies/CH_Zombie.CH_Zombie
+[2021.04.07-17.02.38:274][996]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-17.02.38:274][996]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-17.02.39:707][ 72]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.04.07-17.02.39:708][ 72]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-17.02.39:708][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-17.02.47:956][552]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_old/Player/CH_player.CH_player
+[2021.04.07-17.02.52:442][782]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameActors/Characters/AI/Char_AI.Char_AI
+[2021.04.07-17.02.54:703][893]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-17.02.54:703][893]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-17.02.54:769][893]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameActors/Characters/AI/Char_AI.Char_AI
+[2021.04.07-17.03.07:850][626]BlueprintLog: New page: Compile Char_AI
+[2021.04.07-17.03.08:100][626]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.04.07-17.03.08:449][643]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Char_AI79AEA4534AF0B8CEDAA3B3BC813BF520.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/GameActors/Characters/AI/Char_AI.uasset'
+[2021.04.07-17.03.08:463][643]AssetCheck: New page: Asset Save: Char_AI
+[2021.04.07-17.03.08:463][643]LogContentValidation: Display: Validating Blueprint /Game/GameActors/Characters/AI/Char_AI.Char_AI
+[2021.04.07-17.03.16:590][ 99]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_old/Enemies/CH_Zombie.CH_Zombie
+[2021.04.07-17.03.50:749][ 79]BlueprintLog: New page: Compile Char_AI
+[2021.04.07-17.03.50:998][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2021.04.07-17.03.51:378][ 93]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Char_AIBB9AFE254ACA0C3D5C93598D3797649A.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/GameActors/Characters/AI/Char_AI.uasset'
+[2021.04.07-17.03.51:426][ 93]AssetCheck: New page: Asset Save: Char_AI
+[2021.04.07-17.03.51:426][ 93]LogContentValidation: Display: Validating Blueprint /Game/GameActors/Characters/AI/Char_AI.Char_AI
+[2021.04.07-17.04.10:289][191]BlueprintLog: New page: Compile Char_AI
+[2021.04.07-17.04.10:539][191]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2021.04.07-17.04.11:023][215]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Char_AIDCE8FE63405BFB60686288B4590B54F8.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/GameActors/Characters/AI/Char_AI.uasset'
+[2021.04.07-17.04.11:044][215]AssetCheck: New page: Asset Save: Char_AI
+[2021.04.07-17.04.11:044][215]LogContentValidation: Display: Validating Blueprint /Game/GameActors/Characters/AI/Char_AI.Char_AI
+[2021.04.07-17.04.16:488][529]BlueprintLog: New page: Compile Char_AI
+[2021.04.07-17.04.16:730][529]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2021.04.07-17.04.17:092][547]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Char_AID3DFE441474715203AC26B89C7EC7DFB.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/GameActors/Characters/AI/Char_AI.uasset'
+[2021.04.07-17.04.17:110][547]AssetCheck: New page: Asset Save: Char_AI
+[2021.04.07-17.04.17:110][547]LogContentValidation: Display: Validating Blueprint /Game/GameActors/Characters/AI/Char_AI.Char_AI
+[2021.04.07-17.04.34:753][563]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Char_AIB2B002594E320B1A686D289E9B98E8CB.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/GameActors/Characters/AI/Char_AI.uasset'
+[2021.04.07-17.04.34:773][563]AssetCheck: New page: Asset Save: Char_AI
+[2021.04.07-17.04.34:773][563]LogContentValidation: Display: Validating Blueprint /Game/GameActors/Characters/AI/Char_AI.Char_AI
+[2021.04.07-17.04.36:918][678]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-17.04.36:918][678]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-17.05.49:499][808]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameActors/Characters/Player/Char_player.Char_player
+[2021.04.07-17.05.54:198][ 62]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-17.05.54:198][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-17.05.55:725][142]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.04.07-17.05.55:725][142]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-17.05.55:725][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-17.05.58:928][323]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.04.07-17.05.58:928][323]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-17.05.58:928][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-17.05.58:994][323]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameActors/Characters/Player/Char_player.Char_player
+[2021.04.07-17.06.24:437][801]BlueprintLog: New page: Compile Char_player
+[2021.04.07-17.06.24:666][801]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2021.04.07-17.06.25:042][820]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Char_playerD5FE34974FC9FE0832915F9B832EC1DD.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/GameActors/Characters/Player/Char_player.uasset'
+[2021.04.07-17.06.25:058][820]AssetCheck: New page: Asset Save: Char_player
+[2021.04.07-17.06.25:058][820]LogContentValidation: Display: Validating Blueprint /Game/GameActors/Characters/Player/Char_player.Char_player
+[2021.04.07-17.06.30:693][149]LogRenderer: Reallocating scene render targets to support 1228x692 Format 10 NumSamples 1 (Frame:1).
+[2021.04.07-17.06.40:236][680]BlueprintLog: New page: Compile Char_player
+[2021.04.07-17.06.40:476][680]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2021.04.07-17.06.40:837][695]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Char_player0C46E88D47FA9BD38101E99D4EA56DBE.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/GameActors/Characters/Player/Char_player.uasset'
+[2021.04.07-17.06.40:857][695]AssetCheck: New page: Asset Save: Char_player
+[2021.04.07-17.06.40:857][695]LogContentValidation: Display: Validating Blueprint /Game/GameActors/Characters/Player/Char_player.Char_player
+[2021.04.07-17.07.14:657][660]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-17.07.14:657][660]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-17.07.18:018][842]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Char_player1C1E450643B4217CE77DD7A3FD06E782.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/GameActors/Characters/Player/Char_player.uasset'
+[2021.04.07-17.07.18:038][842]AssetCheck: New page: Asset Save: Char_player
+[2021.04.07-17.07.18:038][842]LogContentValidation: Display: Validating Blueprint /Game/GameActors/Characters/Player/Char_player.Char_player
+[2021.04.07-17.07.24:446][221]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Char_player0130676C49F24024B9CF52A517E8579B.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/GameActors/Characters/Player/Char_player.uasset'
+[2021.04.07-17.07.24:472][221]AssetCheck: New page: Asset Save: Char_player
+[2021.04.07-17.07.24:472][221]LogContentValidation: Display: Validating Blueprint /Game/GameActors/Characters/Player/Char_player.Char_player
+[2021.04.07-17.08.48:890][192]BlueprintLog: New page: Collapse to Macro
+[2021.04.07-17.09.36:232][934]BlueprintLog: New page: Compile PC_Speedrun
+[2021.04.07-17.09.36:489][934]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.04.07-17.09.37:001][955]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/PC_Speedrun7D6157F44553A28614035F999510913A.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/PC_Speedrun.uasset'
+[2021.04.07-17.09.37:021][955]AssetCheck: New page: Asset Save: PC_Speedrun
+[2021.04.07-17.09.37:021][955]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
+[2021.04.07-17.11.50:560][253]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Char_AI7DA530C74A2C9A5B546793BB258DE56E.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/GameActors/Characters/AI/Char_AI.uasset'
+[2021.04.07-17.11.50:575][253]AssetCheck: New page: Asset Save: Char_AI
+[2021.04.07-17.11.50:575][253]LogContentValidation: Display: Validating Blueprint /Game/GameActors/Characters/AI/Char_AI.Char_AI
+[2021.04.07-17.11.51:975][336]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Char_AIDA92C8A745B080DC6CF2D7828B00786B.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/GameActors/Characters/AI/Char_AI.uasset'
+[2021.04.07-17.11.51:987][336]AssetCheck: New page: Asset Save: Char_AI
+[2021.04.07-17.11.51:987][336]LogContentValidation: Display: Validating Blueprint /Game/GameActors/Characters/AI/Char_AI.Char_AI
+[2021.04.07-17.12.48:968][728]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Char_AIFEC778F8472020747CF1BF9A386B03B6.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/GameActors/Characters/AI/Char_AI.uasset'
+[2021.04.07-17.12.48:980][728]AssetCheck: New page: Asset Save: Char_AI
+[2021.04.07-17.12.48:980][728]LogContentValidation: Display: Validating Blueprint /Game/GameActors/Characters/AI/Char_AI.Char_AI
