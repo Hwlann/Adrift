@@ -1,0 +1,791 @@
+﻿Log file open, 04/07/21 10:11:17
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: EscapeFromMorkov
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.208615
+LogPluginManager: Warning: Plugin 'VaRest' exists at '../../../Engine/Plugins/Marketplace/VaRestPlugin/VaRest.uplugin' and '../../../Engine/Plugins/VaRest-4.24/VaRest.uplugin' - second location will be ignored
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin VaRest
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: U:/Installs/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogLinker: AddRedirectList(D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/VaRest.ini) has substring redirect /VaRestPlugin/, these are very slow and should be resolved as soon as possible!
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Engine.ini]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Engine.ini]
+[2021.04.07-08.11.18:769][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Engine.ini]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Engine.ini]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.07-08.11.18:769][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.07-08.11.18:770][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.07-08.11.18:770][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.07-08.11.18:770][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.07-08.11.18:770][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Engine.ini]
+[2021.04.07-08.11.18:770][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Engine.ini]
+[2021.04.07-08.11.18:772][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.07-08.11.18:772][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-08.11.18:772][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.07-08.11.18:773][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.07-08.11.18:773][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.07-08.11.18:773][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.07-08.11.18:781][  0]LogHAL: Display: Platform has ~ 20 GB [21309476864 / 34359738368 / 20], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.07-08.11.18:781][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.07-08.11.18:781][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.07-08.11.18:781][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
+[2021.04.07-08.11.18:782][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.07-08.11.18:788][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.07-08.11.18:788][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.07-08.11.18:788][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Config/Windows/Engine.ini]
+[2021.04.07-08.11.18:788][  0]LogInit: Computer: DESKTOP-R0BPHNF
+[2021.04.07-08.11.18:788][  0]LogInit: User: Lortet
+[2021.04.07-08.11.18:788][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.04.07-08.11.18:788][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.07-08.11.18:788][  0]LogMemory: Memory total: Physical=19.8GB (20GB approx)
+[2021.04.07-08.11.18:788][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.07-08.11.18:788][  0]LogMemory: Process Physical Memory: 107.41 MB used, 107.42 MB peak
+[2021.04.07-08.11.18:788][  0]LogMemory: Process Virtual Memory: 101.77 MB used, 101.77 MB peak
+[2021.04.07-08.11.18:788][  0]LogMemory: Physical Memory: 8936.73 MB used,  11385.57 MB free, 20322.30 MB total
+[2021.04.07-08.11.18:788][  0]LogMemory: Virtual Memory: 5161.18 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2021.04.07-08.11.18:791][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.07-08.11.19:089][  0]LogInit: Overriding language with editor language configuration option (en).
+[2021.04.07-08.11.19:089][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2021.04.07-08.11.19:285][  0]LogInit: Setting process to per monitor DPI aware
+[2021.04.07-08.11.19:355][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.07-08.11.19:355][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.07-08.11.22:515][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.07-08.11.22:515][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.07-08.11.22:515][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.07-08.11.22:515][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.07-08.11.23:487][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2021.04.07-08.11.23:487][  0]LogD3D11RHI:       4019/0/10161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.04.07-08.11.23:509][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.04.07-08.11.23:509][  0]LogD3D11RHI:       128/0/10161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.04.07-08.11.23:511][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.07-08.11.23:511][  0]LogD3D11RHI:       0/0/10161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.07-08.11.23:511][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.07-08.11.23:516][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.07-08.11.23:516][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2021.04.07-08.11.23:516][  0]LogWindows: EnumDisplayDevices:
+[2021.04.07-08.11.23:516][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2021.04.07-08.11.23:517][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.04.07-08.11.23:517][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.04.07-08.11.23:517][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2021.04.07-08.11.23:517][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2021.04.07-08.11.23:517][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2021.04.07-08.11.23:517][  0]LogD3D11RHI:   Driver Version: 461.40 (internal:27.21.14.6140, unified:461.40)
+[2021.04.07-08.11.23:517][  0]LogD3D11RHI:      Driver Date: 1-22-2021
+[2021.04.07-08.11.23:517][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
+[2021.04.07-08.11.23:600][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.04.07-08.11.23:600][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.07-08.11.23:633][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.04.07-08.11.24:166][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.07-08.11.24:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.07-08.11.24:293][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.07-08.11.24:293][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.07-08.11.24:316][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.04.07-08.11.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.04.07-08.11.24:361][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.04.07-08.11.24:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.04.07-08.11.24:406][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.04.07-08.11.24:429][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.04.07-08.11.24:469][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.07-08.11.24:469][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.07-08.11.24:495][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.07-08.11.24:495][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.07-08.11.24:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.07-08.11.24:541][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.07-08.11.24:564][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.07-08.11.24:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.07-08.11.24:587][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.07-08.11.24:661][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.07-08.11.24:973][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Intermediate/Shaders/WorkingDirectory/7588/).
+[2021.04.07-08.11.24:973][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Lortet/AppData/Local/Temp/UnrealShaderWorkingDir/CD6E22834662E66B6938128F6C9BAF71/'.
+[2021.04.07-08.11.24:973][  0]LogXGEController: Cleaning working directory: C:/Users/Lortet/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.04.07-08.11.24:973][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.04.07-08.11.24:973][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.07-08.11.24:973][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.07-08.11.27:983][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.07-08.11.28:054][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/Lortet/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2021.04.07-08.11.28:054][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Lortet/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2021.04.07-08.11.28:054][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.07-08.11.28:054][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.07-08.11.28:054][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.07-08.11.28:054][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.04.07-08.11.28:071][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.07-08.11.28:071][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.07-08.11.28:071][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.04.07-08.11.28:073][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lortet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.04.07-08.11.28:073][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.07-08.11.28:073][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.07-08.11.28:095][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.04.07-08.11.28:098][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.07-08.11.28:117][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.07-08.11.29:250][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2021.04.07-08.11.29:520][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.07-08.11.29:979][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.07-08.11.29:979][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.07-08.11.29:979][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.07-08.11.29:979][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.07-08.11.29:979][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.07-08.11.30:021][  0]LogNetVersion: EscapeFromMorkov 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1930910190)
+[2021.04.07-08.11.41:823][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.042852 seconds
+[2021.04.07-08.11.41:832][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2021.04.07-08.11.41:832][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2021.04.07-08.11.41:832][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.07-08.11.43:777][  0]LogVaRest: FVaRestModule::StartupModule(26): VaRest module started
+[2021.04.07-08.11.43:835][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.07-08.11.43:854][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.07-08.11.44:183][  0]SourceControl: Source control is disabled
+[2021.04.07-08.11.44:183][  0]SourceControl: Source control is disabled
+[2021.04.07-08.11.44:202][  0]SourceControl: Source control is disabled
+[2021.04.07-08.11.44:219][  0]SourceControl: Source control is disabled
+[2021.04.07-08.11.44:237][  0]SourceControl: Source control is disabled
+[2021.04.07-08.11.44:982][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.07-08.11.45:087][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.07-08.11.45:087][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.07-08.11.45:294][  0]LogOcInput: OculusInput pre-init called
+[2021.04.07-08.11.45:335][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.04.07-08.11.45:335][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.04.07-08.11.45:500][  0]LogEngine: Initializing Engine...
+[2021.04.07-08.11.45:501][  0]LogVaRest: UVaRestSubsystem::Initialize(23): VaRest subsystem initialized
+[2021.04.07-08.11.45:501][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.07-08.11.45:502][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.04.07-08.11.45:842][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.07-08.11.45:871][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.04.07-08.11.45:897][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.07-08.11.45:897][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.07-08.11.45:897][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.07-08.11.45:897][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.07-08.11.45:897][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.07-08.11.45:897][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.07-08.11.45:897][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.07-08.11.45:897][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.07-08.11.45:897][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.07-08.11.45:897][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.07-08.11.45:921][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.04.07-08.11.45:921][  0]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
+[2021.04.07-08.11.45:921][  0]LogAudioMixer: Display: Is Default: Yes
+[2021.04.07-08.11.45:921][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2021.04.07-08.11.45:921][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2021.04.07-08.11.45:921][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2021.04.07-08.11.45:921][  0]LogAudioMixer: Display: Channel Order:
+[2021.04.07-08.11.45:921][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.07-08.11.45:921][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.07-08.11.45:943][  0]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2021.04.07-08.11.45:950][  0]LogInit: FAudioDevice initialized.
+[2021.04.07-08.11.45:951][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.07-08.11.46:116][  0]LogDerivedDataCache: Saved boot cache 0.17s 78MB C:/Users/Lortet/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2021.04.07-08.11.46:118][  0]LogInit: Texture streaming: Enabled
+[2021.04.07-08.11.46:192][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.04.07-08.11.46:192][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.04.07-08.11.46:193][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.04.07-08.11.46:435][  0]LogInit: Transaction tracking system initialized
+[2021.04.07-08.11.46:564][  0]BlueprintLog: New page: Editor Load
+[2021.04.07-08.11.46:883][  0]LocalizationService: Localization service is disabled
+[2021.04.07-08.11.47:455][  0]LogFileCache: Scanning file cache for directory 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Content/' took 0.01s
+[2021.04.07-08.11.47:455][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.04.07-08.11.47:455][  0]LogCook: Display: Mobile HDR setting 1
+[2021.04.07-08.11.49:518][  0]SourceControl: Source control is disabled
+[2021.04.07-08.11.49:519][  0]Cmd: MAP LOAD FILE="D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Content/Maps/MAP_Lvl1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.07-08.11.49:521][  0]LightingResults: New page: Lighting Build
+[2021.04.07-08.11.49:522][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-08.11.49:522][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-08.11.49:522][  0]MapCheck: New page: Map Check
+[2021.04.07-08.11.49:522][  0]LightingResults: New page: Lighting Build
+[2021.04.07-08.11.49:552][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2021.04.07-08.11.50:137][  0]LogAIModule: Creating AISystem for world MAP_Lvl1
+[2021.04.07-08.11.50:236][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.07-08.11.50:282][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.04.07-08.11.50:283][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.07-08.11.50:283][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.114ms to complete.
+[2021.04.07-08.11.50:283][  0]LogFileHelpers: Loading map 'MAP_Lvl1' took 0.764
+[2021.04.07-08.11.50:461][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-08.11.50:468][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-08.11.50:478][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-08.11.50:485][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-08.11.50:522][  0]LogCollectionManager: Loaded 0 collections in 0.000915 seconds
+[2021.04.07-08.11.50:536][  0]LogFileCache: Scanning file cache for directory 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/Collections/' took 0.00s
+[2021.04.07-08.11.50:536][  0]LogFileCache: Scanning file cache for directory 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Content/Developers/Lortet/Collections/' took 0.00s
+[2021.04.07-08.11.50:536][  0]LogFileCache: Scanning file cache for directory 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Content/Collections/' took 0.00s
+[2021.04.07-08.11.50:536][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 3023 classes and 722 folders.
+[2021.04.07-08.11.50:539][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.07-08.11.51:229][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.04.07-08.11.51:259][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 2 classes and 3 folders.
+[2021.04.07-08.11.51:433][  0]LogSlate: Took 0.010391 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.07-08.11.51:448][  0]LogSlate: Took 0.011617 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.04.07-08.11.51:466][  0]LogSlate: Took 0.012612 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.04.07-08.11.51:482][  0]LogSlate: Took 0.015467 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.04.07-08.11.51:708][  0]LogRenderer: Reallocating scene render targets to support 1228x600 Format 10 NumSamples 1 (Frame:1).
+[2021.04.07-08.11.51:903][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.07-08.11.51:903][  0]LogLoad: (Engine Initialization) Total time: 36.40 seconds
+[2021.04.07-08.11.51:903][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.07-08.11.51:955][  0]LogAssetRegistry: Asset discovery search completed in 22.7062 seconds
+[2021.04.07-08.11.51:963][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
+[2021.04.07-08.11.51:964][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2021.04.07-08.11.52:020][  0]LogRenderer: Reallocating scene render targets to support 1228x616 Format 10 NumSamples 1 (Frame:2).
+[2021.04.07-08.13.18:742][757]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.04.07-08.16.03:756][984]LogSlate: Took 0.007456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.07-08.16.06:100][109]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.07-08.16.06:119][109]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemies/BP_TurretBot.BP_TurretBot
+[2021.04.07-08.16.06:390][109]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2021.04.07-08.16.07:344][109]LogSlate: Took 0.006605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.04.07-08.16.08:447][154]BlueprintLog: New page: Compile BP_TurretBot
+[2021.04.07-08.16.08:672][154]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.04.07-08.16.09:268][178]LogSlate: Window 'BP_TurretBot' being destroyed
+[2021.04.07-08.16.09:279][178]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-08.16.09:279][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-08.16.14:935][485]LogEditorViewport: Clicking on Actor (LMB): BP_TurretTop_C (CH_Turret2)
+[2021.04.07-08.16.15:322][503]Cmd: DELETE
+[2021.04.07-08.16.15:322][503]Cmd: ACTOR DELETE
+[2021.04.07-08.16.15:334][503]LogEditorActor: Deleted Actor: BP_TurretTop_C
+[2021.04.07-08.16.15:370][503]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2021.04.07-08.16.15:372][503]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2021.04.07-08.16.15:958][538]LogEditorViewport: Clicking on Actor (LMB): BP_TurretTop_C (CH_Turret)
+[2021.04.07-08.16.16:144][546]Cmd: DELETE
+[2021.04.07-08.16.16:145][546]Cmd: ACTOR DELETE
+[2021.04.07-08.16.16:149][546]LogEditorActor: Deleted Actor: BP_TurretTop_C
+[2021.04.07-08.16.16:181][546]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.04.07-08.16.16:182][546]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2021.04.07-08.16.16:789][582]LogEditorViewport: Clicking on Actor (LMB): BP_TurretTop_C (CH_Turret3)
+[2021.04.07-08.16.16:926][587]Cmd: DELETE
+[2021.04.07-08.16.16:926][587]Cmd: ACTOR DELETE
+[2021.04.07-08.16.16:931][587]LogEditorActor: Deleted Actor: BP_TurretTop_C
+[2021.04.07-08.16.16:967][587]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.04.07-08.16.16:968][587]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2021.04.07-08.16.17:667][629]LogEditorViewport: Clicking on Actor (LMB): BP_TurretTop_C (CH_Turret4)
+[2021.04.07-08.16.17:935][642]Cmd: DELETE
+[2021.04.07-08.16.17:935][642]Cmd: ACTOR DELETE
+[2021.04.07-08.16.17:939][642]LogEditorActor: Deleted Actor: BP_TurretTop_C
+[2021.04.07-08.16.17:974][642]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.04.07-08.16.17:975][642]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2021.04.07-08.16.21:769][827]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.04.07-08.16.23:595][827]LogSlate: Window 'Delete Assets' being destroyed
+[2021.04.07-08.16.29:955][827]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/Enemies/BP_TurretBot.BP_TurretBot
+	Asset Name: /Game/Enemies/Bp_TurretFull.Bp_TurretFull
+	Asset Name: /Game/Enemies/BP_TurretTop.BP_TurretTop
+[2021.04.07-08.16.30:413][827]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.04.07-08.16.47:324][827]LogStats: FPlatformStackWalk::StackWalkAndDump - 16.910 s
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: === Handled ensure: ===
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: 
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: Ensure condition failed: ChildActorTemplate == nullptr [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Engine/Private/Components/ChildActorComponent.cpp] [Line: 103]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: Found unexpected ChildActorTemplate REINST_BP_TurretTop_C_74 /Engine/Transient.DEADCLASS_Bp_TurretFull_C_2:ChildActor_GEN_VARIABLE.ChildActor_GEN_VARIABLE_CH_Turret_C_CAT when ChildActorClass is null
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: Stack: 
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff824d4fba4 UE4Editor-Engine.dll!DispatchCheckVerify<bool,<lambda_5ba5e9fcadda9cf28819429e9b7c2c17> >() [d:\build\++ue4\sync\engine\source\runtime\core\public\misc\assertionmacros.h:167]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff8239605f1 UE4Editor-Engine.dll!UChildActorComponent::Serialize() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\childactorcomponent.cpp:103]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff82bce4852 UE4Editor-CoreUObject.dll!FArchiveReplaceObjectRefBase::SerializeObject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\serialization\archiveuobject.cpp:243]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff821f9fc1f UE4Editor-UnrealEd.dll!FArchiveReplaceObjectRef<UObject>::FArchiveReplaceObjectRef<UObject>() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\public\serialization\archivereplaceobjectref.h:112]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff82242900c UE4Editor-UnrealEd.dll!ObjectTools::ForceReplaceReferences() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\objecttools.cpp:861]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff82242682f UE4Editor-UnrealEd.dll!ObjectTools::ForceDeleteObjects() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\objecttools.cpp:2748]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff821c416f7 UE4Editor-UnrealEd.dll!FAssetDeleteModel::DoForceDelete() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\assetdeletemodel.cpp:316]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff821ebcde8 UE4Editor-UnrealEd.dll!SDeleteAssetsDialog::ForceDelete() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\dialogs\sdeleteassetsdialog.cpp:718]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff821eb65c4 UE4Editor-UnrealEd.dll!TBaseSPMethodDelegateInstance<0,SDeleteAssetsDialog,0,FReply __cdecl(void)>::Execute() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:293]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a6e1498 UE4Editor-Slate.dll!SButton::ExecuteOnClick() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:385]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a6f9281 UE4Editor-Slate.dll!SButton::OnMouseButtonUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:304]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a55323f UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_6c1f6b862bcfb82ea6dcab28fbcc9463> >() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:372]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a5d9175 UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4617]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a5c413e UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5140]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a5b8f67 UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5108]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e64ca1 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1958]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e5242f UE4Editor-ApplicationCore.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:2410]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e67195 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1638]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e4ec40 UE4Editor-ApplicationCore.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:789]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff87742e858 USER32.dll!UnknownFunction []
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff87742e299 USER32.dll!UnknownFunction []
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e68569 UE4Editor-ApplicationCore.dll!FWindowsApplication::PumpMessages() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:2422]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a5e4080 UE4Editor-Slate.dll!FSlateApplication::TickPlatform() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1367]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a581c85 UE4Editor-Slate.dll!FSlateApplication::AddModalWindow() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1895]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff821f50fa6 UE4Editor-UnrealEd.dll!UEditorEngine::EditorAddModalWindow() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorengine.cpp:4084]
+[2021.04.07-08.16.47:324][827]LogOutputDevice: Error: [Callstack] 0x00007ff82241a1ce UE4Editor-UnrealEd.dll!ObjectTools::DeleteObjects() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\objecttools.cpp:2187]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff822419696 UE4Editor-UnrealEd.dll!ObjectTools::DeleteAssets() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\objecttools.cpp:1991]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff8064f4a9c UE4Editor-ContentBrowser.dll!FAssetContextMenu::ExecuteDelete() [d:\build\++ue4\sync\engine\source\editor\contentbrowser\private\assetcontextmenu.cpp:2347]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff806616377 UE4Editor-ContentBrowser.dll!SContentBrowser::HandleDeleteCommandExecute() [d:\build\++ue4\sync\engine\source\editor\contentbrowser\private\scontentbrowser.cpp:2497]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff8065f3ba8 UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,SContentBrowser,0,void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:369]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a596c6a UE4Editor-Slate.dll!FUICommandList::ExecuteAction() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:102]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a6725be UE4Editor-Slate.dll!SMenuEntryBlock::OnClicked() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:1059]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a678430 UE4Editor-Slate.dll!SMenuEntryBlock::OnMenuItemButtonClicked() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:1019]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a651b84 UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SMenuEntryBlock,0,FReply __cdecl(void)>::Execute() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:293]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a6e1498 UE4Editor-Slate.dll!SButton::ExecuteOnClick() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:385]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a6f9281 UE4Editor-Slate.dll!SButton::OnMouseButtonUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:304]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a679b95 UE4Editor-Slate.dll!SMenuEntryButton::OnMouseButtonUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:386]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a55323f UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_6c1f6b862bcfb82ea6dcab28fbcc9463> >() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:372]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a5d9175 UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4617]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a5c413e UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5140]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a5b8f67 UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5108]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e64ca1 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1958]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e5242f UE4Editor-ApplicationCore.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:2410]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e67195 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1638]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e4ec40 UE4Editor-ApplicationCore.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:789]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff87742e858 USER32.dll!UnknownFunction []
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff87742e299 USER32.dll!UnknownFunction []
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e68699 UE4Editor-ApplicationCore.dll!FWindowsPlatformApplicationMisc::PumpMessages() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsplatformapplicationmisc.cpp:130]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff7886e6db0 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:4397]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff7886fc3ec UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:173]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff7886fc4ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff78870ceae UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:263]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff78870fcbe UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\2\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff878567034 KERNEL32.DLL!UnknownFunction []
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: [Callstack] 0x00007ff8787c2651 ntdll.dll!UnknownFunction []
+[2021.04.07-08.16.47:325][827]LogOutputDevice: Error: 
+[2021.04.07-08.16.47:330][827]LogStats:                SubmitErrorReport -  0.000 s
+[2021.04.07-08.16.49:867][827]LogStats:                    SendNewReport -  2.538 s
+[2021.04.07-08.16.49:867][827]LogStats:             FDebug::EnsureFailed - 19.454 s
+[2021.04.07-08.16.49:867][827]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.04.07-08.16.49:871][827]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.004 s
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: === Handled ensure: ===
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: 
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: Ensure condition failed: ChildActorTemplate == nullptr [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Engine/Private/Components/ChildActorComponent.cpp] [Line: 103]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: Found unexpected ChildActorTemplate REINST_BP_TurretBot_C_70 /Engine/Transient.DEADCLASS_Bp_TurretFull_C_2:ChildActor1_GEN_VARIABLE.ChildActor1_GEN_VARIABLE_CH_TurretFull_C_CAT when ChildActorClass is null
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: Stack: 
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff824d4fba4 UE4Editor-Engine.dll!DispatchCheckVerify<bool,<lambda_5ba5e9fcadda9cf28819429e9b7c2c17> >() [d:\build\++ue4\sync\engine\source\runtime\core\public\misc\assertionmacros.h:167]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff8239605f1 UE4Editor-Engine.dll!UChildActorComponent::Serialize() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\childactorcomponent.cpp:103]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff82bce4852 UE4Editor-CoreUObject.dll!FArchiveReplaceObjectRefBase::SerializeObject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\serialization\archiveuobject.cpp:243]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff821f9fc1f UE4Editor-UnrealEd.dll!FArchiveReplaceObjectRef<UObject>::FArchiveReplaceObjectRef<UObject>() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\public\serialization\archivereplaceobjectref.h:112]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff82242900c UE4Editor-UnrealEd.dll!ObjectTools::ForceReplaceReferences() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\objecttools.cpp:861]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff82242682f UE4Editor-UnrealEd.dll!ObjectTools::ForceDeleteObjects() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\objecttools.cpp:2748]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff821c416f7 UE4Editor-UnrealEd.dll!FAssetDeleteModel::DoForceDelete() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\assetdeletemodel.cpp:316]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff821ebcde8 UE4Editor-UnrealEd.dll!SDeleteAssetsDialog::ForceDelete() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\dialogs\sdeleteassetsdialog.cpp:718]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff821eb65c4 UE4Editor-UnrealEd.dll!TBaseSPMethodDelegateInstance<0,SDeleteAssetsDialog,0,FReply __cdecl(void)>::Execute() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:293]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a6e1498 UE4Editor-Slate.dll!SButton::ExecuteOnClick() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:385]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a6f9281 UE4Editor-Slate.dll!SButton::OnMouseButtonUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:304]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a55323f UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_6c1f6b862bcfb82ea6dcab28fbcc9463> >() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:372]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a5d9175 UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4617]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a5c413e UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5140]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a5b8f67 UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5108]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e64ca1 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1958]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e5242f UE4Editor-ApplicationCore.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:2410]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e67195 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1638]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e4ec40 UE4Editor-ApplicationCore.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:789]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff87742e858 USER32.dll!UnknownFunction []
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff87742e299 USER32.dll!UnknownFunction []
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e68569 UE4Editor-ApplicationCore.dll!FWindowsApplication::PumpMessages() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:2422]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a5e4080 UE4Editor-Slate.dll!FSlateApplication::TickPlatform() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1367]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a581c85 UE4Editor-Slate.dll!FSlateApplication::AddModalWindow() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1895]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff821f50fa6 UE4Editor-UnrealEd.dll!UEditorEngine::EditorAddModalWindow() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorengine.cpp:4084]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff82241a1ce UE4Editor-UnrealEd.dll!ObjectTools::DeleteObjects() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\objecttools.cpp:2187]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff822419696 UE4Editor-UnrealEd.dll!ObjectTools::DeleteAssets() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\objecttools.cpp:1991]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff8064f4a9c UE4Editor-ContentBrowser.dll!FAssetContextMenu::ExecuteDelete() [d:\build\++ue4\sync\engine\source\editor\contentbrowser\private\assetcontextmenu.cpp:2347]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff806616377 UE4Editor-ContentBrowser.dll!SContentBrowser::HandleDeleteCommandExecute() [d:\build\++ue4\sync\engine\source\editor\contentbrowser\private\scontentbrowser.cpp:2497]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff8065f3ba8 UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,SContentBrowser,0,void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:369]
+[2021.04.07-08.16.49:871][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a596c6a UE4Editor-Slate.dll!FUICommandList::ExecuteAction() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:102]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a6725be UE4Editor-Slate.dll!SMenuEntryBlock::OnClicked() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:1059]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a678430 UE4Editor-Slate.dll!SMenuEntryBlock::OnMenuItemButtonClicked() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:1019]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a651b84 UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SMenuEntryBlock,0,FReply __cdecl(void)>::Execute() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:293]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a6e1498 UE4Editor-Slate.dll!SButton::ExecuteOnClick() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:385]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a6f9281 UE4Editor-Slate.dll!SButton::OnMouseButtonUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:304]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a679b95 UE4Editor-Slate.dll!SMenuEntryButton::OnMouseButtonUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:386]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a55323f UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_6c1f6b862bcfb82ea6dcab28fbcc9463> >() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:372]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a5d9175 UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4617]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a5c413e UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5140]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff82a5b8f67 UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5108]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e64ca1 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1958]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e5242f UE4Editor-ApplicationCore.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:2410]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e67195 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1638]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e4ec40 UE4Editor-ApplicationCore.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:789]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff87742e858 USER32.dll!UnknownFunction []
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff87742e299 USER32.dll!UnknownFunction []
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff852e68699 UE4Editor-ApplicationCore.dll!FWindowsPlatformApplicationMisc::PumpMessages() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsplatformapplicationmisc.cpp:130]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff7886e6db0 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:4397]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff7886fc3ec UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:173]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff7886fc4ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff78870ceae UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:263]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff78870fcbe UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\2\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff878567034 KERNEL32.DLL!UnknownFunction []
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: [Callstack] 0x00007ff8787c2651 ntdll.dll!UnknownFunction []
+[2021.04.07-08.16.49:872][827]LogOutputDevice: Error: 
+[2021.04.07-08.16.49:878][827]LogStats:                SubmitErrorReport -  0.000 s
