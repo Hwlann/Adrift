@@ -1,4 +1,4 @@
-﻿Log file open, 04/07/21 17:30:14
+﻿Log file open, 04/07/21 19:09:52
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,9 +8,8 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
 LogInit: Display: Running engine for game: EscapeFromMorkov
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.087867
-LogPluginManager: Warning: Plugin 'VaRest' exists at '../../../Engine/Plugins/Marketplace/VaRestPlugin/VaRest.uplugin' and '../../../Engine/Plugins/VaRest-4.24/VaRest.uplugin' - second location will be ignored
+LogTaskGraph: Started task graph with 5 named threads and 71 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.062090
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -127,13 +126,13 @@ LogInit: Build: ++UE4+Release-4.24-CL-11590370
 LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
 LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
 LogInit: Net CL: 10570792
-LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD Ryzen 9 3900X 12-Core Processor            , GPU: NVIDIA GeForce GTX 1070
 LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
 LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.24
 LogInit: Command Line: 
-LogInit: Base Directory: U:/Installs/UE_4.24/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/UE_4.24/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 25
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -161,888 +160,473 @@ LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
 LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
 LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
-LogLinker: AddRedirectList(D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/VaRest.ini) has substring redirect /VaRestPlugin/, these are very slow and should be resolved as soon as possible!
+LogLinker: AddRedirectList(C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/VaRest.ini) has substring redirect /VaRestPlugin/, these are very slow and should be resolved as soon as possible!
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Engine.ini]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Engine.ini]
-[2021.04.07-15.30.14:646][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Engine.ini]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.04.07-15.30.14:646][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.04.07-15.30.14:647][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Engine.ini]
-[2021.04.07-15.30.14:647][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.04.07-15.30.14:647][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.04.07-15.30.14:647][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.04.07-15.30.14:647][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.04.07-15.30.14:647][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.04.07-15.30.14:647][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.04.07-15.30.14:647][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.04.07-15.30.14:647][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.04.07-15.30.14:647][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.04.07-15.30.14:647][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.04.07-15.30.14:647][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.04.07-15.30.14:647][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.04.07-15.30.14:647][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.04.07-15.30.14:647][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Engine.ini]
-[2021.04.07-15.30.14:647][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Engine.ini]
-[2021.04.07-15.30.14:649][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Scalability.ini]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Scalability.ini]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Scalability.ini]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Scalability.ini]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.04.07-15.30.14:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Scalability.ini]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Scalability.ini]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Scalability.ini]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Scalability.ini]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.04.07-15.30.14:650][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.04.07-15.30.14:650][  0]LogInit: Selected Device Profile: [Windows]
-[2021.04.07-15.30.14:650][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.04.07-15.30.14:652][  0]LogHAL: Display: Platform has ~ 20 GB [21309476864 / 34359738368 / 20], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.04.07-15.30.14:652][  0]LogInit: Going up to parent DeviceProfile []
-[2021.04.07-15.30.14:652][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Scalability.ini]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Scalability.ini]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Scalability.ini]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
-[2021.04.07-15.30.14:652][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Scalability.ini]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Scalability.ini]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Scalability.ini]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Scalability.ini]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Scalability.ini]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
-[2021.04.07-15.30.14:653][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.04.07-15.30.14:654][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.04.07-15.30.14:654][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.04.07-15.30.14:654][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Config/Windows/Engine.ini]
-[2021.04.07-15.30.14:654][  0]LogInit: Computer: DESKTOP-R0BPHNF
-[2021.04.07-15.30.14:654][  0]LogInit: User: Lortet
-[2021.04.07-15.30.14:654][  0]LogInit: CPU Page size=4096, Cores=6
-[2021.04.07-15.30.14:654][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.04.07-15.30.14:654][  0]LogMemory: Memory total: Physical=19.8GB (20GB approx)
-[2021.04.07-15.30.14:654][  0]LogMemory: Platform Memory Stats for Windows
-[2021.04.07-15.30.14:654][  0]LogMemory: Process Physical Memory: 107.41 MB used, 107.41 MB peak
-[2021.04.07-15.30.14:654][  0]LogMemory: Process Virtual Memory: 101.57 MB used, 101.57 MB peak
-[2021.04.07-15.30.14:654][  0]LogMemory: Physical Memory: 7166.59 MB used,  13155.71 MB free, 20322.30 MB total
-[2021.04.07-15.30.14:654][  0]LogMemory: Virtual Memory: 5161.18 MB used,  134212568.00 MB free, 134217728.00 MB total
-[2021.04.07-15.30.14:656][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.04.07-15.30.14:691][  0]LogInit: Overriding language with editor language configuration option (en).
-[2021.04.07-15.30.14:691][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2021.04.07-15.30.14:874][  0]LogInit: Setting process to per monitor DPI aware
-[2021.04.07-15.30.14:904][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.04.07-15.30.14:904][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.04.07-15.30.15:065][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.04.07-15.30.15:065][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.04.07-15.30.15:065][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.04.07-15.30.15:065][  0]LogD3D11RHI: D3D11 adapters:
-[2021.04.07-15.30.15:183][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2021.04.07-15.30.15:183][  0]LogD3D11RHI:       4019/0/10161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2021.04.07-15.30.15:203][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2021.04.07-15.30.15:203][  0]LogD3D11RHI:       128/0/10161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2021.04.07-15.30.15:205][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.04.07-15.30.15:205][  0]LogD3D11RHI:       0/0/10161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.04.07-15.30.15:205][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.04.07-15.30.15:211][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.04.07-15.30.15:211][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
-[2021.04.07-15.30.15:211][  0]LogWindows: EnumDisplayDevices:
-[2021.04.07-15.30.15:211][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2021.04.07-15.30.15:211][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2021.04.07-15.30.15:211][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2021.04.07-15.30.15:212][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2021.04.07-15.30.15:212][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
-[2021.04.07-15.30.15:212][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2021.04.07-15.30.15:212][  0]LogD3D11RHI:   Driver Version: 461.40 (internal:27.21.14.6140, unified:461.40)
-[2021.04.07-15.30.15:212][  0]LogD3D11RHI:      Driver Date: 1-22-2021
-[2021.04.07-15.30.15:212][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
-[2021.04.07-15.30.15:291][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.04.07-15.30.15:291][  0]LogD3D11RHI: Async texture creation enabled
-[2021.04.07-15.30.15:307][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.04.07-15.30.15:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.04.07-15.30.15:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.04.07-15.30.15:642][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.04.07-15.30.15:642][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.04.07-15.30.15:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.04.07-15.30.15:655][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.04.07-15.30.15:661][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.04.07-15.30.15:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.04.07-15.30.15:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.04.07-15.30.15:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.04.07-15.30.15:702][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.04.07-15.30.15:702][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.04.07-15.30.15:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.04.07-15.30.15:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.04.07-15.30.15:724][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.04.07-15.30.15:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.04.07-15.30.15:739][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.04.07-15.30.15:744][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.04.07-15.30.15:744][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.04.07-15.30.15:747][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.04.07-15.30.15:764][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Intermediate/Shaders/WorkingDirectory/12656/).
-[2021.04.07-15.30.15:765][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Lortet/AppData/Local/Temp/UnrealShaderWorkingDir/BE4E96E0458877C84B38BD82C2016121/'.
-[2021.04.07-15.30.15:765][  0]LogXGEController: Cleaning working directory: C:/Users/Lortet/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2021.04.07-15.30.15:765][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.04.07-15.30.15:765][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.04.07-15.30.15:765][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.04.07-15.30.16:440][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.04.07-15.30.16:502][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/Lortet/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2021.04.07-15.30.16:502][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Lortet/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2021.04.07-15.30.16:502][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.04.07-15.30.16:502][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.04.07-15.30.16:503][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.04.07-15.30.16:503][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.04.07-15.30.16:513][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.04.07-15.30.16:513][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.04.07-15.30.16:513][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.04.07-15.30.16:514][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lortet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.04.07-15.30.16:514][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.04.07-15.30.16:514][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.04.07-15.30.16:540][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2021.04.07-15.30.16:542][  0]LogSlate: Using FreeType 2.10.0
-[2021.04.07-15.30.16:543][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.04.07-15.30.16:590][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
-[2021.04.07-15.30.16:887][  0]LogInit: Selected Device Profile: [Windows]
-[2021.04.07-15.30.17:027][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.04.07-15.30.17:027][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.04.07-15.30.17:027][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.04.07-15.30.17:027][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.04.07-15.30.17:027][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.04.07-15.30.17:040][  0]LogNetVersion: EscapeFromMorkov 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1930910190)
-[2021.04.07-15.30.18:015][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.043787 seconds
-[2021.04.07-15.30.18:023][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2021.04.07-15.30.18:024][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2021.04.07-15.30.18:024][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.04.07-15.30.18:395][  0]LogVaRest: FVaRestModule::StartupModule(26): VaRest module started
-[2021.04.07-15.30.18:398][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.04.07-15.30.18:400][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.04.07-15.30.18:449][  0]SourceControl: Source control is disabled
-[2021.04.07-15.30.18:449][  0]SourceControl: Source control is disabled
-[2021.04.07-15.30.18:450][  0]SourceControl: Source control is disabled
-[2021.04.07-15.30.18:451][  0]SourceControl: Source control is disabled
-[2021.04.07-15.30.18:452][  0]SourceControl: Source control is disabled
-[2021.04.07-15.30.18:530][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.04.07-15.30.18:545][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.04.07-15.30.18:545][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.04.07-15.30.18:631][  0]LogOcInput: OculusInput pre-init called
-[2021.04.07-15.30.18:640][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.04.07-15.30.18:640][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.04.07-15.30.18:701][  0]LogEngine: Initializing Engine...
-[2021.04.07-15.30.18:702][  0]LogVaRest: UVaRestSubsystem::Initialize(23): VaRest subsystem initialized
-[2021.04.07-15.30.18:702][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.04.07-15.30.18:705][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.04.07-15.30.19:037][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.04.07-15.30.19:045][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.04.07-15.30.19:064][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.04.07-15.30.19:064][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.04.07-15.30.19:064][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.04.07-15.30.19:064][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.04.07-15.30.19:064][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.04.07-15.30.19:064][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.04.07-15.30.19:064][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.04.07-15.30.19:064][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.04.07-15.30.19:064][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.04.07-15.30.19:064][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.04.07-15.30.19:087][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2021.04.07-15.30.19:087][  0]LogAudioMixer: Display: Name: Haut-parleurs (Realtek High Definition Audio)
-[2021.04.07-15.30.19:087][  0]LogAudioMixer: Display: Is Default: Yes
-[2021.04.07-15.30.19:087][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2021.04.07-15.30.19:087][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2021.04.07-15.30.19:087][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2021.04.07-15.30.19:087][  0]LogAudioMixer: Display: Channel Order:
-[2021.04.07-15.30.19:087][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.04.07-15.30.19:087][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.04.07-15.30.19:121][  0]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
-[2021.04.07-15.30.19:125][  0]LogInit: FAudioDevice initialized.
-[2021.04.07-15.30.19:125][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.04.07-15.30.19:291][  0]LogDerivedDataCache: Saved boot cache 0.17s 78MB C:/Users/Lortet/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2021.04.07-15.30.19:291][  0]LogInit: Texture streaming: Enabled
-[2021.04.07-15.30.19:301][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.04.07-15.30.19:301][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.04.07-15.30.19:303][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.04.07-15.30.19:347][  0]LogInit: Transaction tracking system initialized
-[2021.04.07-15.30.19:356][  0]BlueprintLog: New page: Editor Load
-[2021.04.07-15.30.19:382][  0]LocalizationService: Localization service is disabled
-[2021.04.07-15.30.19:712][  0]LogFileCache: Scanning file cache for directory 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/' took 0.00s
-[2021.04.07-15.30.19:712][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.04.07-15.30.19:712][  0]LogCook: Display: Mobile HDR setting 1
-[2021.04.07-15.30.20:260][  0]SourceControl: Source control is disabled
-[2021.04.07-15.30.20:260][  0]Cmd: MAP LOAD FILE="D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Maps/MAP_Lvl1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.04.07-15.30.20:261][  0]LogEditorServer: Warning: Can't find file 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Maps/MAP_Lvl1.umap'
-[2021.04.07-15.30.20:261][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.04.07-15.30.20:261][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.094ms to complete.
-[2021.04.07-15.30.20:261][  0]LogFileHelpers: Loading map 'MAP_Lvl1' took 0.000
-[2021.04.07-15.30.20:401][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.07-15.30.20:412][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.07-15.30.20:418][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.07-15.30.20:426][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.07-15.30.20:430][  0]LogCollectionManager: Loaded 0 collections in 0.000918 seconds
-[2021.04.07-15.30.20:443][  0]LogFileCache: Scanning file cache for directory 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Collections/' took 0.00s
-[2021.04.07-15.30.20:443][  0]LogFileCache: Scanning file cache for directory 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Developers/Lortet/Collections/' took 0.00s
-[2021.04.07-15.30.20:443][  0]LogFileCache: Scanning file cache for directory 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Collections/' took 0.00s
-[2021.04.07-15.30.20:443][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 3023 classes and 722 folders.
-[2021.04.07-15.30.20:446][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.04.07-15.30.20:480][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2021.04.07-15.30.20:486][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 3 folders.
-[2021.04.07-15.30.20:574][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2021.04.07-15.30.20:574][  0]LogLoad: (Engine Initialization) Total time: 6.75 seconds
-[2021.04.07-15.30.20:574][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.04.07-15.30.20:625][  0]LogAssetRegistry: Asset discovery search completed in 4.0358 seconds
-[2021.04.07-15.30.20:628][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
-[2021.04.07-15.30.20:629][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2021.04.07-15.30.20:638][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.04.07-15.30.20:640][  0]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.04.07-15.30.20:643][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.04.07-15.30.20:697][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.04.07-15.30.20:741][  2]LogRenderer: Reallocating scene render targets to support 816x324 Format 10 NumSamples 1 (Frame:1).
-[2021.04.07-15.30.21:597][ 49]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.04.07-15.30.33:235][174]LogRenderer: Reallocating scene render targets to support 1228x532 Format 10 NumSamples 1 (Frame:148).
-[2021.04.07-15.30.42:076][581]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Core/Client/EFMInstance.EFMInstance
-[2021.04.07-15.30.42:279][581]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
-[2021.04.07-15.30.43:004][581]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2021.04.07-15.30.43:036][582]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2021.04.07-15.30.47:801][848]LogEditorTransaction: Undo Add Node
-[2021.04.07-15.31.13:433][347]BlueprintLog: New page: Compile EFMInstance
-[2021.04.07-15.31.13:434][347]LogBlueprint: Error: [Compiler EFMInstance] Cannot construct objects of type '/Game/Core/Http/HTTPManager.HTTPManager_C' in  Construct Object from Class
-[2021.04.07-15.31.13:470][347]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
-[2021.04.07-15.31.14:221][385]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/EFMInstanceDEE8128E45654D9B534E3BA75F947580.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/EFMInstance.uasset'
-[2021.04.07-15.31.14:271][385]AssetCheck: New page: Asset Save: EFMInstance
-[2021.04.07-15.31.14:272][385]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/EFMInstance.EFMInstance
-[2021.04.07-15.31.24:159][968]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/EFMInstanceEC12E4D04B92127384EC44B124A040EE.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/EFMInstance.uasset'
-[2021.04.07-15.31.24:173][968]AssetCheck: New page: Asset Save: EFMInstance
-[2021.04.07-15.31.24:173][968]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/EFMInstance.EFMInstance
-[2021.04.07-15.31.25:363][ 33]LogSlate: Window 'EFMInstance' being destroyed
-[2021.04.07-15.31.28:171][200]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Core/Http/HTTPManager.HTTPManager
-[2021.04.07-15.31.52:813][646]BlueprintLog: New page: Compile HTTPManager
-[2021.04.07-15.31.52:989][646]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
-[2021.04.07-15.31.53:383][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Http/HTTPManager" FILE="D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Http/HTTPManager.uasset" SILENT=true
-[2021.04.07-15.31.53:400][664]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/HTTPManager61247B3944EE36E1472BE2B87BEA6BED.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Http/HTTPManager.uasset'
-[2021.04.07-15.31.53:453][664]AssetCheck: New page: Asset Save: HTTPManager
-[2021.04.07-15.31.53:453][664]LogContentValidation: Display: Validating Blueprint /Game/Core/Http/HTTPManager.HTTPManager
-[2021.04.07-15.32.03:606][258]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2021.04.07-15.32.31:231][874]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.32.31:232][874]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.32.31:232][874]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.32.31:232][874]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.32.31:235][874]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.32.31:235][874]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.32.31:235][874]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.32.31:235][874]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.32.31:263][874]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
-[2021.04.07-15.32.38:089][256]BlueprintLog: New page: Compile PC_Speedrun
-[2021.04.07-15.32.38:092][256]LogBlueprint: Error: [Compiler PC_Speedrun] Cannot construct objects of type '/Game/Core/Http/HTTPManager.HTTPManager_C' in  Construct Object from Class
-[2021.04.07-15.32.38:099][256]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.32.38:100][256]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.32.38:100][256]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.32.38:100][256]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.32.38:103][256]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.32.38:103][256]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.32.38:103][256]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.32.38:103][256]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.32.38:289][256]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
-[2021.04.07-15.32.38:797][280]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/PC_Speedrun2228C244420C67F9EA9CF6820E11992A.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/PC_Speedrun.uasset'
-[2021.04.07-15.32.38:829][280]AssetCheck: New page: Asset Save: PC_Speedrun
-[2021.04.07-15.32.38:829][280]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
-[2021.04.07-15.33.36:937][282]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2021.04.07-15.34.14:073][445]BlueprintLog: New page: Compile HTTPManager
-[2021.04.07-15.34.14:092][445]LogBlueprintUserMessages: [HTTPManager_C_0] Hello
-[2021.04.07-15.34.14:275][445]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
-[2021.04.07-15.34.14:277][445]LogBlueprintUserMessages: [HTTPManager_C_0] Hello
-[2021.04.07-15.34.14:287][445]LogBlueprintUserMessages: [HTTPManager_C_0] Hello
-[2021.04.07-15.34.14:665][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Http/HTTPManager" FILE="D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Http/HTTPManager.uasset" SILENT=true
-[2021.04.07-15.34.14:682][466]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/HTTPManagerA1FF164F487F23AA71324DBDAAF06EE7.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Http/HTTPManager.uasset'
-[2021.04.07-15.34.14:701][466]AssetCheck: New page: Asset Save: HTTPManager
-[2021.04.07-15.34.14:701][466]LogContentValidation: Display: Validating Blueprint /Game/Core/Http/HTTPManager.HTTPManager
-[2021.04.07-15.34.16:189][551]BlueprintLog: New page: Compile PC_Speedrun
-[2021.04.07-15.34.16:192][551]LogBlueprint: Error: [Compiler PC_Speedrun] Cannot construct objects of type '/Game/Core/Http/HTTPManager.HTTPManager_C' in  Construct Object from Class
-[2021.04.07-15.34.16:199][551]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.34.16:199][551]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.34.16:199][551]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.34.16:200][551]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.34.16:202][551]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.34.16:202][551]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.34.16:202][551]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.34.16:203][551]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.34.16:390][551]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
-[2021.04.07-15.34.16:933][576]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/PC_Speedrun4C54579A4A2B770D83F07A8E07D01E09.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/PC_Speedrun.uasset'
-[2021.04.07-15.34.16:948][576]AssetCheck: New page: Asset Save: PC_Speedrun
-[2021.04.07-15.34.16:948][576]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
-[2021.04.07-15.34.32:999][497]LogEditorTransaction: Undo Add Node
-[2021.04.07-15.34.43:574][ 90]BlueprintLog: New page: Compile PC_Speedrun
-[2021.04.07-15.34.43:577][ 90]LogBlueprint: Error: [Compiler PC_Speedrun] Cannot construct objects of type '/Game/Core/Http/HTTPManager.HTTPManager_C' in  Construct Object from Class
-[2021.04.07-15.34.43:588][ 90]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.34.43:588][ 90]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.34.43:589][ 90]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.34.43:589][ 90]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.34.43:592][ 90]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.34.43:592][ 90]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.34.43:592][ 90]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.34.43:592][ 90]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.34.43:772][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
-[2021.04.07-15.34.44:315][115]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/PC_Speedrun9DC4E5AE45DA23B906813A92E828299B.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/PC_Speedrun.uasset'
-[2021.04.07-15.34.44:332][115]AssetCheck: New page: Asset Save: PC_Speedrun
-[2021.04.07-15.34.44:333][115]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
-[2021.04.07-15.34.57:076][874]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Core/Server/GM_Speedrun.GM_Speedrun
-[2021.04.07-15.35.02:673][191]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
-[2021.04.07-15.35.05:267][322]BlueprintLog: New page: Compile GM_Speedrun
-[2021.04.07-15.35.05:267][322]LogBlueprint: Error: [Compiler GM_Speedrun] Cannot construct objects of type '/Game/Core/Http/HTTPManager.HTTPManager_C' in  Construct Object from Class
-[2021.04.07-15.35.05:270][322]LogBlueprint: Warning: [Compiler GM_Speedrun] Could not find a variable named "httpManagerRef" in 'GM_Speedrun_C'.
-Make sure 'GM_Speedrun_C' has been compiled for  Set httpManagerRef
-[2021.04.07-15.35.05:270][322]LogBlueprint: Error: [Compiler GM_Speedrun] The property associated with  Http Manager Ref  could not be found in '/Game/Core/Server/GM_Speedrun.GM_Speedrun_C'
-[2021.04.07-15.35.05:456][322]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
-[2021.04.07-15.35.06:077][353]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/GM_SpeedrunF4E2440E4546305E6C548D9A9616AE04.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Server/GM_Speedrun.uasset'
-[2021.04.07-15.35.06:095][353]AssetCheck: New page: Asset Save: GM_Speedrun
-[2021.04.07-15.35.06:095][353]LogContentValidation: Display: Validating Blueprint /Game/Core/Server/GM_Speedrun.GM_Speedrun
-[2021.04.07-15.35.09:000][521]BlueprintLog: New page: Compile GM_Speedrun
-[2021.04.07-15.35.09:188][521]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
-[2021.04.07-15.35.09:627][544]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/GM_Speedrun280E0F8741203CE7324459840796868A.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Server/GM_Speedrun.uasset'
-[2021.04.07-15.35.09:645][544]AssetCheck: New page: Asset Save: GM_Speedrun
-[2021.04.07-15.35.09:645][544]LogContentValidation: Display: Validating Blueprint /Game/Core/Server/GM_Speedrun.GM_Speedrun
-[2021.04.07-15.35.13:432][758]BlueprintLog: New page: Compile PC_Speedrun
-[2021.04.07-15.35.13:441][758]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.35.13:442][758]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.35.13:442][758]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.35.13:442][758]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.35.13:445][758]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.35.13:445][758]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.35.13:445][758]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.35.13:445][758]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.35.13:632][758]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
-[2021.04.07-15.35.14:309][792]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/PC_SpeedrunAF8516CD43DE81CDA56BA7ACBE924642.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/PC_Speedrun.uasset'
-[2021.04.07-15.35.14:327][792]AssetCheck: New page: Asset Save: PC_Speedrun
-[2021.04.07-15.35.14:327][792]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
-[2021.04.07-15.35.16:090][895]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2021.04.07-15.35.16:090][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.07-15.35.16:601][923]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2021.04.07-15.35.16:601][923]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2021.04.07-15.35.16:601][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.07-15.35.21:115][183]BlueprintLog: New page: Compile HTTPManager
-[2021.04.07-15.35.21:317][183]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
-[2021.04.07-15.35.21:689][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Http/HTTPManager" FILE="D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Http/HTTPManager.uasset" SILENT=true
-[2021.04.07-15.35.21:706][203]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/HTTPManager409009B2409834BEBA972091B4DDBD5A.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Http/HTTPManager.uasset'
-[2021.04.07-15.35.21:722][203]AssetCheck: New page: Asset Save: HTTPManager
-[2021.04.07-15.35.21:723][203]LogContentValidation: Display: Validating Blueprint /Game/Core/Http/HTTPManager.HTTPManager
-[2021.04.07-15.35.24:318][356]BlueprintLog: New page: Compile EFMInstance
-[2021.04.07-15.35.24:319][356]LogBlueprint: Error: [Compiler EFMInstance] Cannot construct objects of type '/Game/Core/Http/HTTPManager.HTTPManager_C' in  Construct Object from Class
-[2021.04.07-15.35.24:356][356]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
-[2021.04.07-15.35.33:886][923]BlueprintLog: New page: Compile EFMInstance
-[2021.04.07-15.35.33:887][923]LogBlueprint: Error: [Compiler EFMInstance] Cannot construct objects of type '/Game/Core/Http/HTTPManager.HTTPManager_C' in  Construct Object from Class
-[2021.04.07-15.35.33:887][923]LogBlueprint: Error: [Compiler EFMInstance] Outer object is required in  Construct Object from Class
-[2021.04.07-15.35.33:926][923]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
-[2021.04.07-15.35.34:876][977]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/EFMInstance18C1775B43A051A63DC872818E00AF7D.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/EFMInstance.uasset'
-[2021.04.07-15.35.34:893][977]AssetCheck: New page: Asset Save: EFMInstance
-[2021.04.07-15.35.34:893][977]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/EFMInstance.EFMInstance
-[2021.04.07-15.35.46:578][668]BlueprintLog: New page: Compile EFMInstance
-[2021.04.07-15.35.46:578][668]LogBlueprint: Error: [Compiler EFMInstance] Cannot construct objects of type '/Game/Core/Http/HTTPManager.HTTPManager_C' in  Construct Object from Class
-[2021.04.07-15.35.46:617][668]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
-[2021.04.07-15.35.47:257][704]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/EFMInstanceF41DBB5A4D4B0F1F2E3B3CA5DA26DBF9.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/EFMInstance.uasset'
-[2021.04.07-15.35.47:272][704]AssetCheck: New page: Asset Save: EFMInstance
-[2021.04.07-15.35.47:272][704]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/EFMInstance.EFMInstance
-[2021.04.07-15.35.52:981][ 42]BlueprintLog: New page: Compile EFMInstance
-[2021.04.07-15.35.52:981][ 42]LogBlueprint: Error: [Compiler EFMInstance] Cannot construct objects of type '/Game/Core/Http/HTTPManager.HTTPManager_C' in  Construct Object from Class
-[2021.04.07-15.35.53:020][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
-[2021.04.07-15.35.53:540][ 71]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/EFMInstance7394BD4C4E0CBEE8858B03A81FEFEB47.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/EFMInstance.uasset'
-[2021.04.07-15.35.53:554][ 71]AssetCheck: New page: Asset Save: EFMInstance
-[2021.04.07-15.35.53:554][ 71]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/EFMInstance.EFMInstance
-[2021.04.07-15.37.48:763][158]BlueprintLog: New page: Compile HTTPManager
-[2021.04.07-15.37.48:947][158]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
-[2021.04.07-15.37.49:287][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Http/HTTPManager" FILE="D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Http/HTTPManager.uasset" SILENT=true
-[2021.04.07-15.37.49:305][175]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/HTTPManager32C361394781D27C8B0651A4064E0EFD.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Http/HTTPManager.uasset'
-[2021.04.07-15.37.49:321][175]AssetCheck: New page: Asset Save: HTTPManager
-[2021.04.07-15.37.49:321][175]LogContentValidation: Display: Validating Blueprint /Game/Core/Http/HTTPManager.HTTPManager
-[2021.04.07-15.38.13:067][593]BlueprintLog: New page: Compile EFMInstance
-[2021.04.07-15.38.13:104][593]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
-[2021.04.07-15.38.27:040][419]BlueprintLog: New page: Compile EFMInstance
-[2021.04.07-15.38.27:079][419]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
-[2021.04.07-15.38.27:488][440]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/EFMInstance0DB1BBC243AD1BCB7040198779B6F7CC.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/EFMInstance.uasset'
-[2021.04.07-15.38.27:502][440]AssetCheck: New page: Asset Save: EFMInstance
-[2021.04.07-15.38.27:502][440]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/EFMInstance.EFMInstance
-[2021.04.07-15.38.29:840][581]LogEditorTransaction: Undo Delete current selection
-[2021.04.07-15.38.32:640][727]BlueprintLog: New page: Compile EFMInstance
-[2021.04.07-15.38.32:641][727]LogBlueprint: Error: [Compiler EFMInstance] Cannot construct objects of type '/Game/Core/Http/HTTPManager.HTTPManager_C' in  Construct Object from Class
-[2021.04.07-15.38.32:681][727]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
-[2021.04.07-15.38.33:152][754]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/EFMInstance8EB331A24384255EEF975CBE1C2052E1.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/EFMInstance.uasset'
-[2021.04.07-15.38.33:166][754]AssetCheck: New page: Asset Save: EFMInstance
-[2021.04.07-15.38.33:166][754]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/EFMInstance.EFMInstance
-[2021.04.07-15.38.40:314][175]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
-[2021.04.07-15.38.56:349][ 90]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2021.04.07-15.39.13:635][115]BlueprintLog: New page: Compile PC_Speedrun
-[2021.04.07-15.39.13:644][115]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.39.13:645][115]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.39.13:645][115]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.39.13:646][115]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.39.13:649][115]LogBlueprint: Error: [Compiler PC_Speedrun] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Begin Deferred Actor Spawn from Class' must have an input wired into it ("by ref" params expect a valid input to operate on).
-[2021.04.07-15.39.13:649][115]LogBlueprint: Error: [Compiler PC_Speedrun] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Finish Spawning Actor' must have an input wired into it ("by ref" params expect a valid input to operate on).
-[2021.04.07-15.39.13:649][115]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.39.13:649][115]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.39.13:649][115]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.39.13:649][115]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.39.13:833][115]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
-[2021.04.07-15.39.14:329][137]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/PC_Speedrun38747F7B4564256A80C99085BDE5B5CE.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/PC_Speedrun.uasset'
-[2021.04.07-15.39.14:343][137]AssetCheck: New page: Asset Save: PC_Speedrun
-[2021.04.07-15.39.14:343][137]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
-[2021.04.07-15.39.22:302][592]BlueprintLog: New page: Compile PC_Speedrun
-[2021.04.07-15.39.22:311][592]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.39.22:312][592]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.39.22:312][592]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.39.22:313][592]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.39.22:316][592]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.39.22:316][592]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.39.22:316][592]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.39.22:316][592]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.39.22:499][592]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
-[2021.04.07-15.39.23:010][615]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/PC_Speedrun63D0B0BE4807E061259DA1A42758342E.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/PC_Speedrun.uasset'
-[2021.04.07-15.39.23:028][615]AssetCheck: New page: Asset Save: PC_Speedrun
-[2021.04.07-15.39.23:028][615]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
-[2021.04.07-15.39.31:430][ 54]LogSlate: Window 'Delete Variable' being destroyed
-[2021.04.07-15.39.33:950][205]BlueprintLog: New page: Compile EFMInstance
-[2021.04.07-15.39.33:992][205]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
-[2021.04.07-15.39.34:475][232]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/EFMInstance3A558EEF4302DD8A3FDE908392204E55.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/EFMInstance.uasset'
-[2021.04.07-15.39.34:493][232]AssetCheck: New page: Asset Save: EFMInstance
-[2021.04.07-15.39.34:493][232]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/EFMInstance.EFMInstance
-[2021.04.07-15.39.54:823][443]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/PC_Speedrun816FB52B4EBB010FEF73E78E3404B993.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/PC_Speedrun.uasset'
-[2021.04.07-15.39.54:837][443]AssetCheck: New page: Asset Save: PC_Speedrun
-[2021.04.07-15.39.54:837][443]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
-[2021.04.07-15.40.03:327][949]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2021.04.07-15.40.41:863][255]LogMetaData: Removing '/Game/Core/Managers/HTTPManager.HTTPManager:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Core/Http/HTTPManager.PackageMetaData'
-[2021.04.07-15.40.41:863][255]LogMetaData: Removing '/Game/Core/Managers/HTTPManager.HTTPManager_C' ref from Metadata '/Game/Core/Http/HTTPManager.PackageMetaData'
-[2021.04.07-15.40.41:863][255]LogMetaData: Removing '/Game/Core/Managers/HTTPManager.HTTPManager_C:Event_PostScore' ref from Metadata '/Game/Core/Http/HTTPManager.PackageMetaData'
-[2021.04.07-15.40.41:863][255]LogMetaData: Removing '/Game/Core/Managers/HTTPManager.HTTPManager_C:ReceiveBeginPlay' ref from Metadata '/Game/Core/Http/HTTPManager.PackageMetaData'
-[2021.04.07-15.40.41:863][255]LogMetaData: Removing '/Game/Core/Managers/HTTPManager.HTTPManager_C:DefaultSceneRoot' ref from Metadata '/Game/Core/Http/HTTPManager.PackageMetaData'
-[2021.04.07-15.40.41:863][255]LogMetaData: Removing '/Game/Core/Managers/HTTPManager.HTTPManager_C:requestRef' ref from Metadata '/Game/Core/Http/HTTPManager.PackageMetaData'
-[2021.04.07-15.40.41:863][255]LogMetaData: Removing '/Game/Core/Managers/HTTPManager.SKEL_HTTPManager_C' ref from Metadata '/Game/Core/Http/HTTPManager.PackageMetaData'
-[2021.04.07-15.40.41:864][255]LogMetaData: Removing '/Game/Core/Managers/HTTPManager.SKEL_HTTPManager_C:UserConstructionScript' ref from Metadata '/Game/Core/Http/HTTPManager.PackageMetaData'
-[2021.04.07-15.40.41:864][255]LogMetaData: Removing '/Game/Core/Managers/HTTPManager.SKEL_HTTPManager_C:DefaultSceneRoot' ref from Metadata '/Game/Core/Http/HTTPManager.PackageMetaData'
-[2021.04.07-15.40.41:864][255]LogMetaData: Removing '/Game/Core/Managers/HTTPManager.SKEL_HTTPManager_C:requestRef' ref from Metadata '/Game/Core/Http/HTTPManager.PackageMetaData'
-[2021.04.07-15.40.41:864][255]LogMetaData: Removing '/Game/Core/Managers/HTTPManager.SKEL_HTTPManager_C:Event_GetVersion' ref from Metadata '/Game/Core/Http/HTTPManager.PackageMetaData'
-[2021.04.07-15.40.41:864][255]LogMetaData: Removing '/Game/Core/Managers/HTTPManager.SKEL_HTTPManager_C:ReceiveBeginPlay' ref from Metadata '/Game/Core/Http/HTTPManager.PackageMetaData'
-[2021.04.07-15.40.41:864][255]LogMetaData: Removing '/Game/Core/Managers/HTTPManager.SKEL_HTTPManager_C:HTTPPostScore_Fail' ref from Metadata '/Game/Core/Http/HTTPManager.PackageMetaData'
-[2021.04.07-15.40.41:864][255]LogMetaData: Removing '/Game/Core/Managers/HTTPManager.SKEL_HTTPManager_C:HTTPPostScore_Ok' ref from Metadata '/Game/Core/Http/HTTPManager.PackageMetaData'
-[2021.04.07-15.40.41:864][255]LogMetaData: Removing '/Game/Core/Managers/HTTPManager.SKEL_HTTPManager_C:Event_PostScore' ref from Metadata '/Game/Core/Http/HTTPManager.PackageMetaData'
-[2021.04.07-15.40.41:864][255]LogMetaData: Removing '/Game/Core/Managers/HTTPManager.SKEL_HTTPManager_C:HTTPVersion_Ok' ref from Metadata '/Game/Core/Http/HTTPManager.PackageMetaData'
-[2021.04.07-15.40.41:923][255]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/HTTPManager108C50F1456E33EB34F113993239A0A2.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Managers/HTTPManager.uasset'
-[2021.04.07-15.40.42:252][255]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
-[2021.04.07-15.40.42:295][255]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
-[2021.04.07-15.40.42:331][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
-[2021.04.07-15.40.42:399][255]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/PC_SpeedrunF4B5F2A549218F516F3D5ABD610F8471.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/PC_Speedrun.uasset'
-[2021.04.07-15.40.42:446][255]AssetCheck: New page: Asset Save: multiple assets
-[2021.04.07-15.40.42:446][255]LogContentValidation: Display: Validating Blueprint /Game/Core/Managers/HTTPManager.HTTPManager
-[2021.04.07-15.40.42:446][255]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
-[2021.04.07-15.40.45:404][373]LogSlate: Window 'Pick Parent Class' being destroyed
-[2021.04.07-15.40.49:551][612]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
-[2021.04.07-15.40.50:590][612]LogSlate: Window 'Delete Assets' being destroyed
-[2021.04.07-15.40.50:711][612]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
-[2021.04.07-15.40.55:898][684]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
-[2021.04.07-15.41.10:886][684]LogSlate: Window 'Pick Parent Class' being destroyed
-[2021.04.07-15.41.16:796][ 33]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/BP_Manager92C2C3964951DD5A9E0AA185A92F1BA3.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Managers/BP_Manager.uasset'
-[2021.04.07-15.41.16:812][ 33]AssetCheck: New page: Asset Save: BP_Manager
-[2021.04.07-15.41.16:812][ 33]LogContentValidation: Display: Validating Blueprint /Game/Core/Managers/BP_Manager.BP_Manager
-[2021.04.07-15.41.17:541][ 76]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Core/Managers/BP_Manager.BP_Manager
-[2021.04.07-15.41.27:294][646]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2021.04.07-15.41.38:149][290]BlueprintLog: New page: Compile HTTPManager
-[2021.04.07-15.41.38:350][290]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
-[2021.04.07-15.41.39:549][359]BlueprintLog: New page: Compile BP_Manager
-[2021.04.07-15.41.39:592][359]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
-[2021.04.07-15.41.40:958][440]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2021.04.07-15.41.49:427][935]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/BP_Manager8D774C4141713E6B4E9697B16D36B0B3.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Managers/BP_Manager.uasset'
-[2021.04.07-15.41.49:441][935]AssetCheck: New page: Asset Save: BP_Manager
-[2021.04.07-15.41.49:441][935]LogContentValidation: Display: Validating Blueprint /Game/Core/Managers/BP_Manager.BP_Manager
-[2021.04.07-15.42.08:655][ 71]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Manager_HTTP3CE71D254B7F78A3BB9779B8E2F6D629.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Managers/Manager_HTTP.uasset'
-[2021.04.07-15.42.08:670][ 71]AssetCheck: New page: Asset Save: Manager_HTTP
-[2021.04.07-15.42.08:670][ 71]LogContentValidation: Display: Validating Blueprint /Game/Core/Managers/Manager_HTTP.Manager_HTTP
-[2021.04.07-15.42.16:234][520]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Core/Managers/Manager_HTTP.Manager_HTTP
-[2021.04.07-15.42.19:628][692]BlueprintLog: New page: Compile Manager_HTTP
-[2021.04.07-15.42.19:630][692]LogBlueprint: Warning: [Compiler Manager_HTTP] Could not find a variable named "requestRef" in 'Manager_HTTP_C'.
-Make sure 'Manager_HTTP_C' has been compiled for  Set requestRef
-[2021.04.07-15.42.19:630][692]LogBlueprint: Warning: [Compiler Manager_HTTP] Could not find a variable named "requestRef" in 'Manager_HTTP_C'.
-Make sure 'Manager_HTTP_C' has been compiled for  Get requestRef
-[2021.04.07-15.42.19:630][692]LogBlueprint: Warning: [Compiler Manager_HTTP] Could not find a variable named "requestRef" in 'Manager_HTTP_C'.
-Make sure 'Manager_HTTP_C' has been compiled for  Get requestRef
-[2021.04.07-15.42.19:630][692]LogBlueprint: Warning: [Compiler Manager_HTTP] Could not find a variable named "requestRef" in 'Manager_HTTP_C'.
-Make sure 'Manager_HTTP_C' has been compiled for  Get requestRef
-[2021.04.07-15.42.19:631][692]LogBlueprint: Warning: [Compiler Manager_HTTP] Could not find a variable named "requestRef" in 'Manager_HTTP_C'.
-Make sure 'Manager_HTTP_C' has been compiled for  Get requestRef
-[2021.04.07-15.42.19:631][692]LogBlueprint: Warning: [Compiler Manager_HTTP] Could not find a variable named "requestRef" in 'Manager_HTTP_C'.
-Make sure 'Manager_HTTP_C' has been compiled for  Get requestRef
-[2021.04.07-15.42.19:631][692]LogBlueprint: Warning: [Compiler Manager_HTTP] Could not find a variable named "requestRef" in 'Manager_HTTP_C'.
-Make sure 'Manager_HTTP_C' has been compiled for  Set requestRef
-[2021.04.07-15.42.19:631][692]LogBlueprint: Error: [Compiler Manager_HTTP] This blueprint (self) is not a VaRestRequestJSON, therefore ' Target ' must have a connection.
-[2021.04.07-15.42.19:631][692]LogBlueprint: Error: [Compiler Manager_HTTP] The type of  Object  is undetermined.  Connect something to  Cast To BP_Instance  to imply a specific type.
-[2021.04.07-15.42.19:632][692]LogBlueprint: Error: [Compiler Manager_HTTP] The property associated with  Request Ref  could not be found in '/Game/Core/Managers/Manager_HTTP.Manager_HTTP_C'
-[2021.04.07-15.42.19:632][692]LogBlueprint: Error: [Compiler Manager_HTTP] The property associated with  Request Ref  could not be found in '/Game/Core/Managers/Manager_HTTP.Manager_HTTP_C'
-[2021.04.07-15.42.19:632][692]LogBlueprint: Error: [Compiler Manager_HTTP] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
-[2021.04.07-15.42.19:632][692]LogBlueprint: Error: [Compiler Manager_HTTP] The property associated with  Request Ref  could not be found in '/Game/Core/Managers/Manager_HTTP.Manager_HTTP_C'
-[2021.04.07-15.42.19:632][692]LogBlueprint: Error: [Compiler Manager_HTTP] Couldn't find target for dynamically bound delegate node  Bind Event to On Request Complete
-[2021.04.07-15.42.19:632][692]LogBlueprint: Error: [Compiler Manager_HTTP] The property associated with  Request Ref  could not be found in '/Game/Core/Managers/Manager_HTTP.Manager_HTTP_C'
-[2021.04.07-15.42.19:632][692]LogBlueprint: Error: [Compiler Manager_HTTP] Couldn't find target for dynamically bound delegate node  Bind Event to On Request Fail
-[2021.04.07-15.42.19:632][692]LogBlueprint: Error: [Compiler Manager_HTTP] The property associated with  Request Ref  could not be found in '/Game/Core/Managers/Manager_HTTP.Manager_HTTP_C'
-[2021.04.07-15.42.19:632][692]LogBlueprint: Error: [Compiler Manager_HTTP] The property associated with  Request Ref  could not be found in '/Game/Core/Managers/Manager_HTTP.Manager_HTTP_C'
-[2021.04.07-15.42.19:632][692]LogBlueprint: Error: [Compiler Manager_HTTP] The property associated with  Request Ref  could not be found in '/Game/Core/Managers/Manager_HTTP.Manager_HTTP_C'
-[2021.04.07-15.42.19:676][692]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
-[2021.04.07-15.42.27:513][151]BlueprintLog: New page: Compile Manager_HTTP
-[2021.04.07-15.42.27:516][151]LogBlueprint: Error: [Compiler Manager_HTTP] The type of  Object  is undetermined.  Connect something to  Cast To BP_Instance  to imply a specific type.
-[2021.04.07-15.42.27:516][151]LogBlueprint: Error: [Compiler Manager_HTTP] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
-[2021.04.07-15.42.27:555][151]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
-[2021.04.07-15.42.28:051][177]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Manager_HTTPEB1CEBE6477EF8A80B6EE69F8C20FD77.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Managers/Manager_HTTP.uasset'
-[2021.04.07-15.42.28:067][177]AssetCheck: New page: Asset Save: Manager_HTTP
-[2021.04.07-15.42.28:067][177]LogContentValidation: Display: Validating Blueprint /Game/Core/Managers/Manager_HTTP.Manager_HTTP
-[2021.04.07-15.42.43:373][ 82]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2021.04.07-15.42.57:026][872]BlueprintLog: New page: Compile Manager_HTTP
-[2021.04.07-15.42.57:075][872]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
-[2021.04.07-15.42.57:629][900]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/Manager_HTTPFEDA440549EC8D8E85FBFD9B6E2B0B9F.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Managers/Manager_HTTP.uasset'
-[2021.04.07-15.42.57:646][900]AssetCheck: New page: Asset Save: Manager_HTTP
-[2021.04.07-15.42.57:646][900]LogContentValidation: Display: Validating Blueprint /Game/Core/Managers/Manager_HTTP.Manager_HTTP
-[2021.04.07-15.43.04:489][298]BlueprintLog: New page: Compile PC_Speedrun
-[2021.04.07-15.43.04:498][298]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.43.04:499][298]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.43.04:499][298]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.43.04:499][298]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.43.04:502][298]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.43.04:502][298]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.43.04:502][298]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.43.04:502][298]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.43.04:691][298]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
-[2021.04.07-15.43.05:082][314]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/PC_Speedrun2C4F6FEA4A7E1048AB2B3AAE0F55A030.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/PC_Speedrun.uasset'
-[2021.04.07-15.43.05:097][314]AssetCheck: New page: Asset Save: PC_Speedrun
-[2021.04.07-15.43.05:097][314]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
-[2021.04.07-15.43.12:574][761]BlueprintLog: New page: Compile PC_Speedrun
-[2021.04.07-15.43.12:583][761]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.43.12:584][761]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.43.12:584][761]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.43.12:584][761]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.43.12:587][761]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.43.12:587][761]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.43.12:587][761]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.43.12:588][761]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.43.12:787][761]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
-[2021.04.07-15.43.16:613][977]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/PC_Speedrun92C0D1384CFC8AF3A99BB6AD19686FF6.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/PC_Speedrun.uasset'
-[2021.04.07-15.43.16:626][977]AssetCheck: New page: Asset Save: PC_Speedrun
-[2021.04.07-15.43.16:626][977]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
-[2021.04.07-15.43.29:405][655]LogSlate: Window 'Change Variable Type' being destroyed
-[2021.04.07-15.43.32:256][814]LogSlate: Window 'Find in Blueprints' being destroyed
-[2021.04.07-15.43.32:262][814]LogSlate: Window 'Find in Blueprints' being destroyed
-[2021.04.07-15.44.10:447][ 22]BlueprintLog: New page: Compile PC_Speedrun
-[2021.04.07-15.44.10:457][ 22]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.44.10:457][ 22]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.44.10:458][ 22]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.44.10:458][ 22]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.44.10:461][ 22]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.44.10:461][ 22]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.44.10:461][ 22]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.44.10:461][ 22]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.44.10:657][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
-[2021.04.07-15.44.11:039][ 37]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/PC_Speedrun22E95BEC42D52964D3BB3E97769CF2A3.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/PC_Speedrun.uasset'
-[2021.04.07-15.44.11:054][ 37]AssetCheck: New page: Asset Save: PC_Speedrun
-[2021.04.07-15.44.11:054][ 37]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
-[2021.04.07-15.44.32:759][324]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2021.04.07-15.44.41:824][857]BlueprintLog: New page: Compile EFMInstance
-[2021.04.07-15.44.41:884][857]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
-[2021.04.07-15.44.42:405][886]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/EFMInstance9E30B29540A72322E00CA69924E03CCE.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/EFMInstance.uasset'
-[2021.04.07-15.44.42:421][886]AssetCheck: New page: Asset Save: EFMInstance
-[2021.04.07-15.44.42:421][886]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/EFMInstance.EFMInstance
-[2021.04.07-15.44.53:697][560]BlueprintLog: New page: Compile EFMInstance
-[2021.04.07-15.44.53:747][560]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
-[2021.04.07-15.44.54:370][594]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/EFMInstance1E5E1F644006BA5BEE1B86A58AD60E30.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/EFMInstance.uasset'
-[2021.04.07-15.44.54:387][594]AssetCheck: New page: Asset Save: EFMInstance
-[2021.04.07-15.44.54:387][594]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/EFMInstance.EFMInstance
-[2021.04.07-15.44.56:787][731]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/EFMInstanceD9D16AA34DA6D21B75409D8C422E61E1.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/EFMInstance.uasset'
-[2021.04.07-15.44.56:800][731]AssetCheck: New page: Asset Save: EFMInstance
-[2021.04.07-15.44.56:801][731]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/EFMInstance.EFMInstance
-[2021.04.07-15.45.16:182][885]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
-[2021.04.07-15.45.16:182][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.07-15.45.19:015][ 49]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2021.04.07-15.45.19:015][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.07-15.45.26:298][482]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2021.04.07-15.45.26:298][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.07-15.45.29:777][680]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
-[2021.04.07-15.45.32:107][680]LogSlate: Window 'Delete Assets' being destroyed
-[2021.04.07-15.45.39:316][680]LogUObjectGlobals: Force Deleting 1 Package(s):
-	Asset Name: /Game/Core/Managers/HTTPManager.HTTPManager
-[2021.04.07-15.45.39:917][680]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
-[2021.04.07-15.45.39:951][680]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
-[2021.04.07-15.45.39:984][680]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
-[2021.04.07-15.45.48:293][961]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/PC_SpeedrunA998C56A4A04C83291F4B8950335D008.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/PC_Speedrun.uasset'
-[2021.04.07-15.45.48:308][961]AssetCheck: New page: Asset Save: PC_Speedrun
-[2021.04.07-15.45.48:308][961]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
-[2021.04.07-15.47.00:855][237]BlueprintLog: New page: Compile PC_Speedrun
-[2021.04.07-15.47.00:866][237]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.47.00:867][237]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.47.00:867][237]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.47.00:867][237]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.47.00:870][237]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.47.00:870][237]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.47.00:870][237]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.47.00:871][237]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.47.01:053][237]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
-[2021.04.07-15.47.01:441][252]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/PC_Speedrun0B320EAF4E01BFAA94360499AC88D64B.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/PC_Speedrun.uasset'
-[2021.04.07-15.47.01:460][252]AssetCheck: New page: Asset Save: PC_Speedrun
-[2021.04.07-15.47.01:460][252]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
-[2021.04.07-15.47.09:474][728]BlueprintLog: New page: Compile PC_Speedrun
-[2021.04.07-15.47.09:484][728]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.47.09:485][728]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.47.09:485][728]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.47.09:485][728]LogBlueprint: Warning: [Compiler PC_Speedrun] Could not find a variable named "Camera" in 'PC_Speedrun_C'.
-Make sure 'PC_Speedrun_C' has been compiled for  Get Camera
-[2021.04.07-15.47.09:489][728]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.47.09:489][728]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.47.09:489][728]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.47.09:489][728]LogBlueprint: Error: [Compiler PC_Speedrun] The property associated with  Camera  could not be found in '/Game/Core/Client/PC_Speedrun.PC_Speedrun_C'
-[2021.04.07-15.47.09:669][728]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
-[2021.04.07-15.47.10:000][740]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Saved/PC_SpeedrunEC0404C14CD8723C0B72639EBBD9F0D7.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Projet_Dev_B3/Content/Core/Client/PC_Speedrun.uasset'
-[2021.04.07-15.47.10:014][740]AssetCheck: New page: Asset Save: PC_Speedrun
-[2021.04.07-15.47.10:014][740]LogContentValidation: Display: Validating Blueprint /Game/Core/Client/PC_Speedrun.PC_Speedrun
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Engine.ini]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Engine.ini]
+[2021.04.07-17.09.52:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Engine.ini]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Engine.ini]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.07-17.09.52:869][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.07-17.09.52:870][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.07-17.09.52:870][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.07-17.09.52:870][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.07-17.09.52:870][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.07-17.09.52:870][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Engine.ini]
+[2021.04.07-17.09.52:870][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Engine.ini]
+[2021.04.07-17.09.52:873][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.07-17.09.52:874][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.07-17.09.52:875][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.07-17.09.52:875][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.07-17.09.52:875][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.07-17.09.52:875][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.07-17.09.52:875][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.07-17.09.52:875][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-17.09.52:875][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.07-17.09.52:875][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.07-17.09.52:875][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-17.09.52:875][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.07-17.09.52:875][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.07-17.09.52:875][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.07-17.09.52:875][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.07-17.09.52:875][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.07-17.09.52:877][  0]LogHAL: Display: Platform has ~ 16 GB [17126866944 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.07-17.09.52:877][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.07-17.09.52:877][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.07-17.09.52:877][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.07-17.09.52:878][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Config/Windows/Engine.ini]
+[2021.04.07-17.09.52:878][  0]LogInit: Computer: DESKTOP-VMU6QFV
+[2021.04.07-17.09.52:878][  0]LogInit: User: loict
+[2021.04.07-17.09.52:878][  0]LogInit: CPU Page size=4096, Cores=12
+[2021.04.07-17.09.52:878][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.07-17.09.52:879][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.04.07-17.09.52:879][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.07-17.09.52:879][  0]LogMemory: Process Physical Memory: 108.77 MB used, 108.77 MB peak
+[2021.04.07-17.09.52:879][  0]LogMemory: Process Virtual Memory: 104.38 MB used, 104.38 MB peak
+[2021.04.07-17.09.52:879][  0]LogMemory: Physical Memory: 7386.88 MB used,  8946.58 MB free, 16333.45 MB total
+[2021.04.07-17.09.52:879][  0]LogMemory: Virtual Memory: 5223.69 MB used,  134212504.00 MB free, 134217728.00 MB total
+[2021.04.07-17.09.52:880][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.07-17.09.52:906][  0]LogInit: Using OS detected language (fr-FR).
+[2021.04.07-17.09.52:906][  0]LogInit: Using OS detected locale (fr-FR).
+[2021.04.07-17.09.52:906][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2021.04.07-17.09.52:906][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2021.04.07-17.09.52:906][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2021.04.07-17.09.52:906][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2021.04.07-17.09.52:907][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2021.04.07-17.09.52:907][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2021.04.07-17.09.52:907][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2021.04.07-17.09.52:907][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2021.04.07-17.09.52:907][  0]LogInit: Setting process to per monitor DPI aware
+[2021.04.07-17.09.52:932][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.07-17.09.52:932][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.07-17.09.53:030][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.07-17.09.53:030][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.07-17.09.53:030][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.07-17.09.53:030][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.07-17.09.53:138][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2021.04.07-17.09.53:138][  0]LogD3D11RHI:       8088/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.04.07-17.09.53:140][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.07-17.09.53:140][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.07-17.09.53:140][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.07-17.09.53:147][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.07-17.09.53:147][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2021.04.07-17.09.53:147][  0]LogWindows: EnumDisplayDevices:
+[2021.04.07-17.09.53:147][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2021.04.07-17.09.53:147][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2021.04.07-17.09.53:147][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.04.07-17.09.53:148][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.04.07-17.09.53:148][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.04.07-17.09.53:148][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2021.04.07-17.09.53:148][  0]LogD3D11RHI:   Driver Version: 461.40 (internal:27.21.14.6140, unified:461.40)
+[2021.04.07-17.09.53:148][  0]LogD3D11RHI:      Driver Date: 1-22-2021
+[2021.04.07-17.09.53:148][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2021.04.07-17.09.53:230][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.04.07-17.09.53:230][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.07-17.09.53:255][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.04.07-17.09.53:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.07-17.09.53:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.07-17.09.53:513][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.07-17.09.53:513][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.07-17.09.53:519][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.04.07-17.09.53:525][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.04.07-17.09.53:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.04.07-17.09.53:537][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.04.07-17.09.53:543][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.04.07-17.09.53:549][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.04.07-17.09.53:569][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.07-17.09.53:569][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.07-17.09.53:581][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.07-17.09.53:581][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.07-17.09.53:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.07-17.09.53:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.07-17.09.53:599][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.07-17.09.53:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.07-17.09.53:605][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.07-17.09.53:607][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.07-17.09.53:623][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Intermediate/Shaders/WorkingDirectory/13328/).
+[2021.04.07-17.09.53:623][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/loict/AppData/Local/Temp/UnrealShaderWorkingDir/46E59F354E57519AB4D86AB02187856F/'.
+[2021.04.07-17.09.53:624][  0]LogXGEController: Cleaning working directory: C:/Users/loict/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.04.07-17.09.53:624][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.04.07-17.09.53:624][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.07-17.09.53:624][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.07-17.09.54:213][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.07-17.09.54:264][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/loict/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2021.04.07-17.09.54:264][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/loict/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2021.04.07-17.09.54:264][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.07-17.09.54:264][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.07-17.09.54:264][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.07-17.09.54:264][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.04.07-17.09.54:274][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.07-17.09.54:274][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.07-17.09.54:274][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.04.07-17.09.54:276][  0]LogDerivedDataCache: Using Local data cache path C:/Users/loict/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.04.07-17.09.54:276][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.07-17.09.54:276][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.07-17.09.54:298][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.04.07-17.09.54:301][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.07-17.09.54:301][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.07-17.09.54:343][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2021.04.07-17.09.54:597][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.07-17.09.54:727][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.07-17.09.54:727][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.07-17.09.54:727][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.07-17.09.54:727][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.07-17.09.54:727][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.07-17.09.54:739][  0]LogNetVersion: EscapeFromMorkov 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1930910190)
+[2021.04.07-17.09.55:579][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.035868 seconds
+[2021.04.07-17.09.55:588][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2021.04.07-17.09.55:588][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2021.04.07-17.09.55:588][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.07-17.09.55:921][  0]LogVaRest: FVaRestModule::StartupModule(26): VaRest module started
+[2021.04.07-17.09.55:924][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.07-17.09.55:927][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.07-17.09.55:971][  0]SourceControl: Source control is disabled
+[2021.04.07-17.09.55:971][  0]SourceControl: Source control is disabled
+[2021.04.07-17.09.55:971][  0]SourceControl: Source control is disabled
+[2021.04.07-17.09.55:972][  0]SourceControl: Source control is disabled
+[2021.04.07-17.09.55:973][  0]SourceControl: Source control is disabled
+[2021.04.07-17.09.56:038][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.07-17.09.56:045][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.07-17.09.56:045][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.07-17.09.56:121][  0]LogOcInput: OculusInput pre-init called
+[2021.04.07-17.09.56:128][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.04.07-17.09.56:128][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.04.07-17.09.56:194][  0]LogEngine: Initializing Engine...
+[2021.04.07-17.09.56:195][  0]LogVaRest: UVaRestSubsystem::Initialize(23): VaRest subsystem initialized
+[2021.04.07-17.09.56:195][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.07-17.09.56:196][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.04.07-17.09.56:515][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.07-17.09.56:520][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.04.07-17.09.56:522][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.07-17.09.56:522][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.07-17.09.56:522][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.07-17.09.56:522][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.07-17.09.56:522][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.07-17.09.56:522][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.07-17.09.56:522][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.07-17.09.56:522][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.07-17.09.56:522][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.07-17.09.56:522][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.07-17.09.56:553][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.04.07-17.09.56:553][  0]LogAudioMixer: Display: Name: Haut-parleurs (Sound Blaster Z)
+[2021.04.07-17.09.56:553][  0]LogAudioMixer: Display: Is Default: Yes
+[2021.04.07-17.09.56:553][  0]LogAudioMixer: Display: Sample Rate: 96000
+[2021.04.07-17.09.56:553][  0]LogAudioMixer: Display: Channel Count Used: 6
+[2021.04.07-17.09.56:553][  0]LogAudioMixer: Display: Device Channel Count: 6
+[2021.04.07-17.09.56:553][  0]LogAudioMixer: Display: Channel Order:
+[2021.04.07-17.09.56:553][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.07-17.09.56:553][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.07-17.09.56:553][  0]LogAudioMixer: Display: 2: FrontCenter
+[2021.04.07-17.09.56:553][  0]LogAudioMixer: Display: 3: LowFrequency
+[2021.04.07-17.09.56:553][  0]LogAudioMixer: Display: 4: BackLeft
+[2021.04.07-17.09.56:553][  0]LogAudioMixer: Display: 5: BackRight
+[2021.04.07-17.09.56:568][  0]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Sound Blaster Z)
+[2021.04.07-17.09.56:570][  0]LogInit: FAudioDevice initialized.
+[2021.04.07-17.09.56:570][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.07-17.09.56:694][  0]LogDerivedDataCache: Saved boot cache 0.12s 78MB C:/Users/loict/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2021.04.07-17.09.56:698][  0]LogInit: Texture streaming: Enabled
+[2021.04.07-17.09.56:705][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.04.07-17.09.56:705][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.04.07-17.09.56:706][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.04.07-17.09.56:752][  0]LogInit: Transaction tracking system initialized
+[2021.04.07-17.09.56:759][  0]BlueprintLog: New page: Editor Load
+[2021.04.07-17.09.56:780][  0]LocalizationService: Localization service is disabled
+[2021.04.07-17.09.56:987][  0]LogFileCache: Scanning file cache for directory 'C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Content/' took 0.00s
+[2021.04.07-17.09.56:987][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.04.07-17.09.56:987][  0]LogCook: Display: Mobile HDR setting 1
+[2021.04.07-17.09.57:473][  0]SourceControl: Source control is disabled
+[2021.04.07-17.09.57:474][  0]Cmd: MAP LOAD FILE="C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Content/Maps/MAP_Lvl1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.07-17.09.57:474][  0]LogEditorServer: Warning: Can't find file 'C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Content/Maps/MAP_Lvl1.umap'
+[2021.04.07-17.09.57:474][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.07-17.09.57:474][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,126ms to complete.
+[2021.04.07-17.09.57:474][  0]LogFileHelpers: Loading map 'MAP_Lvl1' took 0.000
+[2021.04.07-17.09.57:596][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-17.09.57:602][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-17.09.57:607][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-17.09.57:613][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-17.09.57:616][  0]LogCollectionManager: Loaded 0 collections in 0.000705 seconds
+[2021.04.07-17.09.57:629][  0]LogFileCache: Scanning file cache for directory 'C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/Collections/' took 0.00s
+[2021.04.07-17.09.57:629][  0]LogFileCache: Scanning file cache for directory 'C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Content/Developers/loict/Collections/' took 0.00s
+[2021.04.07-17.09.57:629][  0]LogFileCache: Scanning file cache for directory 'C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Content/Collections/' took 0.00s
+[2021.04.07-17.09.57:629][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3023 classes and 722 folders.
+[2021.04.07-17.09.57:631][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.04.07-17.09.57:660][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.04.07-17.09.57:663][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2021.04.07-17.09.57:698][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.07-17.09.57:700][  0]LogSlate: Took 0.000084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.04.07-17.09.57:704][  0]LogSlate: Took 0.000081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.04.07-17.09.57:765][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2021.04.07-17.09.57:836][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.04.07-17.09.57:836][  0]LogLoad: (Engine Initialization) Total time: 5.66 seconds
+[2021.04.07-17.09.57:836][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.07-17.09.57:875][  0]LogAssetRegistry: Asset discovery search completed in 3.5326 seconds
+[2021.04.07-17.09.57:878][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2021.04.07-17.09.57:879][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.04.07-17.09.57:902][  0]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.07-17.10.57:160][780]LogSlate: Window 'Color Picker' being destroyed
+[2021.04.07-17.11.20:758][558]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.07-17.11.20:772][558]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/MainMenu/W_MainMenu.W_MainMenu
+[2021.04.07-17.11.21:025][558]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2021.04.07-17.11.22:105][558]LogSlate: Took 0.005616 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.04.07-17.11.22:906][652]LogSlate: Took 0.001393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.04.07-17.11.49:653][950]BlueprintLog: New page: Compile W_MainMenu
+[2021.04.07-17.11.49:924][950]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2021.04.07-17.11.50:290][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MainMenu/W_MainMenu" FILE="C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Content/Widgets/MainMenu/W_MainMenu.uasset" SILENT=true
+[2021.04.07-17.11.50:299][985]LogSavePackage: Moving 'C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Saved/W_MainMenuDBDDDC304F7A600102E7ED9468E5C467.tmp' to 'C:/Users/loict/OneDrive/Documents/B3/Projet/EscapeFromMorkov/Content/Widgets/MainMenu/W_MainMenu.uasset'
+[2021.04.07-17.11.50:311][985]AssetCheck: New page: Asset Save: W_MainMenu
+[2021.04.07-17.11.50:311][985]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/MainMenu/W_MainMenu.W_MainMenu
+[2021.04.07-17.12.05:658][304]LogSlate: Window 'W_MainMenu' being destroyed
+[2021.04.07-17.12.05:661][304]LogSlate: Window 'W_MainMenu' being destroyed
+[2021.04.07-17.12.05:667][304]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-17.12.05:667][304]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-17.12.05:683][304]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-17.12.05:683][304]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
