@@ -965,3 +965,9 @@ v 1.0.1
 [2021.04.07-08.48.00:597][ 83]LogAudioMixer: Display: No commands were queued while flushing the source manager.
 [2021.04.07-08.48.00:605][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
 [2021.04.07-08.48.00:627][ 84]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.04.07-08.49.31:369][169]BlueprintLog: New page: Compile CH_player
+[2021.04.07-08.49.31:698][169]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2021.04.07-08.49.31:964][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/CH_player" FILE="D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Content/Player/CH_player.uasset" SILENT=true
+[2021.04.07-08.49.32:028][176]LogSavePackage: Moving 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Saved/CH_playerBEB338A24D37D95C199642834B4E3215.tmp' to 'D:/Classes/Ynov - B3 - Informatique/ProjetINGLOG/Escape From Morkov - Dev/Content/Player/CH_player.uasset'
+[2021.04.07-08.49.32:048][176]AssetCheck: New page: Asset Save: CH_player
+[2021.04.07-08.49.32:049][176]LogContentValidation: Display: Validating Blueprint /Game/Player/CH_player.CH_player
