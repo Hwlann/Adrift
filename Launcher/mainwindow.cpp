@@ -84,10 +84,6 @@ void MainWindow::setStyleSheets()
 "                                    color: #000000;");
 
      /****************************** LABELS ******************************/
-    ui->lbl_escape->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
-"                                      color: #FFFFFF;"
-"                                      font-size: 18px;}");
-
     ui->lbl_markov->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
 "                                      color: #FFFFFF;"
 "                                      font-size: 28px}");

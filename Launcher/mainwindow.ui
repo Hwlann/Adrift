@@ -123,22 +123,12 @@
       <item>
        <layout class="QVBoxLayout" name="verticalLayout_3">
         <item>
-         <widget class="QLabel" name="lbl_escape">
+         <widget class="QLabel" name="lbl_markov">
           <property name="text">
-           <string>Escape from</string>
+           <string>Adrift</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="lbl_markov">
-          <property name="text">
-           <string>MARKOV</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignHCenter|Qt::AlignTop</set>
           </property>
          </widget>
         </item>
@@ -402,7 +392,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>24</height>
+     <height>30</height>
     </rect>
    </property>
   </widget>
