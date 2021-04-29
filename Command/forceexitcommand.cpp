@@ -12,7 +12,6 @@ void ForceExitCommand::execCommmand()
 
 void ForceExitCommand::message(QString message)
 {
-    qDebug() << __PRETTY_FUNCTION__;
     if(message == CMD_FORCE_EXIT)
     {
         execCommmand();

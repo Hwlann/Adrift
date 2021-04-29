@@ -14,6 +14,7 @@
 #include "Logger/logger.h"
 
 #define EFM_POST_CREDS "http://lortetcesar.fr/api/connect"
+#define EFM_POST_CREDS "http://lortetcesar.fr/api/connect"
 
 
 class NetworkManager : public QObject
@@ -23,7 +24,9 @@ class NetworkManager : public QObject
 public:
     static NetworkManager *getInstance();
     void onReply();
-    void slotError();
+    void downloadFile();
+    void slotError();    
+    void getGameFiles();
 
 public slots:
     void postCredentials(QString username, QString password);

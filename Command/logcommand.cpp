@@ -7,7 +7,7 @@ LogCommand::LogCommand()
 
 void LogCommand::message(QString message)
 {
-    qDebug() << __PRETTY_FUNCTION__;
+    //qDebug() << __PRETTY_FUNCTION__;
     if(message == CMD_SHOW_LOGS || message == CMD_HIDE_LOGS)
     {
       execCommmand(message);

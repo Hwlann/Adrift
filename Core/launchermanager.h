@@ -6,6 +6,9 @@
 #include <QDebug>
 #include <QSoundEffect>
 #include <QSound>
+#include <QThread>
+#include <QDir>
+#include <QCursor>
 
 #include "Launcher/mainwindow.h"
 #include "Network/networkmanager.h"
@@ -17,6 +20,14 @@
 
 #define  CMD_SHOW_LOGS "show logs"
 #define  ADMIN_TOKEN   "46e9e734-915e-11eb-8c90-0242ac110007"
+
+#define  GAME_PATH     "bin/EscapeFromMorkov.exe"
+#define  MUSIC_PATH    ":/sounds/res/sounds/N3WPORT_Meggie-York-Runaway_NCS-Release.wav"
+
+
+#define     HOVER_SOUND     ":/sounds/res/sounds/hover.wav"
+#define     CLICK_SOUND     ":/sounds/res/sounds/selected.wav"
+
 
 class LauncherManager : public QObject
 {
@@ -30,7 +41,9 @@ public:
     void setSounds();
 
 public slots:
-    void musicManager();
+    void musicManager(bool force = false, bool mute = false);    
+    void playClickSound();
+    void playHoverSound();
 
 private:
     explicit LauncherManager(QObject *parent = nullptr);
@@ -41,7 +54,7 @@ private:
     NetworkManager *m_networkManager = nullptr;
     Logger *m_logger = nullptr;
 
-    QString m_programPath;
+    QString m_programPath = "bin/EscapeFromMorkov.exe";
     QStringList m_programArgs;
     void changeWindowsVisibility(bool visibility);
 
@@ -51,7 +64,7 @@ private:
     QString m_playerName = NULL;
     QString m_userAccessToken = NULL;
 
-    QString m_musicPath = ":/sounds/Portal-SelfEsteemFund.wav";
+    QString m_musicPath = MUSIC_PATH;
     QSoundEffect *m_music;
     bool m_mute = false;
 
@@ -63,7 +76,8 @@ private slots:
     void gameError();
     void executeCommand(Command::COMMAND cmd, QString command);
     void loginCheck(QString token);
-    void setupPlayer(QString id);
+    void setupPlayer(QString id);    
+    void processDownloadedFile(QFile *file);
 };
 
 #endif // LAUNCHERMANAGER_H

@@ -20,7 +20,7 @@ LauncherManager::~LauncherManager()
 
 void LauncherManager::startGame()
 {
-    m_programPath = "./path/to/ue4.exe";
+    m_programPath = GAME_PATH;
 
     m_gameProcess = new QProcess();
 
@@ -33,16 +33,16 @@ void LauncherManager::startGame()
     qDebug() << "Args : " ;
     qDebug() << m_programArgs;
 
-    m_gameProcess->start(m_programPath, m_programArgs);
+    musicManager();
+    m_gameProcess->setNativeArguments("-token="+m_userAccessToken);
+    m_gameProcess->start(m_programPath);
 
     changeWindowsVisibility(false);
 }
 
 void LauncherManager::defineGamesOptions()
 {
-    if(m_playerName != NULL) m_programArgs << "-name" << m_playerName;
     if(m_userAccessToken != NULL) m_programArgs << "-token" << m_userAccessToken;
-    if(m_startAsAdmin) m_programArgs << "-admin";
 }
 
 LauncherManager::LauncherManager(QObject *parent) : QObject(parent)
@@ -56,9 +56,15 @@ LauncherManager::LauncherManager(QObject *parent) : QObject(parent)
     connect(m_mainWindow, &MainWindow::commandCommit, this, &LauncherManager::parseCommand);
     connect(m_mainWindow, &MainWindow::startGame, this, &LauncherManager::startGame);
     connect(m_mainWindow, &MainWindow::changeSound, this, &LauncherManager::musicManager);
+    connect(m_mainWindow, &MainWindow::playClick, this, &LauncherManager::playClickSound);
+    connect(m_mainWindow, &MainWindow::playHover, this, &LauncherManager::playHoverSound);
     connect(m_networkManager, &NetworkManager::loginQueryAnswer, this, &LauncherManager::loginCheck);
 
     setSounds();
+    QPixmap cursorPixmap = QPixmap(":/img/res/images/cursor.png");
+    cursorPixmap = cursorPixmap.scaled(20, 20 , Qt::AspectRatioMode::KeepAspectRatio, Qt::TransformationMode::FastTransformation);
+    QCursor cursor = QCursor(cursorPixmap, 0, 0);
+    QApplication::setOverrideCursor(cursor);
 }
 
 void LauncherManager::changeWindowsVisibility(bool visibility)
@@ -88,7 +94,20 @@ void LauncherManager::parseCommand(QString cmd)
 
 void LauncherManager::gameStateChanged()
 {
+    switch(m_gameProcess->state())
+    {
+        case QProcess::Running:
+        break;
 
+        case QProcess::NotRunning:
+                musicManager(true, false);
+                QApplication::quit();
+        break;
+
+        default:
+        break;
+
+    }
 }
 
 void LauncherManager::gameError()
@@ -98,7 +117,6 @@ void LauncherManager::gameError()
 
 void LauncherManager::executeCommand(Command::COMMAND cmd, QString command)
 {
-    qDebug() << __PRETTY_FUNCTION__;
     switch(cmd)
     {
         case Command::ADMIN:
@@ -108,7 +126,7 @@ void LauncherManager::executeCommand(Command::COMMAND cmd, QString command)
             {
                 m_isAdmin = true;
                 m_startAsAdmin = true;
-                msgBox->setText("Hello Loïc");
+                msgBox->setText("Hi Boss.");
 
             }
             else
@@ -129,7 +147,13 @@ void LauncherManager::executeCommand(Command::COMMAND cmd, QString command)
 
         case Command::SHOW_LOGS:
         {
-            if(command == CMD_SHOW_LOGS) Logger::getInstance()->show();
+            if(command == CMD_SHOW_LOGS)
+            {
+                Logger::getInstance()->setWindowState(Qt::WindowState::WindowActive);
+                Logger::getInstance()->setFocus();
+                Logger::getInstance()->activateWindow();
+                Logger::getInstance()->show();
+            }
             else Logger::getInstance()->hide();
         }
 
@@ -146,11 +170,14 @@ void LauncherManager::loginCheck(QString token)
     {
         m_userAccessToken = token;
         m_mainWindow->changeStartGameBtn(true);
+        m_mainWindow->disableLineEdit();
     }
     else
     {
-        // Wrong username or Password
-        qDebug() << "Wrong username";
+        Logger::getInstance()->addLog(Logger::LogLevel::ERROR, "Wrong username or password");
+        QMessageBox msgBox;
+        msgBox.setText("Wrong username or password");
+        msgBox.exec();
     }
 }
 
@@ -159,9 +186,24 @@ void LauncherManager::setupPlayer(QString id)
     m_playerName = id;
 }
 
-void LauncherManager::musicManager()
+void LauncherManager::processDownloadedFile(QFile *file)
 {
-    m_mute = !m_mute;
+    if (!file->fileName().isEmpty()) {
+        // Read the file and transform the output to a QByteArray
+        /*
+        QByteArray ba_files = file->readAll();
+        qUncompress(ba_files);
+        QDir dir("./bin");
+        */
+    }
+    QFile zipFile("test.zip");
+
+}
+
+void LauncherManager::musicManager(bool force, bool mute)
+{
+    if(force) m_mute = mute;
+    else m_mute = !m_mute;
     m_music->setMuted(!m_mute);
     m_mainWindow->manageSound(m_mute);
 }
@@ -176,4 +218,21 @@ void LauncherManager::setSounds()
     m_music->play();
 
     musicManager();
+}
+
+void LauncherManager::playHoverSound()
+{
+    QSoundEffect m_hover;
+    m_hover.setSource(QUrl::fromLocalFile(CLICK_SOUND));
+    m_hover.setVolume(DEF_VOLUME+0.07f);
+    m_hover.play();
+    qDebug() << __PRETTY_FUNCTION__;
+}
+
+void LauncherManager::playClickSound()
+{
+    QSoundEffect *m_click = new QSoundEffect();
+    m_click->setSource(QUrl::fromLocalFile(CLICK_SOUND));
+    m_click->setVolume(DEF_VOLUME+0.7f);
+    m_click->play();
 }

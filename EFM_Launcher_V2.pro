@@ -15,7 +15,6 @@ SOURCES += \
     Command/logcommand.cpp \
     Core/launchermanager.cpp \
     Core/main.cpp \
-    Launcher/music.cpp \
     Logger/logger.cpp \
     Launcher/mainwindow.cpp \
     Network/networkmanager.cpp \
@@ -28,7 +27,6 @@ HEADERS += \
     Command/forcepath.h \
     Command/logcommand.h \
     Core/launchermanager.h \
-    Launcher/music.h \
     Logger/logger.h \
     Launcher/mainwindow.h \
     Network/networkmanager.h \
@@ -41,9 +39,12 @@ FORMS += \
 RESOURCES += \
     res.qrc
 
-RC_ICONS = logo.ico
+RC_ICONS = portal.ico
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    creds

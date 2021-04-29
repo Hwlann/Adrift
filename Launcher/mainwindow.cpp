@@ -10,6 +10,16 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     this->setupUi();
+
+    ui->btn_play->setDisabled(true);
+
+    ui->btn_exit->installEventFilter(this);
+    ui->btn_reduce->installEventFilter(this);
+    ui->btn_sound->installEventFilter(this);
+
+    ui->btn_login->installEventFilter(this);
+    ui->btn_register->installEventFilter(this);
+    ui->btn_play->installEventFilter(this);
 }
 
 MainWindow *MainWindow::getInstance(QWidget *parent)
@@ -33,8 +43,8 @@ void MainWindow::setupUi()
     this->setWindowTitle(WINDOW_TITLE);
 
 
-    m_mutePixmap = new QPixmap(":/img/mute.png");
-    m_soundOnPixmap = new QPixmap(":/img/soundOn.png");
+    m_mutePixmap = new QPixmap(MUTE_ICON);
+    m_soundOnPixmap = new QPixmap(SOUND_ICON);
 
     soundIcon = new QIcon(*m_mutePixmap);
     muteIcon = new QIcon(*m_soundOnPixmap);
@@ -50,7 +60,7 @@ void MainWindow::setupUi()
     painter.setRenderHint(QPainter::HighQualityAntialiasing);
 
     setStyleSheets();
-    setFont();
+    //setFont();
     setBackground();
     this->show();
 }
@@ -69,59 +79,75 @@ void MainWindow::clearLineEditCommand(){
     ui->lineEdit->clear();
 }
 
+void MainWindow::disableLineEdit()
+{
+    ui->le_username->setDisabled(true);
+    ui->le_password->setDisabled(true);
+    ui->btn_login->setDisabled(true);
+}
+
 
 void MainWindow::setStyleSheets()
 {
     /****************************** LINE EDIT ******************************/
     ui->le_username->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
-"                                       font-size: 9px}");
+"                                       color: #FFFFFF;"
+"                                       font-size: 19px}");
 
     ui->le_password->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
-"                                       font-size: 9px}");
+"                                       color: #FFFFFF;"
+"                                       font-size: 19px}");
 
     ui->lineEdit->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
-"                                    font-size: 10px;}"
-"                                    color: #000000;");
+"                                    font-size: 20px;}"
+"                                    color: #FFFFFF;");
 
      /****************************** LABELS ******************************/
-    ui->lbl_markov->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
+    ui->lbl_escape->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
 "                                      color: #FFFFFF;"
-"                                      font-size: 28px}");
+"                                      font-size: 60px;}");
+
+    ui->lbl_lost->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
+"                                      color: #FFFFFF;"
+"                                      font-size: 20px;}");
 
      /****************************** BTN WINDOW ******************************/
     ui->btn_exit->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
 "                                    color: #FFFFFF;"
-"                                    font-size: 8px}");
+"                                    font-size: 11px}");
 
     ui->btn_reduce->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
 "                                      color: #FFFFFF;"
-"                                      font-size: 8px}");
+"                                      font-size: 11px}");
 
     ui->btn_sound->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
 "                                      color: #FFFFFF;"
-"                                      font-size: 8px}");
+"                                      font-size: 14px}");
      /****************************** BTN LAUNCHER ******************************/
     ui->btn_login->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
-"                                     font-size: 10px; }");
+"                                      color: #FFFFFF;"
+"                                     font-size: 20px; }");
 
     ui->btn_register->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
-"                                        font-size: 10px; }");
+"                                      color: #FFFFFF;"
+"                                        font-size: 20px; }");
 
     ui->btn_play->setStyleSheet("* { background-color: rgba(0, 0, 0, 0);"
-"                                    font-size: 12px; }");
+"                                      color: #FFFFFF;"
+"                                    font-size: 22px; }");
 }
 
 void MainWindow::setFont()
 {
-    int id = QFontDatabase::addApplicationFont(":/fonts/ethnocentric.ttf");
-    QString family = QFontDatabase::applicationFontFamilies(id).at(0);
-    QFont ethnocentric(family, 8);
+    /*int id = */QFontDatabase::addApplicationFont(":/fonts/ethnocentric.ttf");
+    //QString family = QFontDatabase::applicationFontFamilies(id).at(0);
+    QFont ethnocentric("family", 12, QFont::Normal);
     QApplication::setFont(ethnocentric);
 }
 
 void MainWindow::setBackground()
 {
-    QPixmap bkgnd(":/img/background.jpg");
+    QPixmap bkgnd(BACKGROUND_IMG);
     bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
     QPalette palette;
     palette.setBrush(QPalette::Background, bkgnd);
@@ -130,7 +156,7 @@ void MainWindow::setBackground()
 
 void MainWindow::playClickSound()
 {
-    //QSound::play(":/sounds/click.wav");
+    emit playClick();
 }
 
 void MainWindow::manageSound(bool mute)
@@ -173,6 +199,17 @@ void MainWindow::mouseMoveEvent(QMouseEvent *evt)
     oldPos = evt->globalPos();
 }
 
+
+/************************* EVENT FILTER ****************************************/
+bool MainWindow::eventFilter(QObject *watched, QEvent *event)
+{
+    if(watched->inherits("QPushButton") && event->type() == QEvent::HoverEnter)
+    {
+        emit playHover();
+    }
+    return QMainWindow::eventFilter(watched, event);
+}
+
 /************************* BTN ****************************************/
 void MainWindow::on_btn_register_clicked()
 {
@@ -208,21 +245,21 @@ void MainWindow::on_btn_reduce_clicked()
 void MainWindow::on_le_username_textEdited()
 {
     changeLoginVisibilty();
-    playClickSound();
 }
 
 void MainWindow::on_le_password_textEdited()
 {
     changeLoginVisibilty();
-    playClickSound();
 }
 
 void MainWindow::on_lineEdit_returnPressed()
 {
     emit commandCommit(ui->lineEdit->text());
+    playClickSound();
 }
 
 void MainWindow::on_btn_sound_clicked()
 {
     emit changeSound();
+    playClickSound();
 }

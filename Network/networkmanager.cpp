@@ -30,6 +30,20 @@ void NetworkManager::postCredentials(QString username, QString password)
     connect(m_networkReply, &QIODevice::readyRead, this, &NetworkManager::onReply);
 }
 
+// ************************************************************** HTTP GET METHOD ******************************************************************************************************//
+void NetworkManager::getGameFiles()
+{
+    QUrlQuery postData;
+
+    QNetworkRequest request(QUrl(EFM_POST_CREDS));
+    request.setRawHeader("User-Agent", "User Agent");
+    request.setHeader(QNetworkRequest::ContentTypeHeader, "application/x-www-form-urlencoded");
+
+    m_networkReply = m_networkAccessManager->post(request, postData.toString(QUrl::FullyEncoded).toUtf8());
+    connect(m_networkReply, &QIODevice::readyRead, this, &NetworkManager::downloadFile);
+}
+
+
 
 // ************************************************************** HTTP REPLY ******************************************************************************************************//
 void NetworkManager::onReply()
@@ -42,6 +56,17 @@ void NetworkManager::onReply()
     else emit loginQueryAnswer(NULL);
 }
 
+void NetworkManager::downloadFile()
+{
+    if(m_networkReply->error() == QNetworkReply::NoError){
+            QFile other("Download.zip");
+            other.open(QIODevice::WriteOnly);
+            other.write(m_networkReply->readAll());
+            other.flush();
+            other.close();
+        }
+        m_networkReply->deleteLater();
+}
 // ************************************************************** HTTP ERROR ******************************************************************************************************//
 void NetworkManager::slotError()
 {

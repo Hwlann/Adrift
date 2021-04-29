@@ -18,7 +18,6 @@ Logger::Logger(QWidget *parent) :
     ui->setupUi(this);
     this->setWindowTitle("Logger");
     this->setStyleSheet("background-color: #606060;");
-    this->activateWindow();
 }
 
 Logger::~Logger()
@@ -46,5 +45,22 @@ void Logger::addLog(Logger::LogLevel logLevel, QString message)
         QString log = QDateTime::currentDateTime().toString("yyyy-MM-dd HH:mm:ss:zzz") + " : " + message;
         ui->listWidget->addItem(log);
         ui->listWidget->item(ui->listWidget->count()-1)->setForeground(color);
+}
+
+/************************* MOUSE EVENT ****************************************/
+void Logger::mousePressEvent(QMouseEvent *evt)
+{
+    oldPos = evt->globalPos();
+}
+
+void Logger::mouseMoveEvent(QMouseEvent *evt)
+{
+    const QPoint delta = evt->globalPos() - oldPos;
+    if (locked)
+        // if locked, ignore delta on y axis, stay at the top
+        move(x()+delta.x(), y());
+    else
+        move(x()+delta.x(), y()+delta.y());
+    oldPos = evt->globalPos();
 }
 

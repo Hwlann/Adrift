@@ -1,16 +1,19 @@
 <RCC>
-    <qresource prefix="/fonts">
-        <file>ethnocentric.ttf</file>
-    </qresource>
+    <qresource prefix="/fonts"/>
     <qresource prefix="/img">
-        <file>background.jpg</file>
-        <file>soundOn.png</file>
-        <file>mute.png</file>
-        <file>logo.ico</file>
+        <file>res/images/background.jpg</file>
+        <file>res/images/background_2.jpg</file>
+        <file>res/images/btn.png</file>
+        <file>res/images/cursor.png</file>
+        <file>res/images/laser.png</file>
+        <file>res/images/logo.ico</file>
+        <file>res/images/mute.png</file>
+        <file>res/images/soundOn.png</file>
     </qresource>
     <qresource prefix="/sounds">
-        <file>Portal-SelfEsteemFund.wav</file>
-        <file>click.wav</file>
+        <file>res/sounds/hover.wav</file>
+        <file>res/sounds/N3WPORT_Meggie-York-Runaway_NCS-Release.wav</file>
+        <file>res/sounds/selected.wav</file>
     </qresource>
     <qresource prefix="/"/>
 </RCC>

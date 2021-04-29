@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>440</width>
+    <height>642</height>
    </rect>
   </property>
   <property name="font">
@@ -23,7 +23,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,1,10,1,10">
+   <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,2,20,1,10">
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout" stretch="10,1,1">
       <item>
@@ -121,14 +121,37 @@
     <item>
      <layout class="QVBoxLayout" name="verticalLayout" stretch="10,1,2">
       <item>
-       <layout class="QVBoxLayout" name="verticalLayout_3">
+       <layout class="QVBoxLayout" name="verticalLayout_3" stretch="1,2">
         <item>
-         <widget class="QLabel" name="lbl_markov">
+         <widget class="QLabel" name="lbl_escape">
+          <property name="font">
+           <font>
+            <family>Zen Dots</family>
+            <pointsize>20</pointsize>
+            <kerning>true</kerning>
+           </font>
+          </property>
           <property name="text">
-           <string>Adrift</string>
+           <string>ADRIFT</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lbl_lost">
+          <property name="font">
+           <font>
+            <family>Zen Dots</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Lost in Cursed Echoes</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignHCenter|Qt::AlignTop</set>
           </property>
          </widget>
         </item>
@@ -180,8 +203,23 @@
                 <verstretch>0</verstretch>
                </sizepolicy>
               </property>
+              <property name="font">
+               <font>
+                <family>Exon regular</family>
+                <pointsize>12</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+                <kerning>false</kerning>
+               </font>
+              </property>
               <property name="autoFillBackground">
                <bool>false</bool>
+              </property>
+              <property name="inputMask">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string notr="true"/>
               </property>
               <property name="echoMode">
                <enum>QLineEdit::Normal</enum>
@@ -232,6 +270,14 @@
                 <verstretch>0</verstretch>
                </sizepolicy>
               </property>
+              <property name="font">
+               <font>
+                <family>Exon regular</family>
+                <pointsize>12</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
               <property name="echoMode">
                <enum>QLineEdit::Password</enum>
               </property>
@@ -280,6 +326,18 @@
               </property>
               <item>
                <widget class="QPushButton" name="btn_register">
+                <property name="font">
+                 <font>
+                  <family>Exon regular</family>
+                  <pointsize>12</pointsize>
+                  <weight>75</weight>
+                  <italic>true</italic>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="mouseTracking">
+                 <bool>true</bool>
+                </property>
                 <property name="text">
                  <string>Register</string>
                 </property>
@@ -300,6 +358,15 @@
               </item>
               <item>
                <widget class="QPushButton" name="btn_login">
+                <property name="font">
+                 <font>
+                  <family>Exon regular</family>
+                  <pointsize>12</pointsize>
+                  <weight>75</weight>
+                  <italic>true</italic>
+                  <bold>true</bold>
+                 </font>
+                </property>
                 <property name="text">
                  <string>Login</string>
                 </property>
@@ -342,6 +409,15 @@
             </item>
             <item>
              <widget class="QPushButton" name="btn_play">
+              <property name="font">
+               <font>
+                <family>Exon regular</family>
+                <pointsize>12</pointsize>
+                <weight>75</weight>
+                <italic>true</italic>
+                <bold>true</bold>
+               </font>
+              </property>
               <property name="text">
                <string>PLAY </string>
               </property>
@@ -391,8 +467,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>30</height>
+     <width>440</width>
+     <height>24</height>
     </rect>
    </property>
   </widget>

@@ -3,7 +3,7 @@
 
 #include <QWidget>
 #include <QDateTime>
-#include <QThread>
+#include <QMouseEvent>
 
 namespace Ui {
 class Logger;
@@ -23,10 +23,17 @@ public:
     ~Logger();    
     void addLog(LogLevel logLevel, QString message);
 
+protected:
+    void mousePressEvent(QMouseEvent *evt);
+    void mouseMoveEvent(QMouseEvent *evt);
+
 private:
     static Logger *m_logger;
     explicit Logger(QWidget *parent = nullptr);
     Ui::Logger *ui;
+
+    QPoint oldPos;
+    bool locked = false;
 };
 
 #endif // LOGGER_H

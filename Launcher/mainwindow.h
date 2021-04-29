@@ -8,6 +8,7 @@
 #include <QMouseEvent>
 #include <QPainter>
 #include <QFontDatabase>
+#include <QSound>
 
 
 QT_BEGIN_NAMESPACE
@@ -18,8 +19,13 @@ QT_END_NAMESPACE
 #define     WINDOW_HEIGHT   580 // 550
 #define     WINDOW_TITLE    "EFM Launcher"
 
+#define     SCORES_URL      "http://lortetcesar.fr/efm/score"
 #define     REGISTER_URL    "http://lortetcesar.fr/register"
-#define     DEF_VOLUME      0.25f
+#define     DEF_VOLUME      0.05f
+
+#define     SOUND_ICON      ":/img/res/images/soundOn.png"
+#define     MUTE_ICON       ":/img/res/images/mute.png"
+#define     BACKGROUND_IMG  ":/img/res/images/background_2.jpg"
 
 // Click sound : https://freesound.org/s/399934/
 // Music : Portal Sound Track, Portal Soundtrack - Self Esteem Fund ,https://www.youtube.com/watch?v=t9nocjg2OLI
@@ -44,6 +50,7 @@ public:
     void playClickSound();
     void manageSound(bool mute = false);
     void clearLineEditCommand();
+    void disableLineEdit();
 
 private slots:
     void on_lineEdit_returnPressed();
@@ -64,6 +71,7 @@ protected:
 
 
 private:
+    virtual bool eventFilter(QObject* watched, QEvent* event);
     static MainWindow *m_mainWindow;
     MainWindow(QWidget *parent = nullptr);
     Ui::MainWindow *ui;
@@ -81,7 +89,9 @@ signals:
     void login(QString id, QString password);
     void getPlayerName(QString id);
     void startGame();
-    void changeSound();
+    void changeSound(bool force = false, bool mute = false);
+    void playHover();
+    void playClick();
 
 };
 #endif // MAINWINDOW_H
